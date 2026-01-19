@@ -11,28 +11,28 @@ interface FAQItem {
 
 const faqItems: FAQItem[] = [
   {
-    question: "What is inpatient rehab?",
-    answer: "Inpatient rehab, also known as residential treatment, is a program where patients live at the treatment facility 24/7 while receiving intensive care. This includes medical supervision, individual and group therapy, medication management, and structured daily activities. Inpatient programs typically last 30, 60, or 90 days and are ideal for severe addictions or those who need a safe, substance-free environment."
+    question: "Wat kost een airco laten installeren?",
+    answer: "De kosten voor een airco installatie varieren tussen de 1.500 en 3.500 euro, afhankelijk van het type systeem, het merk en de complexiteit van de installatie. Een standaard split-unit airco voor een woonkamer kost gemiddeld rond de 2.000 euro inclusief montage. Voor een multi-split systeem met meerdere binnenunits moet je rekenen op 3.000 tot 6.000 euro. Vraag altijd meerdere offertes aan voor de beste prijs."
   },
   {
-    question: "How long does addiction treatment take?",
-    answer: "Treatment duration varies based on individual needs, substance type, and addiction severity. Short-term programs typically last 28-30 days, while standard programs run 60-90 days. Long-term residential treatment can last 6-12 months. Research shows longer treatment periods often lead to better outcomes. Many people also continue with outpatient care and support groups after completing initial treatment."
+    question: "Heb ik een vergunning nodig voor een airco?",
+    answer: "In de meeste gevallen heb je geen vergunning nodig voor een airco installatie bij een woonhuis. Wel moet de buitenunit aan bepaalde eisen voldoen qua geluidsniveau (maximaal 40 dB aan de erfgrens) en plaatsing. Bij monumentale panden of in sommige VvE-situaties kan toestemming vereist zijn. Check altijd de regels van je gemeente en eventuele VvE-voorschriften voordat je een airco laat plaatsen."
   },
   {
-    question: "Does insurance cover rehab?",
-    answer: "Yes, most health insurance plans cover addiction treatment thanks to the Affordable Care Act and Mental Health Parity Act. Coverage typically includes detox, inpatient rehab, outpatient treatment, and medications. The extent of coverage varies by plan, so it's important to verify benefits with your insurance provider. Many treatment centers also offer payment plans or sliding scale fees for those without insurance."
+    question: "Wat is het verschil tussen een split-unit en multi-split?",
+    answer: "Een split-unit airco bestaat uit een binnenunit en een buitenunit en is geschikt voor het koelen van een ruimte. Een multi-split systeem heeft meerdere binnenunits (2-5 stuks) aangesloten op een buitenunit, waarmee je meerdere kamers kunt koelen en verwarmen. Multi-split is efficienter en goedkoper dan meerdere losse split-units als je meerdere ruimtes wilt klimatiseren."
   },
   {
-    question: "What's the difference between inpatient and outpatient treatment?",
-    answer: "Inpatient treatment requires living at the facility full-time with 24/7 medical supervision and structured programming. Outpatient treatment allows patients to live at home while attending scheduled therapy sessions. Intensive Outpatient Programs (IOP) typically involve 9-20 hours of treatment per week. Inpatient is recommended for severe addictions, while outpatient suits those with milder addictions, strong support systems, or work/family obligations."
+    question: "Kan een airco ook verwarmen?",
+    answer: "Ja, moderne airconditioners met warmtepompfunctie kunnen zowel koelen als verwarmen. Dit heet een 'reversible' of 'inverter' airco. Verwarmen met een airco is tot 4x energiezuiniger dan elektrisch verwarmen en kan tot 50% besparen op gaskosten. Vooral lucht-lucht warmtepompen zijn populair als aanvulling op de cv-ketel of als primaire verwarming in goed geisoleerde woningen."
   },
   {
-    question: "What happens during detox?",
-    answer: "Detox is the process of safely removing substances from your body under medical supervision. It typically lasts 3-10 days depending on the substance. Medical staff monitor vital signs, manage withdrawal symptoms, and may administer medications to ease discomfort and prevent complications. Symptoms can include nausea, anxiety, tremors, and insomnia. Detox alone is not treatment; it's the first step before comprehensive addiction therapy begins."
+    question: "Hoe vaak moet een airco onderhouden worden?",
+    answer: "Een airco moet minimaal 1x per jaar onderhouden worden, bij voorkeur voor het koelseizoen begint (maart-april). Tijdens het onderhoud worden de filters gereinigd of vervangen, het koelmiddelniveau gecontroleerd en de werking getest. Regelmatig onderhoud verlengt de levensduur, verbetert de efficientie en voorkomt storingen. De kosten voor een onderhoudsbeurt liggen tussen 75 en 150 euro."
   },
   {
-    question: "How do I choose the right treatment center?",
-    answer: "Consider these factors when choosing a rehab: accreditation and licensing, treatment approaches offered (evidence-based therapies like CBT, DBT), staff credentials, specialized programs for your specific addiction, location preferences, insurance acceptance, aftercare planning, and amenities. Visit facilities if possible, read reviews, and ask about success rates. The right center should address your physical, mental, and emotional needs while fitting your personal circumstances."
+    question: "Wat is F-gassen certificering?",
+    answer: "F-gassen certificering is een wettelijk verplichte kwalificatie voor monteurs die werken met gefluoreerde broeikasgassen (koudemiddelen) in aircosystemen. Alleen F-gassen gecertificeerde bedrijven mogen airco's installeren, onderhouden en repareren. Dit certificaat garandeert dat de monteur vakbekwaam is en voldoet aan Europese milieuwetgeving. Vraag altijd naar het F-gassen certificaat voordat je een monteur inhuurt."
   }
 ];
 
@@ -68,7 +68,7 @@ export default function FAQSection() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl font-bold text-center mb-8">Frequently Asked Questions</h2>
+        <h2 className="text-2xl font-bold text-center mb-8">Veelgestelde Vragen</h2>
         <div className="max-w-3xl mx-auto space-y-4">
           {faqItems.map((item, index) => (
             <Card key={index} className="overflow-hidden">

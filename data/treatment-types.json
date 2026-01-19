@@ -1,88 +1,76 @@
 {
   "types": [
     {
-      "slug": "inpatient-rehab",
-      "name": "Inpatient Rehabilitation",
-      "description": "Residential treatment programs where patients live at the facility 24/7, receiving intensive care and support in a structured environment.",
-      "search_terms": ["inpatient rehab", "residential rehab", "inpatient treatment", "live-in rehab", "24/7 treatment"]
+      "slug": "airco-installatie",
+      "name": "Airco Installatie",
+      "description": "Professionele installatie van airconditioningsystemen voor woningen en bedrijven. Inclusief advies, montage en inbedrijfstelling.",
+      "search_terms": ["airco installeren", "airco plaatsen", "airconditioning installatie", "split-unit installeren", "airco monteren"]
     },
     {
-      "slug": "outpatient-treatment",
-      "name": "Outpatient Treatment",
-      "description": "Flexible treatment programs that allow patients to live at home while attending scheduled therapy sessions and treatment appointments.",
-      "search_terms": ["outpatient treatment", "outpatient rehab", "day treatment", "outpatient program", "OP treatment"]
+      "slug": "airco-onderhoud",
+      "name": "Airco Onderhoud",
+      "description": "Periodiek onderhoud en service van aircosystemen. Filters reinigen, koelmiddel controleren en optimale werking garanderen.",
+      "search_terms": ["airco onderhoud", "airco service", "airco schoonmaken", "airco filter vervangen", "airco check"]
     },
     {
-      "slug": "detox-center",
-      "name": "Detox Center",
-      "description": "Medical facilities specializing in safely managing withdrawal symptoms as the first step in addiction recovery.",
-      "search_terms": ["detox center", "detoxification", "medical detox", "drug detox", "alcohol detox", "withdrawal treatment"]
+      "slug": "warmtepomp",
+      "name": "Warmtepomp Installatie",
+      "description": "Installatie van lucht-lucht en lucht-water warmtepompen voor verwarming en koeling. Energiezuinig en duurzaam.",
+      "search_terms": ["warmtepomp", "warmtepomp installeren", "lucht-lucht warmtepomp", "hybride warmtepomp", "warmtepomp airco"]
     },
     {
-      "slug": "residential-treatment",
-      "name": "Residential Treatment",
-      "description": "Long-term treatment facilities providing comprehensive care in a home-like environment for extended recovery periods.",
-      "search_terms": ["residential treatment", "long-term treatment", "residential care", "extended care", "long-term rehab"]
+      "slug": "split-unit",
+      "name": "Split-unit Airco",
+      "description": "Installatie van split-unit aircosystemen met aparte binnen- en buitenunit. Ideaal voor individuele ruimtes.",
+      "search_terms": ["split-unit", "split airco", "single split", "wandmodel airco", "split systeem"]
     },
     {
-      "slug": "partial-hospitalization",
-      "name": "Partial Hospitalization Program (PHP)",
-      "description": "Intensive day programs offering hospital-level care during the day while patients return home in the evenings.",
-      "search_terms": ["partial hospitalization", "PHP program", "day hospital", "partial hospital program", "intensive day treatment"]
+      "slug": "multi-split",
+      "name": "Multi-split Systeem",
+      "description": "Multi-split systemen met meerdere binnenunits op een buitenunit. Perfect voor meerdere kamers of kantoren.",
+      "search_terms": ["multi-split", "multi-split airco", "meerdere binnenunits", "multi-zone airco", "duo split"]
     },
     {
-      "slug": "intensive-outpatient",
-      "name": "Intensive Outpatient Program (IOP)",
-      "description": "Structured outpatient programs providing more intensive treatment than standard outpatient care, typically 3-5 days per week.",
-      "search_terms": ["intensive outpatient", "IOP program", "IOP treatment", "intensive outpatient program", "step-down treatment"]
+      "slug": "klimaatbeheersing",
+      "name": "Klimaatbeheersing",
+      "description": "Complete klimaatoplossingen voor optimaal binnenklimaat. Combinatie van koeling, verwarming en ventilatie.",
+      "search_terms": ["klimaatbeheersing", "klimaatregeling", "ventilatiesysteem", "binnenklimaat", "climate control"]
     },
     {
-      "slug": "sober-living",
-      "name": "Sober Living Home",
-      "description": "Transitional housing providing a drug and alcohol-free living environment for individuals in recovery.",
-      "search_terms": ["sober living", "sober house", "halfway house", "recovery residence", "transitional housing", "sober living home"]
+      "slug": "airco-reparatie",
+      "name": "Airco Reparatie",
+      "description": "Snelle reparatie en storingsoplossing van aircosystemen. 24/7 spoedservice beschikbaar bij veel monteurs.",
+      "search_terms": ["airco reparatie", "airco kapot", "airco storing", "airco defect", "airco lekt"]
     },
     {
-      "slug": "dual-diagnosis",
-      "name": "Dual Diagnosis Treatment",
-      "description": "Specialized treatment addressing both substance abuse and co-occurring mental health disorders simultaneously.",
-      "search_terms": ["dual diagnosis", "co-occurring disorders", "mental health and addiction", "dual diagnosis treatment", "comorbid treatment"]
+      "slug": "f-gassen-service",
+      "name": "F-gassen Certificering",
+      "description": "Service door F-gassen gecertificeerde monteurs. Vereist voor het werken met koudemiddelen volgens EU-wetgeving.",
+      "search_terms": ["f-gassen", "koudemiddel", "airco bijvullen", "koelmiddel", "f-gassen certificaat"]
     },
     {
-      "slug": "luxury-rehab",
-      "name": "Luxury Rehabilitation",
-      "description": "High-end treatment facilities offering premium amenities, private accommodations, and executive-level care.",
-      "search_terms": ["luxury rehab", "executive rehab", "high-end treatment", "private rehab", "luxury treatment center", "upscale rehab"]
+      "slug": "vloermodel",
+      "name": "Vloermodel Airco",
+      "description": "Installatie van vloermodellen en consolemodellen. Ideaal wanneer wandmontage niet mogelijk is.",
+      "search_terms": ["vloermodel", "vloer airco", "staand model", "console airco", "vloerconsole"]
     },
     {
-      "slug": "holistic-treatment",
-      "name": "Holistic Treatment",
-      "description": "Treatment programs incorporating alternative therapies like yoga, meditation, acupuncture, and nutrition alongside traditional treatment.",
-      "search_terms": ["holistic treatment", "holistic rehab", "alternative treatment", "natural treatment", "integrative treatment", "wellness rehab"]
+      "slug": "plafondmodel",
+      "name": "Plafondmodel Airco",
+      "description": "Plafond- en cassette-airco's voor kantoren en commerciele ruimtes. Strak weggewerkt in het plafond.",
+      "search_terms": ["plafondmodel", "plafond airco", "cassette airco", "inbouw airco", "plafond cassette"]
     },
     {
-      "slug": "faith-based-rehab",
-      "name": "Faith-Based Rehabilitation",
-      "description": "Recovery programs incorporating spiritual practices and religious principles as part of the treatment approach.",
-      "search_terms": ["faith-based rehab", "christian rehab", "religious treatment", "spiritual rehab", "faith-based treatment", "church-based rehab"]
+      "slug": "mobiele-airco",
+      "name": "Mobiele Airco",
+      "description": "Advies en installatie van mobiele airconditioners. Flexibele oplossing zonder vaste montage.",
+      "search_terms": ["mobiele airco", "verplaatsbare airco", "portable airco", "monoblock airco"]
     },
     {
-      "slug": "adolescent-treatment",
-      "name": "Adolescent Treatment",
-      "description": "Specialized treatment programs designed specifically for teenagers and young adults struggling with addiction.",
-      "search_terms": ["adolescent treatment", "teen rehab", "youth treatment", "teenage addiction treatment", "young adult rehab", "adolescent rehab"]
-    },
-    {
-      "slug": "veterans-program",
-      "name": "Veterans Treatment Program",
-      "description": "Treatment programs specifically designed for military veterans, addressing trauma, PTSD, and addiction unique to their experiences.",
-      "search_terms": ["veterans program", "VA rehab", "military rehab", "veteran addiction treatment", "PTSD treatment", "veteran recovery"]
-    },
-    {
-      "slug": "medication-assisted",
-      "name": "Medication-Assisted Treatment (MAT)",
-      "description": "Treatment combining FDA-approved medications with counseling and behavioral therapies to treat substance use disorders.",
-      "search_terms": ["medication-assisted treatment", "MAT program", "suboxone treatment", "methadone clinic", "vivitrol treatment", "medically assisted treatment"]
+      "slug": "zakelijk",
+      "name": "Zakelijke Airco",
+      "description": "Klimaatoplossingen voor bedrijven, kantoren, winkels en horeca. Van advies tot onderhoud.",
+      "search_terms": ["zakelijke airco", "kantoor airco", "bedrijfs airco", "commerciele airco", "winkel airco"]
     }
   ]
 }

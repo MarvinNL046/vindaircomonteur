@@ -19,161 +19,161 @@ export interface FooterGuide {
   description?: string;
 }
 
-// Treatment types section
-export const treatmentTypes: FooterGuide[] = [
+// Service types section
+export const serviceTypes: FooterGuide[] = [
   {
-    href: '/treatment/inpatient-rehab',
-    label: 'Inpatient Rehab',
-    description: 'Residential treatment programs'
+    href: '/type/airco-installatie',
+    label: 'Airco Installatie',
+    description: 'Professionele installatie van aircosystemen'
   },
   {
-    href: '/treatment/outpatient-programs',
-    label: 'Outpatient Programs',
-    description: 'Flexible treatment while living at home'
+    href: '/type/airco-onderhoud',
+    label: 'Airco Onderhoud',
+    description: 'Periodiek onderhoud en service'
   },
   {
-    href: '/treatment/detox-centers',
-    label: 'Detox Centers',
-    description: 'Medical detoxification services'
+    href: '/type/warmtepomp',
+    label: 'Warmtepomp',
+    description: 'Duurzame verwarming en koeling'
   },
   {
-    href: '/treatment/sober-living',
-    label: 'Sober Living Homes',
-    description: 'Transitional housing for recovery'
+    href: '/type/split-unit',
+    label: 'Split-unit',
+    description: 'Enkelvoudige aircosystemen'
   },
   {
-    href: '/treatment/dual-diagnosis',
-    label: 'Dual Diagnosis',
-    description: 'Co-occurring mental health treatment'
+    href: '/type/multi-split',
+    label: 'Multi-split',
+    description: 'Systemen met meerdere binnenunits'
   },
   {
-    href: '/treatment/luxury-rehab',
-    label: 'Luxury Rehab',
-    description: 'Premium treatment facilities'
+    href: '/type/airco-reparatie',
+    label: 'Airco Reparatie',
+    description: 'Storingen en reparaties'
   }
 ];
 
-// Addiction resources section
+// Information resources section
 export const resources: FooterGuide[] = [
   {
-    href: '/guides/alcohol-addiction',
-    label: 'Alcohol Addiction',
-    description: 'Understanding and treating alcoholism'
+    href: '/guide/airco-kiezen',
+    label: 'Airco Kiezen',
+    description: 'Hoe kies je de juiste airco'
   },
   {
-    href: '/guides/opioid-addiction',
-    label: 'Opioid Addiction',
-    description: 'Heroin, fentanyl, and prescription opioid treatment'
+    href: '/guide/kosten',
+    label: 'Kosten & Prijzen',
+    description: 'Overzicht van installatiekosten'
   },
   {
-    href: '/guides/drug-addiction',
-    label: 'Drug Addiction',
-    description: 'Cocaine, meth, and substance abuse treatment'
+    href: '/guide/onderhoud',
+    label: 'Onderhoudstips',
+    description: 'Tips voor optimale werking'
   },
   {
-    href: '/guides/prescription-drugs',
-    label: 'Prescription Drug Abuse',
-    description: 'Benzodiazepine and prescription addiction'
+    href: '/guide/energiebesparing',
+    label: 'Energiebesparing',
+    description: 'Besparen met een airco'
   },
   {
-    href: '/guides/insurance-coverage',
-    label: 'Insurance Coverage',
-    description: 'Understanding rehab insurance options'
+    href: '/guide/subsidies',
+    label: 'Subsidies',
+    description: 'Beschikbare regelingen'
   },
   {
-    href: '/guides/choosing-rehab',
-    label: 'Choosing a Rehab',
-    description: 'How to find the right treatment center'
+    href: '/guide/f-gassen',
+    label: 'F-gassen Certificaat',
+    description: 'Wat is F-gassen certificering'
   }
 ];
 
 // Support resources section
 export const support: FooterGuide[] = [
   {
-    href: '/guides/family-support',
-    label: 'Family Support',
-    description: 'Resources for loved ones'
+    href: '/guide/merken',
+    label: 'Airco Merken',
+    description: 'Vergelijk Daikin, Mitsubishi, LG etc.'
   },
   {
-    href: '/guides/intervention',
-    label: 'Intervention Guide',
-    description: 'How to help someone get treatment'
+    href: '/guide/zakelijk',
+    label: 'Zakelijke Airco',
+    description: 'Klimaatoplossingen voor bedrijven'
   },
   {
-    href: '/guides/aftercare',
-    label: 'Aftercare & Relapse Prevention',
-    description: 'Maintaining long-term recovery'
+    href: '/guide/vergunning',
+    label: 'Vergunning & Regels',
+    description: 'Waar moet je op letten'
   },
   {
-    href: '/guides/veterans-programs',
-    label: 'Veterans Programs',
-    description: 'Treatment for military veterans'
+    href: '/guide/warmtepomp-vs-airco',
+    label: 'Warmtepomp vs Airco',
+    description: 'Verschillen en voordelen'
   },
   {
-    href: '/guides/teen-treatment',
-    label: 'Teen & Adolescent',
-    description: 'Youth addiction treatment programs'
+    href: '/guide/geluid',
+    label: 'Geluidsoverlast',
+    description: 'Tips voor geluidsbeperking'
   }
 ];
 
 // Static guides content (pillar pages)
 export const guides: FooterGuide[] = [
   {
-    href: '/guides/treatment-types',
-    label: 'Types of Treatment',
-    description: 'Understand different treatment options'
+    href: '/guide/types',
+    label: 'Typen Airco',
+    description: 'Split, multi-split, mobiel etc.'
   },
   {
-    href: '/guides/what-to-expect',
-    label: 'What to Expect in Rehab',
-    description: 'Guide to the treatment process'
+    href: '/guide/installatie-proces',
+    label: 'Installatieproces',
+    description: 'Wat kun je verwachten'
   },
   {
-    href: '/guides/paying-for-rehab',
-    label: 'Paying for Rehab',
-    description: 'Financial options and insurance'
+    href: '/guide/seizoensonderhoud',
+    label: 'Seizoensonderhoud',
+    description: 'Wanneer onderhoud laten doen'
   },
   {
-    href: '/guides/signs-of-addiction',
-    label: 'Signs of Addiction',
-    description: 'Recognizing substance abuse'
+    href: '/guide/problemen',
+    label: 'Veelvoorkomende Problemen',
+    description: 'Storingen en oplossingen'
   },
   {
-    href: '/guides/recovery-success',
-    label: 'Recovery Success Stories',
-    description: 'Inspiring stories of recovery'
+    href: '/guide/duurzaamheid',
+    label: 'Duurzaamheid',
+    description: 'Milieuvriendelijk koelen'
   }
 ];
 
 // Cache for footer data
-let statesCacheFooter: FooterState[] | null = null;
+let provincesCacheFooter: FooterState[] | null = null;
 let typesCacheFooter: FooterType[] | null = null;
 
 /**
- * Get top states by facility count
- * @param limit - Maximum number of states to return (default 8)
- * @returns Array of states sorted by facility count (descending)
+ * Get top provinces by installer count
+ * @param limit - Maximum number of provinces to return (default 8)
+ * @returns Array of provinces sorted by installer count (descending)
  */
-export async function getTopStatesByFacilityCount(limit: number = 8): Promise<FooterState[]> {
-  if (statesCacheFooter && statesCacheFooter.length >= limit) {
-    return statesCacheFooter.slice(0, limit);
+export async function getTopProvincesByInstallerCount(limit: number = 8): Promise<FooterState[]> {
+  if (provincesCacheFooter && provincesCacheFooter.length >= limit) {
+    return provincesCacheFooter.slice(0, limit);
   }
 
   try {
-    const facilities = await getAllFacilities();
+    const installers = await getAllFacilities();
 
-    // Count facilities per state
-    const stateCounts = new Map<string, number>();
+    // Count installers per province
+    const provinceCounts = new Map<string, number>();
 
-    for (const facility of facilities) {
-      if (facility.state && facility.state.trim()) {
-        const state = facility.state.trim();
-        stateCounts.set(state, (stateCounts.get(state) || 0) + 1);
+    for (const installer of installers) {
+      if (installer.state && installer.state.trim()) {
+        const province = installer.state.trim();
+        provinceCounts.set(province, (provinceCounts.get(province) || 0) + 1);
       }
     }
 
     // Convert to array and sort by count
-    const sortedStates: FooterState[] = Array.from(stateCounts.entries())
+    const sortedProvinces: FooterState[] = Array.from(provinceCounts.entries())
       .map(([name, count]) => ({
         name,
         slug: createStateSlug(name),
@@ -182,30 +182,30 @@ export async function getTopStatesByFacilityCount(limit: number = 8): Promise<Fo
       .sort((a, b) => b.count - a.count);
 
     // Cache the full list
-    statesCacheFooter = sortedStates;
+    provincesCacheFooter = sortedProvinces;
 
-    return sortedStates.slice(0, limit);
+    return sortedProvinces.slice(0, limit);
   } catch (error) {
-    console.error('Error getting top states:', error);
+    console.error('Error getting top provinces:', error);
     return [];
   }
 }
 
 /**
- * Get top facility types by count
+ * Get top service types by count
  * @param limit - Maximum number of types to return (default 8)
- * @returns Array of types sorted by facility count (descending)
+ * @returns Array of types sorted by installer count (descending)
  */
-export async function getTopTypesByFacilityCount(limit: number = 8): Promise<FooterType[]> {
+export async function getTopTypesByInstallerCount(limit: number = 8): Promise<FooterType[]> {
   if (typesCacheFooter && typesCacheFooter.length >= limit) {
     return typesCacheFooter.slice(0, limit);
   }
 
   try {
-    const facilities = await getAllFacilities();
+    const installers = await getAllFacilities();
     const allTypes = await getAllFacilityTypes();
 
-    // Count facilities per type
+    // Count installers per type
     const typeCounts = new Map<string, number>();
     const typeNames = new Map<string, string>();
 
@@ -214,19 +214,19 @@ export async function getTopTypesByFacilityCount(limit: number = 8): Promise<Foo
       typeNames.set(type.slug, type.name);
     }
 
-    for (const facility of facilities) {
-      if (facility.type_slug && facility.type_slug.trim()) {
-        const typeSlug = facility.type_slug.trim();
+    for (const installer of installers) {
+      if (installer.type_slug && installer.type_slug.trim()) {
+        const typeSlug = installer.type_slug.trim();
         typeCounts.set(typeSlug, (typeCounts.get(typeSlug) || 0) + 1);
 
         // Store display name if we have it
-        if (facility.type && !typeNames.has(typeSlug)) {
-          typeNames.set(typeSlug, facility.type);
+        if (installer.type && !typeNames.has(typeSlug)) {
+          typeNames.set(typeSlug, installer.type);
         }
-      } else if (facility.type && facility.type.trim()) {
-        const typeSlug = createTypeSlug(facility.type.trim());
+      } else if (installer.type && installer.type.trim()) {
+        const typeSlug = createTypeSlug(installer.type.trim());
         typeCounts.set(typeSlug, (typeCounts.get(typeSlug) || 0) + 1);
-        typeNames.set(typeSlug, facility.type.trim());
+        typeNames.set(typeSlug, installer.type.trim());
       }
     }
 
@@ -271,16 +271,16 @@ function formatTypeName(name: string): string {
 /**
  * Get all footer data in a single call (for server components)
  */
-export async function getFooterData(stateLimit: number = 8, typeLimit: number = 8) {
-  const [topStates, topTypes] = await Promise.all([
-    getTopStatesByFacilityCount(stateLimit),
-    getTopTypesByFacilityCount(typeLimit)
+export async function getFooterData(provinceLimit: number = 8, typeLimit: number = 8) {
+  const [topProvinces, topTypes] = await Promise.all([
+    getTopProvincesByInstallerCount(provinceLimit),
+    getTopTypesByInstallerCount(typeLimit)
   ]);
 
   return {
-    states: topStates,
+    states: topProvinces,
     types: topTypes,
-    treatmentTypes,
+    serviceTypes,
     resources,
     support,
     guides
@@ -291,6 +291,11 @@ export async function getFooterData(stateLimit: number = 8, typeLimit: number = 
  * Clear cache (useful for development/testing)
  */
 export function clearFooterCache() {
-  statesCacheFooter = null;
+  provincesCacheFooter = null;
   typesCacheFooter = null;
 }
+
+// Backward compatibility aliases
+export const treatmentTypes = serviceTypes;
+export const getTopStatesByFacilityCount = getTopProvincesByInstallerCount;
+export const getTopTypesByFacilityCount = getTopTypesByInstallerCount;

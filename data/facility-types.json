@@ -1,124 +1,88 @@
 {
   "types": [
     {
-      "slug": "inpatient-rehab",
-      "name": "Inpatient Rehabilitation Center",
-      "description": "Residential treatment facilities providing 24-hour care in a structured environment for addiction recovery.",
-      "search_terms": ["inpatient rehab", "residential treatment", "24 hour care", "live-in rehab"]
+      "slug": "airco-installateur",
+      "name": "Airco Installateur",
+      "description": "Gecertificeerde airco installatiebedrijven voor woningen en zakelijke panden. Van advies tot complete installatie.",
+      "search_terms": ["airco installateur", "airco monteur", "airco bedrijf", "airconditioning specialist"]
     },
     {
-      "slug": "outpatient-treatment",
-      "name": "Outpatient Treatment Program",
-      "description": "Flexible treatment programs that allow patients to live at home while attending scheduled therapy sessions.",
-      "search_terms": ["outpatient treatment", "outpatient rehab", "day program", "evening program"]
+      "slug": "klimaattechniek-bedrijf",
+      "name": "Klimaattechniek Bedrijf",
+      "description": "Specialisten in klimaatbeheersing, ventilatie en airconditioning voor commerciele en industriele toepassingen.",
+      "search_terms": ["klimaattechniek", "klimaat specialist", "HVAC bedrijf", "klimaatinstallateur"]
     },
     {
-      "slug": "detox-center",
-      "name": "Detoxification Center",
-      "description": "Medical facilities providing supervised withdrawal management and detox services.",
-      "search_terms": ["detox center", "medical detox", "withdrawal management", "detoxification"]
+      "slug": "warmtepomp-specialist",
+      "name": "Warmtepomp Specialist",
+      "description": "Experts in lucht-lucht en lucht-water warmtepompen. Duurzame verwarmings- en koeloplossingen.",
+      "search_terms": ["warmtepomp installateur", "warmtepomp specialist", "warmtepomp monteur"]
     },
     {
-      "slug": "sober-living",
-      "name": "Sober Living Home",
-      "description": "Transitional housing providing a substance-free living environment for those in recovery.",
-      "search_terms": ["sober living", "halfway house", "recovery housing", "transitional housing"]
+      "slug": "koeltechniek-bedrijf",
+      "name": "Koeltechniek Bedrijf",
+      "description": "Koeltechnische bedrijven voor airco, koelinstallaties en klimaatsystemen. F-gassen gecertificeerd.",
+      "search_terms": ["koeltechniek", "koeling specialist", "koelinstallatie", "koeltechnicus"]
     },
     {
-      "slug": "dual-diagnosis",
-      "name": "Dual Diagnosis Treatment Center",
-      "description": "Facilities specializing in treating co-occurring addiction and mental health disorders.",
-      "search_terms": ["dual diagnosis", "co-occurring disorders", "mental health and addiction", "integrated treatment"]
+      "slug": "airco-onderhoudsbedrijf",
+      "name": "Airco Onderhoudsbedrijf",
+      "description": "Gespecialiseerd in onderhoud, service en reparatie van alle merken airconditioners.",
+      "search_terms": ["airco onderhoud", "airco service", "airco reparatie", "onderhoud specialist"]
     },
     {
-      "slug": "luxury-rehab",
-      "name": "Luxury Rehabilitation Center",
-      "description": "Premium treatment facilities offering upscale amenities and highly personalized care.",
-      "search_terms": ["luxury rehab", "executive rehab", "private rehab", "upscale treatment"]
+      "slug": "daikin-specialist",
+      "name": "Daikin Specialist",
+      "description": "Erkend Daikin dealer en installateur. Specialist in Daikin airconditioners en warmtepompen.",
+      "search_terms": ["daikin dealer", "daikin installateur", "daikin airco", "daikin specialist"]
     },
     {
-      "slug": "intensive-outpatient",
-      "name": "Intensive Outpatient Program (IOP)",
-      "description": "Structured outpatient programs with multiple sessions per week while maintaining daily responsibilities.",
-      "search_terms": ["IOP", "intensive outpatient", "intensive outpatient program"]
+      "slug": "mitsubishi-specialist",
+      "name": "Mitsubishi Specialist",
+      "description": "Erkend Mitsubishi Electric dealer. Expert in Mitsubishi airco's en klimaatsystemen.",
+      "search_terms": ["mitsubishi dealer", "mitsubishi airco", "mitsubishi electric", "mitsubishi installateur"]
     },
     {
-      "slug": "partial-hospitalization",
-      "name": "Partial Hospitalization Program (PHP)",
-      "description": "Day treatment programs providing structured care during the day with evenings at home.",
-      "search_terms": ["PHP", "partial hospitalization", "day treatment", "day program"]
+      "slug": "lg-specialist",
+      "name": "LG Specialist",
+      "description": "Gecertificeerd LG dealer voor airconditioning en klimaatsystemen.",
+      "search_terms": ["lg dealer", "lg airco", "lg installateur", "lg klimaat"]
     },
     {
-      "slug": "alcohol-rehab",
-      "name": "Alcohol Rehabilitation Center",
-      "description": "Treatment centers specializing in alcohol addiction and alcoholism recovery.",
-      "search_terms": ["alcohol rehab", "alcoholism treatment", "alcohol addiction treatment"]
+      "slug": "samsung-specialist",
+      "name": "Samsung Specialist",
+      "description": "Erkend Samsung dealer voor airco en wind-free airconditioners.",
+      "search_terms": ["samsung dealer", "samsung airco", "samsung wind-free", "samsung installateur"]
     },
     {
-      "slug": "drug-rehab",
-      "name": "Drug Rehabilitation Center",
-      "description": "Treatment facilities specializing in drug addiction recovery.",
-      "search_terms": ["drug rehab", "drug treatment", "drug addiction treatment"]
+      "slug": "toshiba-specialist",
+      "name": "Toshiba Specialist",
+      "description": "Gecertificeerd Toshiba dealer voor airconditioners en klimaatsystemen.",
+      "search_terms": ["toshiba dealer", "toshiba airco", "toshiba installateur"]
     },
     {
-      "slug": "opioid-treatment",
-      "name": "Opioid Treatment Program",
-      "description": "Specialized facilities for treating opioid and heroin addiction, often including medication-assisted treatment.",
-      "search_terms": ["opioid treatment", "heroin rehab", "MAT program", "methadone clinic", "suboxone clinic"]
+      "slug": "particuliere-monteur",
+      "name": "Particuliere Monteur",
+      "description": "Zelfstandige airco monteurs voor woningen. Persoonlijke service en scherpe prijzen.",
+      "search_terms": ["particuliere monteur", "zzp monteur", "zelfstandig installateur", "lokale monteur"]
     },
     {
-      "slug": "veterans-program",
-      "name": "Veterans Treatment Program",
-      "description": "Addiction treatment programs designed specifically for military veterans.",
-      "search_terms": ["veterans rehab", "VA treatment", "military addiction treatment", "veteran program"]
+      "slug": "zakelijke-installateur",
+      "name": "Zakelijke Installateur",
+      "description": "Airco-installateurs gespecialiseerd in kantoren, winkels, horeca en bedrijfspanden.",
+      "search_terms": ["zakelijk airco", "kantoor airco", "commercieel", "bedrijfs airco"]
     },
     {
-      "slug": "womens-rehab",
-      "name": "Women's Rehabilitation Center",
-      "description": "Treatment facilities designed specifically for women's unique recovery needs.",
-      "search_terms": ["women's rehab", "female only treatment", "women's treatment center"]
+      "slug": "vrv-vrf-specialist",
+      "name": "VRV/VRF Specialist",
+      "description": "Experts in Variable Refrigerant Volume/Flow systemen voor grote gebouwen en complexen.",
+      "search_terms": ["vrv systeem", "vrf systeem", "variable refrigerant", "centraal systeem"]
     },
     {
-      "slug": "mens-rehab",
-      "name": "Men's Rehabilitation Center",
-      "description": "Treatment facilities designed specifically for men's recovery needs.",
-      "search_terms": ["men's rehab", "male only treatment", "men's treatment center"]
-    },
-    {
-      "slug": "teen-rehab",
-      "name": "Adolescent Treatment Program",
-      "description": "Treatment programs designed for teenagers and young adults struggling with addiction.",
-      "search_terms": ["teen rehab", "adolescent treatment", "youth rehab", "young adult program"]
-    },
-    {
-      "slug": "christian-rehab",
-      "name": "Christian Rehabilitation Center",
-      "description": "Faith-based treatment centers incorporating Christian principles into recovery.",
-      "search_terms": ["christian rehab", "faith-based treatment", "religious rehab"]
-    },
-    {
-      "slug": "holistic-rehab",
-      "name": "Holistic Treatment Center",
-      "description": "Treatment facilities using holistic and alternative therapies alongside traditional treatment.",
-      "search_terms": ["holistic rehab", "alternative treatment", "natural recovery", "holistic addiction treatment"]
-    },
-    {
-      "slug": "behavioral-health",
-      "name": "Behavioral Health Center",
-      "description": "Facilities specializing in mental health and behavioral treatment services.",
-      "search_terms": ["behavioral health", "mental health center", "psychiatric services"]
-    },
-    {
-      "slug": "addiction-counseling",
-      "name": "Addiction Counseling Center",
-      "description": "Facilities providing professional addiction counseling and therapy services.",
-      "search_terms": ["addiction counseling", "substance abuse counseling", "recovery counseling"]
-    },
-    {
-      "slug": "eating-disorder-treatment",
-      "name": "Eating Disorder Treatment Center",
-      "description": "Specialized facilities for treating eating disorders and related addictions.",
-      "search_terms": ["eating disorder treatment", "anorexia treatment", "bulimia treatment"]
+      "slug": "24-uurs-service",
+      "name": "24-uurs Airco Service",
+      "description": "Spoedservice en 24/7 beschikbare airco monteurs voor storingen en reparaties.",
+      "search_terms": ["24 uur service", "spoed airco", "nood reparatie", "24/7 airco"]
     }
   ]
 }

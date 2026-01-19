@@ -1,7 +1,7 @@
-// Site configuration for Rehab Near Me (USA)
+// Site configuration for VindAircoMonteur.nl (Netherlands)
 export const getSiteConfig = () => {
   const domain = process.env.NEXT_PUBLIC_SITE_DOMAIN ||
-                 (typeof window !== 'undefined' ? window.location.hostname : 'rehabnearbyme.com');
+                 (typeof window !== 'undefined' ? window.location.hostname : 'vindaircomonteur.nl');
 
   const configs: Record<string, {
     id: string;
@@ -9,31 +9,31 @@ export const getSiteConfig = () => {
     name: string;
     description: string;
   }> = {
-    'rehabnearbyme.com': {
-      id: 'rehab',
-      domain: 'rehabnearbyme.com',
-      name: 'RehabNearMe',
-      description: 'Find addiction treatment centers and rehabilitation facilities near you'
+    'vindaircomonteur.nl': {
+      id: 'airco',
+      domain: 'vindaircomonteur.nl',
+      name: 'VindAircoMonteur.nl',
+      description: 'Vind een airco monteur bij jou in de buurt'
     },
-    'www.rehabnearbyme.com': {
-      id: 'rehab',
-      domain: 'rehabnearbyme.com',
-      name: 'RehabNearMe',
-      description: 'Find addiction treatment centers and rehabilitation facilities near you'
+    'www.vindaircomonteur.nl': {
+      id: 'airco',
+      domain: 'vindaircomonteur.nl',
+      name: 'VindAircoMonteur.nl',
+      description: 'Vind een airco monteur bij jou in de buurt'
     },
     'localhost:3000': {
-      id: 'rehab',
-      domain: 'rehabnearbyme.com',
-      name: 'RehabNearMe',
-      description: 'Find addiction treatment centers and rehabilitation facilities near you'
+      id: 'airco',
+      domain: 'vindaircomonteur.nl',
+      name: 'VindAircoMonteur.nl',
+      description: 'Vind een airco monteur bij jou in de buurt'
     },
     'localhost:3001': {
-      id: 'rehab',
-      domain: 'rehabnearbyme.com',
-      name: 'RehabNearMe',
-      description: 'Find addiction treatment centers and rehabilitation facilities near you'
+      id: 'airco',
+      domain: 'vindaircomonteur.nl',
+      name: 'VindAircoMonteur.nl',
+      description: 'Vind een airco monteur bij jou in de buurt'
     }
   };
 
-  return configs[domain] || configs['rehabnearbyme.com'];
+  return configs[domain] || configs['vindaircomonteur.nl'];
 };
