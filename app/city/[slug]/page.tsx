@@ -85,8 +85,8 @@ export default async function CityPage({ params }: PageProps) {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: `Treatment Centers in ${city}`,
-    description: `Directory of all addiction treatment centers and rehab facilities in ${city}${county ? `, ${county} County` : ''}`,
+    name: `Airco Monteurs in ${city}`,
+    description: `Overzicht van alle airco installateurs en monteurs in ${city}${county ? `, gemeente ${county}` : ''}`,
     breadcrumb: {
       '@type': 'BreadcrumbList',
       itemListElement: [
@@ -94,25 +94,25 @@ export default async function CityPage({ params }: PageProps) {
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://www.rehabnearbyme.com'
+          item: 'https://www.vindaircomonteur.nl'
         },
         {
           '@type': 'ListItem',
           position: 2,
           name: state,
-          item: `https://www.rehabnearbyme.com/state/${createStateSlug(state)}`
+          item: `https://www.vindaircomonteur.nl/state/${createStateSlug(state)}`
         },
         ...(county ? [{
           '@type': 'ListItem',
           position: 3,
-          name: `${county} County`,
-          item: `https://www.rehabnearbyme.com/county/${createCountySlug(county)}`
+          name: `Gemeente ${county}`,
+          item: `https://www.vindaircomonteur.nl/county/${createCountySlug(county)}`
         }] : []),
         {
           '@type': 'ListItem',
           position: county ? 4 : 3,
           name: city,
-          item: `https://www.rehabnearbyme.com/city/${slug}`
+          item: `https://www.vindaircomonteur.nl/city/${slug}`
         }
       ]
     },
@@ -122,7 +122,7 @@ export default async function CityPage({ params }: PageProps) {
       itemListElement: facilities.map((facility, index) => ({
         '@type': 'ListItem',
         position: index + 1,
-        url: `https://www.rehabnearbyme.com/facility/${facility.slug}`
+        url: `https://www.vindaircomonteur.nl/facility/${facility.slug}`
       }))
     }
   };
@@ -172,10 +172,10 @@ export default async function CityPage({ params }: PageProps) {
         {/* Header */}
         <div className="mb-8">
           <h1 className="text-4xl font-bold mb-4">
-            Treatment Centers in {city}
+            Airco Monteurs in {city}
           </h1>
           <p className="text-lg text-muted-foreground">
-            There {facilities.length === 1 ? 'is' : 'are'} {facilities.length} {facilities.length === 1 ? 'treatment center' : 'treatment centers'} in {city}{county ? `, ${county} County` : ''}, {state}.
+            Er {facilities.length === 1 ? 'is' : 'zijn'} {facilities.length} airco {facilities.length === 1 ? 'bedrijf' : 'bedrijven'} in {city}{county ? `, gemeente ${county}` : ''}, {state}.
           </p>
         </div>
 
@@ -232,7 +232,7 @@ export default async function CityPage({ params }: PageProps) {
 
               {/* Related Links */}
               <div className="bg-card rounded-lg p-6 shadow-sm border">
-                <h3 className="text-lg font-semibold mb-4">Related Pages</h3>
+                <h3 className="text-lg font-semibold mb-4">Gerelateerde pagina&apos;s</h3>
                 <ul className="space-y-2">
                   {county && (
                     <li>
@@ -240,7 +240,7 @@ export default async function CityPage({ params }: PageProps) {
                         href={`/county/${createCountySlug(county)}`}
                         className="text-sm text-muted-foreground hover:text-foreground"
                       >
-                        All treatment centers in {county} County
+                        Alle airco monteurs in gemeente {county}
                       </Link>
                     </li>
                   )}
@@ -249,7 +249,7 @@ export default async function CityPage({ params }: PageProps) {
                       href={`/state/${createStateSlug(state)}`}
                       className="text-sm text-muted-foreground hover:text-foreground"
                     >
-                      All treatment centers in {state}
+                      Alle airco monteurs in {state}
                     </Link>
                   </li>
                 </ul>

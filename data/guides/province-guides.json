@@ -1,0 +1,298 @@
+{
+  "provinceGuides": [
+    {
+      "slug": "noord-holland",
+      "name": "Noord-Holland",
+      "abbr": "NH",
+      "capital": "Haarlem",
+      "totalInstallers": 245,
+      "title": "Airco Monteurs in Noord-Holland: Complete Gids",
+      "metaDescription": "Vind de beste airco installateurs in Noord-Holland. Overzicht van gecertificeerde monteurs, diensten en prijzen in Amsterdam, Haarlem en omstreken.",
+      "heroSubtitle": "Van Amsterdam tot Alkmaar: vind jouw ideale airco specialist",
+      "overview": "Noord-Holland is een van de dichtstbevolkte provincies van Nederland en kent een grote vraag naar airconditioning. Van de grachtenpanden in Amsterdam tot moderne woningen in Almere, overal groeit de behoefte aan koeling. De provincie heeft een uitgebreid netwerk van gecertificeerde airco installateurs die zowel particulieren als bedrijven bedienen.",
+      "regulations": {
+        "title": "Regelgeving en Certificering",
+        "content": "Alle airco installateurs in Noord-Holland moeten voldoen aan de F-gassen verordening. Dit betekent dat monteurs gecertificeerd moeten zijn voor het werken met koudemiddelen. Daarnaast gelden er vaak gemeentelijke regels voor de plaatsing van buitenunits, vooral in historische binnensteden zoals Amsterdam en Haarlem.",
+        "keyPoints": [
+          "F-gassen certificering verplicht voor alle monteurs",
+          "Gemeentelijke vergunningen vaak nodig in historische centra",
+          "Geluidsnormen voor buitenunits (max 40-45 dB)",
+          "VCA certificering voor veilig werken",
+          "STEK certificering voor koeltechniek",
+          "Garantievoorwaarden volgens Nederlands recht"
+        ]
+      },
+      "serviceTypes": [
+        { "type": "Split-unit Airco", "count": 180 },
+        { "type": "Multi-split Systeem", "count": 95 },
+        { "type": "Warmtepomp", "count": 120 },
+        { "type": "Airco Onderhoud", "count": 85 },
+        { "type": "Klimaatbeheersing Bedrijven", "count": 45 }
+      ],
+      "topCities": ["Amsterdam", "Haarlem", "Zaandam", "Amstelveen", "Alkmaar", "Hilversum", "Purmerend", "Hoofddorp", "Heerhugowaard", "Den Helder"],
+      "averagePrices": {
+        "splitUnit": "1.800 - 3.500",
+        "multiSplit": "4.500 - 8.000",
+        "maintenance": "80 - 150",
+        "notes": "Prijzen zijn indicatief en afhankelijk van het type systeem, merk en installatiecomplexiteit. In Amsterdam en historische panden kunnen de prijzen hoger uitvallen door extra installatiewerkzaamheden."
+      },
+      "faqs": [
+        {
+          "question": "Heb ik een vergunning nodig voor airco in Amsterdam?",
+          "answer": "In veel gevallen wel, vooral als de buitenunit zichtbaar is vanaf de openbare weg of als je in een monument of beschermd stadsgezicht woont. Check altijd bij de gemeente Amsterdam of een omgevingsvergunning nodig is."
+        },
+        {
+          "question": "Wat kost een airco installatie in Noord-Holland?",
+          "answer": "Een standaard split-unit airco installatie kost gemiddeld tussen de 1.800 en 3.500 euro inclusief installatie. Voor een multi-split systeem met meerdere binnenunits moet je rekenen op 4.500 tot 8.000 euro."
+        },
+        {
+          "question": "Hoe vind ik een betrouwbare airco monteur?",
+          "answer": "Let op F-gassen certificering, vraag naar referenties en vergelijk offertes van minimaal 3 installateurs. Kies bij voorkeur een monteur die gespecialiseerd is in het merk dat je wilt laten plaatsen."
+        },
+        {
+          "question": "Hoe vaak moet een airco onderhouden worden?",
+          "answer": "Een jaarlijkse onderhoudsbeurt wordt aanbevolen, bij voorkeur in het voorjaar voor het koelseizoen begint. Bij intensief gebruik kan een halfjaarlijkse controle verstandig zijn."
+        }
+      ]
+    },
+    {
+      "slug": "zuid-holland",
+      "name": "Zuid-Holland",
+      "abbr": "ZH",
+      "capital": "Den Haag",
+      "totalInstallers": 310,
+      "title": "Airco Monteurs in Zuid-Holland: Complete Gids",
+      "metaDescription": "Vind gecertificeerde airco installateurs in Zuid-Holland. Overzicht van monteurs in Rotterdam, Den Haag, Leiden en omgeving.",
+      "heroSubtitle": "Van Rotterdam tot Den Haag: klimaatcomfort in Zuid-Holland",
+      "overview": "Zuid-Holland is de dichtstbevolkte provincie van Nederland en kent een enorme vraag naar airconditioning. Van de moderne architectuur in Rotterdam tot de statige herenhuizen in Den Haag, overal groeit de behoefte aan klimaatbeheersing. De provincie beschikt over het grootste netwerk van airco installateurs in Nederland.",
+      "regulations": {
+        "title": "Regelgeving en Certificering",
+        "content": "Zuid-Holland hanteert strikte regels voor airco installatie, vooral in de grote steden. In Den Haag en Rotterdam gelden specifieke regels voor monumentale panden en beschermde stadsgezichten.",
+        "keyPoints": [
+          "F-gassen certificering verplicht",
+          "Vergunningsplicht in beschermde gebieden",
+          "Specifieke regels per gemeente",
+          "Geluidsnormen voor buitenunits",
+          "Energielabel eisen bij nieuwbouw",
+          "VvE toestemming bij appartementen"
+        ]
+      },
+      "serviceTypes": [
+        { "type": "Split-unit Airco", "count": 220 },
+        { "type": "Multi-split Systeem", "count": 130 },
+        { "type": "Warmtepomp", "count": 145 },
+        { "type": "Airco Onderhoud", "count": 110 },
+        { "type": "Klimaatbeheersing Bedrijven", "count": 65 }
+      ],
+      "topCities": ["Rotterdam", "Den Haag", "Leiden", "Dordrecht", "Zoetermeer", "Delft", "Schiedam", "Alphen aan den Rijn", "Vlaardingen", "Gouda"],
+      "averagePrices": {
+        "splitUnit": "1.700 - 3.200",
+        "multiSplit": "4.200 - 7.500",
+        "maintenance": "75 - 140",
+        "notes": "Prijzen varieren per stad en type woning. In Rotterdam zijn de prijzen vaak iets lager dan in Den Haag door meer concurrentie."
+      },
+      "faqs": [
+        {
+          "question": "Mag ik zelf een airco plaatsen in Zuid-Holland?",
+          "answer": "De buitenunit plaatsen en het systeem aansluiten mag alleen door een F-gassen gecertificeerde monteur. Dit is wettelijk verplicht vanwege het werken met koudemiddelen."
+        },
+        {
+          "question": "Wat zijn de beste airco merken voor het Nederlandse klimaat?",
+          "answer": "Populaire merken zijn Daikin, Mitsubishi Electric, LG, Samsung en Toshiba. Deze merken presteren goed in het Nederlandse klimaat en kunnen ook verwarmen met een warmtepompfunctie."
+        },
+        {
+          "question": "Kan een airco ook verwarmen?",
+          "answer": "Ja, moderne airconditioners zijn vaak lucht-lucht warmtepompen die zowel kunnen koelen als verwarmen. Dit is energiezuiniger dan elektrische verwarming."
+        }
+      ]
+    },
+    {
+      "slug": "noord-brabant",
+      "name": "Noord-Brabant",
+      "abbr": "NB",
+      "capital": "'s-Hertogenbosch",
+      "totalInstallers": 185,
+      "title": "Airco Monteurs in Noord-Brabant: Complete Gids",
+      "metaDescription": "Vind airco installateurs in Noord-Brabant. Overzicht van gecertificeerde monteurs in Eindhoven, Tilburg, Breda en omstreken.",
+      "heroSubtitle": "Klimaatcomfort in de Brabantse steden en dorpen",
+      "overview": "Noord-Brabant kent warme zomers en een groeiende vraag naar airconditioning. Van de technologie-hub Eindhoven tot historisch 's-Hertogenbosch, overal worden aircosystemen geinstalleerd. De provincie heeft een sterk netwerk van lokale installateurs.",
+      "regulations": {
+        "title": "Regelgeving en Certificering",
+        "content": "In Noord-Brabant gelden de landelijke F-gassen regels plus gemeentelijke voorschriften. Vooral in de historische binnensteden zijn vergunningen vaak vereist.",
+        "keyPoints": [
+          "F-gassen certificering verplicht",
+          "Gemeentelijke regels voor buitenunits",
+          "VvE goedkeuring bij appartementen",
+          "Geluidsnormen naleven",
+          "Energielabel overwegingen",
+          "Subsidies mogelijk voor warmtepompen"
+        ]
+      },
+      "serviceTypes": [
+        { "type": "Split-unit Airco", "count": 135 },
+        { "type": "Multi-split Systeem", "count": 70 },
+        { "type": "Warmtepomp", "count": 95 },
+        { "type": "Airco Onderhoud", "count": 60 },
+        { "type": "Klimaatbeheersing Bedrijven", "count": 40 }
+      ],
+      "topCities": ["Eindhoven", "Tilburg", "Breda", "'s-Hertogenbosch", "Helmond", "Roosendaal", "Oss", "Bergen op Zoom", "Veldhoven", "Waalwijk"],
+      "averagePrices": {
+        "splitUnit": "1.600 - 3.000",
+        "multiSplit": "4.000 - 7.000",
+        "maintenance": "70 - 130",
+        "notes": "Noord-Brabant heeft over het algemeen iets lagere prijzen dan de Randstad door lagere arbeidskosten."
+      },
+      "faqs": [
+        {
+          "question": "Zijn er subsidies voor airco met warmtepompfunctie in Brabant?",
+          "answer": "Ja, via de ISDE-regeling kun je subsidie krijgen voor een lucht-lucht warmtepomp. Check ook gemeentelijke subsidies in Eindhoven, Tilburg en andere grote steden."
+        },
+        {
+          "question": "Hoelang duurt een airco installatie?",
+          "answer": "Een standaard split-unit installatie duurt gemiddeld 4-6 uur. Bij een multi-split systeem of complexe installatie kan dit 1-2 dagen zijn."
+        }
+      ]
+    },
+    {
+      "slug": "limburg",
+      "name": "Limburg",
+      "abbr": "LI",
+      "capital": "Maastricht",
+      "totalInstallers": 95,
+      "title": "Airco Monteurs in Limburg: Complete Gids",
+      "metaDescription": "Vind airco installateurs in Limburg. Gecertificeerde monteurs in Maastricht, Heerlen, Venlo, Roermond en omstreken.",
+      "heroSubtitle": "Klimaatcomfort in het heuvelland en de Limburgse steden",
+      "overview": "Limburg kent door zijn ligging vaak de hoogste temperaturen van Nederland in de zomer. Dit maakt airconditioning extra waardevol. Van Maastricht tot Venlo zijn er ervaren installateurs die rekening houden met de specifieke woningtypen in de regio.",
+      "regulations": {
+        "title": "Regelgeving en Certificering",
+        "content": "Limburg volgt de landelijke regelgeving met extra aandacht voor monumentale panden, vooral in Maastricht en Valkenburg.",
+        "keyPoints": [
+          "F-gassen certificering verplicht",
+          "Extra regels voor monumenten",
+          "Gemeentelijke vergunningen",
+          "Grensoverschrijdende dienstverlening mogelijk",
+          "Specifieke eisen in vakantiegebieden",
+          "Subsidies via ISDE"
+        ]
+      },
+      "serviceTypes": [
+        { "type": "Split-unit Airco", "count": 70 },
+        { "type": "Multi-split Systeem", "count": 35 },
+        { "type": "Warmtepomp", "count": 55 },
+        { "type": "Airco Onderhoud", "count": 30 },
+        { "type": "Klimaatbeheersing Bedrijven", "count": 25 }
+      ],
+      "topCities": ["Maastricht", "Heerlen", "Venlo", "Sittard-Geleen", "Roermond", "Weert", "Kerkrade", "Landgraaf", "Brunssum", "Venray"],
+      "averagePrices": {
+        "splitUnit": "1.500 - 2.800",
+        "multiSplit": "3.800 - 6.500",
+        "maintenance": "65 - 120",
+        "notes": "Limburg kent relatief gunstige prijzen. Let op reiskosten bij installateurs buiten de grote steden."
+      },
+      "faqs": [
+        {
+          "question": "Waarom is airco extra belangrijk in Limburg?",
+          "answer": "Limburg registreert regelmatig de hoogste temperaturen van Nederland door de zuidelijke ligging en beschutte dalen. Een goede airco is daarom extra waardevol."
+        },
+        {
+          "question": "Kan ik een Belgische of Duitse monteur inhuren?",
+          "answer": "Ja, mits zij EU-gecertificeerd zijn voor F-gassen. Let wel op garantievoorwaarden en servicemogelijkheden na installatie."
+        }
+      ]
+    },
+    {
+      "slug": "gelderland",
+      "name": "Gelderland",
+      "abbr": "GE",
+      "capital": "Arnhem",
+      "totalInstallers": 145,
+      "title": "Airco Monteurs in Gelderland: Complete Gids",
+      "metaDescription": "Vind airco installateurs in Gelderland. Gecertificeerde monteurs in Arnhem, Nijmegen, Apeldoorn en de Veluwe.",
+      "heroSubtitle": "Van de Veluwe tot de Betuwe: airco specialisten in Gelderland",
+      "overview": "Gelderland is de grootste provincie van Nederland en kent een divers landschap van steden tot natuurgebieden. De vraag naar airconditioning groeit, vooral in de steden Arnhem, Nijmegen en Apeldoorn.",
+      "regulations": {
+        "title": "Regelgeving en Certificering",
+        "content": "Gelderland hanteert de standaard Nederlandse regelgeving met extra aandacht voor natuurgebieden en historische stadsdelen.",
+        "keyPoints": [
+          "F-gassen certificering verplicht",
+          "Vergunningen in beschermde natuurgebieden",
+          "Gemeentelijke regels varieren",
+          "Extra eisen in Veluwe-regio",
+          "Monumentenregels in Arnhem/Nijmegen",
+          "Subsidies beschikbaar"
+        ]
+      },
+      "serviceTypes": [
+        { "type": "Split-unit Airco", "count": 105 },
+        { "type": "Multi-split Systeem", "count": 55 },
+        { "type": "Warmtepomp", "count": 75 },
+        { "type": "Airco Onderhoud", "count": 45 },
+        { "type": "Klimaatbeheersing Bedrijven", "count": 30 }
+      ],
+      "topCities": ["Arnhem", "Nijmegen", "Apeldoorn", "Ede", "Doetinchem", "Harderwijk", "Zutphen", "Wageningen", "Zevenaar", "Winterswijk"],
+      "averagePrices": {
+        "splitUnit": "1.600 - 3.100",
+        "multiSplit": "4.100 - 7.200",
+        "maintenance": "70 - 135",
+        "notes": "Prijzen in Gelderland liggen gemiddeld tussen Randstad en andere provincies. In landelijke gebieden kunnen reiskosten hoger zijn."
+      },
+      "faqs": [
+        {
+          "question": "Mag ik een airco plaatsen in een natuurgebied?",
+          "answer": "In beschermde natuurgebieden gelden vaak extra regels voor geluid en zichtbaarheid. Raadpleeg de gemeente en eventueel de provincie voor de specifieke eisen."
+        },
+        {
+          "question": "Welke airco is geschikt voor een vrijstaande woning?",
+          "answer": "Voor vrijstaande woningen is vaak een multi-split systeem ideaal, waarmee je meerdere kamers kunt koelen met een buitenunit. Een lucht-lucht warmtepomp combineert koelen en verwarmen."
+        }
+      ]
+    },
+    {
+      "slug": "utrecht",
+      "name": "Utrecht",
+      "abbr": "UT",
+      "capital": "Utrecht",
+      "totalInstallers": 125,
+      "title": "Airco Monteurs in Utrecht: Complete Gids",
+      "metaDescription": "Vind airco installateurs in provincie Utrecht. Gecertificeerde monteurs in Utrecht stad, Amersfoort, Nieuwegein en omstreken.",
+      "heroSubtitle": "Klimaatcomfort in het hart van Nederland",
+      "overview": "De provincie Utrecht ligt centraal in Nederland en kent een mix van historische steden en moderne wijken. De vraag naar airconditioning groeit snel, vooral in de stad Utrecht en Amersfoort.",
+      "regulations": {
+        "title": "Regelgeving en Certificering",
+        "content": "Utrecht heeft strenge regels voor airco in de historische binnenstad. In nieuwere wijken zijn de regels soepeler.",
+        "keyPoints": [
+          "F-gassen certificering verplicht",
+          "Strenge regels in Utrecht binnenstad",
+          "Monumentenvergunning vaak nodig",
+          "VvE toestemming vereist",
+          "Geluidseisen in woonwijken",
+          "Subsidies via gemeente en rijk"
+        ]
+      },
+      "serviceTypes": [
+        { "type": "Split-unit Airco", "count": 95 },
+        { "type": "Multi-split Systeem", "count": 50 },
+        { "type": "Warmtepomp", "count": 65 },
+        { "type": "Airco Onderhoud", "count": 40 },
+        { "type": "Klimaatbeheersing Bedrijven", "count": 25 }
+      ],
+      "topCities": ["Utrecht", "Amersfoort", "Nieuwegein", "Veenendaal", "Zeist", "Houten", "IJsselstein", "Woerden", "Soest", "De Bilt"],
+      "averagePrices": {
+        "splitUnit": "1.750 - 3.300",
+        "multiSplit": "4.300 - 7.800",
+        "maintenance": "80 - 145",
+        "notes": "Utrecht stad kent hogere prijzen vergelijkbaar met Amsterdam. Randgemeenten zijn vaak voordeliger."
+      },
+      "faqs": [
+        {
+          "question": "Is airco toegestaan in de Utrechtse grachtenpanden?",
+          "answer": "Ja, maar vaak is een monumentenvergunning nodig. De buitenunit moet onzichtbaar geplaatst worden, bijvoorbeeld op een plat dak of in een tuin."
+        },
+        {
+          "question": "Hoelang gaat een airco mee?",
+          "answer": "Een goed onderhouden airco gaat gemiddeld 15-20 jaar mee. Jaarlijks onderhoud verlengt de levensduur en houdt het systeem efficient."
+        }
+      ]
+    }
+  ]
+}

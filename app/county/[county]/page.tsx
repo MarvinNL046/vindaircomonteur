@@ -97,19 +97,19 @@ export default async function CountyPage({ params }: PageProps) {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.rehabnearbyme.com'
+        item: 'https://www.vindaircomonteur.nl'
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: state,
-        item: `https://www.rehabnearbyme.com/state/${createStateSlug(state)}`
+        item: `https://www.vindaircomonteur.nl/state/${createStateSlug(state)}`
       },
       {
         '@type': 'ListItem',
         position: 3,
-        name: `${matchedCounty} County`,
-        item: `https://www.rehabnearbyme.com/county/${countySlug}`
+        name: `Gemeente ${matchedCounty}`,
+        item: `https://www.vindaircomonteur.nl/county/${countySlug}`
       }
     ]
   };
@@ -139,7 +139,7 @@ export default async function CountyPage({ params }: PageProps) {
                   </Link>
                 </li>
                 <li>/</li>
-                <li className="text-white">{matchedCounty} County</li>
+                <li className="text-white">Gemeente {matchedCounty}</li>
               </ol>
             </nav>
 
@@ -165,25 +165,13 @@ export default async function CountyPage({ params }: PageProps) {
             {/* Stats */}
             <div className="flex flex-wrap gap-8">
               <div>
-                <div className="text-3xl font-bold text-coral-300">{stats.total}</div>
-                <div className="text-primary-foreground/70 text-sm">Treatment Centers</div>
+                <div className="text-3xl font-bold text-cyan-300">{stats.total}</div>
+                <div className="text-primary-foreground/70 text-sm">Airco Bedrijven</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-coral-300">{cities.length}</div>
-                <div className="text-primary-foreground/70 text-sm">Cities</div>
+                <div className="text-3xl font-bold text-cyan-300">{cities.length}</div>
+                <div className="text-primary-foreground/70 text-sm">Steden</div>
               </div>
-              {stats.inpatient > 0 && (
-                <div>
-                  <div className="text-3xl font-bold text-coral-300">{stats.inpatient}</div>
-                  <div className="text-primary-foreground/70 text-sm">Inpatient</div>
-                </div>
-              )}
-              {stats.detox > 0 && (
-                <div>
-                  <div className="text-3xl font-bold text-coral-300">{stats.detox}</div>
-                  <div className="text-primary-foreground/70 text-sm">Detox Centers</div>
-                </div>
-              )}
             </div>
           </div>
         </div>
@@ -198,27 +186,27 @@ export default async function CountyPage({ params }: PageProps) {
             {/* Main Content */}
             <div className="lg:col-span-2 space-y-8">
               {/* Tips Section */}
-              <Card className="p-6 bg-gradient-to-r from-teal-50 to-coral-50/30 dark:from-teal-900/20 dark:to-coral-900/10 border-teal-100 dark:border-teal-800">
+              <Card className="p-6 bg-gradient-to-r from-teal-50 to-cyan-50/30 dark:from-teal-900/20 dark:to-cyan-900/10 border-teal-100 dark:border-teal-800">
                 <h2 className="font-serif text-xl font-semibold mb-4 flex items-center gap-2">
                   <Lightbulb className="w-5 h-5 text-accent" />
-                  Tips for Choosing a Treatment Center
+                  Tips voor het kiezen van een airco monteur
                 </h2>
                 <ul className="space-y-3 text-muted-foreground">
                   <li className="flex items-start gap-3">
                     <ChevronRight className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
-                    <span>Compare multiple facilities to find the best fit for your specific needs</span>
+                    <span>Vergelijk meerdere installateurs en vraag minimaal 3 offertes aan</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <ChevronRight className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
-                    <span>Verify that the facility accepts your insurance and ask about payment options</span>
+                    <span>Controleer of de monteur F-gassen gecertificeerd is (wettelijk verplicht)</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <ChevronRight className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
-                    <span>Look for facilities with evidence-based treatment programs and licensed staff</span>
+                    <span>Vraag naar referenties en bekijk reviews van eerdere klanten</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <ChevronRight className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
-                    <span>Consider the level of care needed: detox, inpatient, outpatient, or sober living</span>
+                    <span>Kies bij voorkeur een erkend dealer van het merk airco dat je wilt</span>
                   </li>
                 </ul>
               </Card>
@@ -277,7 +265,7 @@ export default async function CountyPage({ params }: PageProps) {
               {/* Cities Grid */}
               {cities.length > 1 && (
                 <div>
-                  <h2 className="font-serif text-2xl font-semibold mb-6">Treatment Centers by City</h2>
+                  <h2 className="font-serif text-2xl font-semibold mb-6">Airco Monteurs per Stad</h2>
                   <div className="grid gap-4 grid-cols-2 md:grid-cols-3">
                     {cities.map((city) => {
                       const cityFacilities = facilities.filter((f: Facility) => f.city === city);
@@ -297,7 +285,7 @@ export default async function CountyPage({ params }: PageProps) {
                                   {city}
                                 </h3>
                                 <p className="text-sm text-muted-foreground">
-                                  {cityFacilities.length} {cityFacilities.length !== 1 ? 'centers' : 'center'}
+                                  {cityFacilities.length} {cityFacilities.length !== 1 ? 'bedrijven' : 'bedrijf'}
                                 </p>
                               </div>
                             </div>
@@ -311,29 +299,25 @@ export default async function CountyPage({ params }: PageProps) {
 
               {/* Informational Content */}
               <Card className="p-6">
-                <h2 className="font-serif text-2xl font-semibold mb-4">Finding Addiction Treatment in {matchedCounty} County</h2>
+                <h2 className="font-serif text-2xl font-semibold mb-4">Airco Installateurs in Gemeente {matchedCounty}</h2>
                 <div className="prose prose-lg max-w-none text-muted-foreground">
                   <p>
-                    In {matchedCounty} County, {state} you&apos;ll find {stats.total} {stats.total !== 1 ? 'treatment centers' : 'treatment center'},
-                    including {stats.inpatient > 0 ? `${stats.inpatient} inpatient ${stats.inpatient !== 1 ? 'facilities' : 'facility'}` : ''}
-                    {stats.outpatient > 0 ? `, ${stats.outpatient} outpatient ${stats.outpatient !== 1 ? 'programs' : 'program'}` : ''}
-                    {stats.detox > 0 ? `, and ${stats.detox} detox ${stats.detox !== 1 ? 'centers' : 'center'}` : ''}.
-                    Each facility offers different treatment approaches and specializations.
+                    In gemeente {matchedCounty}, {state} vind je {stats.total} airco {stats.total !== 1 ? 'bedrijven' : 'bedrijf'}.
+                    Deze installateurs bieden diverse diensten aan, van split-unit installatie tot onderhoud en warmtepomp plaatsing.
                   </p>
 
-                  <h3 className="font-serif text-xl font-semibold text-foreground mt-6 mb-3">Choosing the Right Treatment</h3>
+                  <h3 className="font-serif text-xl font-semibold text-foreground mt-6 mb-3">De juiste monteur kiezen</h3>
                   <p>
-                    When selecting a treatment center, several factors are important:
-                    the level of care needed (detox, inpatient, or outpatient), insurance coverage and payment options,
-                    treatment approaches and therapies offered, and the facility&apos;s success rates and accreditation.
-                    Many centers in {matchedCounty} County offer specialized programs for different substances and co-occurring mental health disorders.
+                    Bij het kiezen van een airco installateur zijn verschillende factoren belangrijk:
+                    F-gassen certificering (wettelijk verplicht), ervaring met het gewenste merk,
+                    garantievoorwaarden en de mogelijkheid tot onderhoud na installatie.
+                    Veel bedrijven in gemeente {matchedCounty} zijn gespecialiseerd in bepaalde merken zoals Daikin, Mitsubishi of LG.
                   </p>
 
-                  <h3 className="font-serif text-xl font-semibold text-foreground mt-6 mb-3">Getting Started</h3>
+                  <h3 className="font-serif text-xl font-semibold text-foreground mt-6 mb-3">Aan de slag</h3>
                   <p>
-                    Taking the first step toward recovery can be challenging, but help is available.
-                    Most treatment centers offer free consultations to discuss your needs and determine the best treatment plan.
-                    Don&apos;t hesitate to contact multiple facilities to compare programs and find the right fit for your recovery journey.
+                    Vraag vrijblijvend offertes aan bij meerdere installateurs om prijzen en diensten te vergelijken.
+                    De meeste bedrijven bieden gratis adviesgesprekken aan om je situatie te bekijken en een passend systeem te adviseren.
                   </p>
                 </div>
               </Card>

@@ -1,470 +1,388 @@
 {
   "types": [
     {
-      "slug": "inpatient-rehab",
-      "typeSlug": "inpatient-rehab",
-      "title": "Inpatient Rehabilitation Centers",
-      "subtitle": "Understanding Residential Treatment Programs",
-      "metaTitle": "Inpatient Rehab Centers Guide | Residential Treatment in the USA",
-      "metaDescription": "Complete guide to inpatient rehabilitation centers in the United States. Learn about residential treatment programs, what to expect, and how to choose the right facility.",
-      "heroImage": "/images/guides/inpatient-rehab-hero.jpg",
+      "slug": "split-unit-airco",
+      "typeSlug": "split-unit",
+      "title": "Split-unit Airco",
+      "subtitle": "De populairste keuze voor woningen",
+      "metaTitle": "Split-unit Airco Gids | Alles over Split Airconditioning",
+      "metaDescription": "Complete gids over split-unit airco's. Leer over de werking, voordelen, kosten en installatie van split airconditioners in Nederland.",
+      "heroImage": "/images/guides/split-unit-hero.jpg",
       "sections": {
         "introduction": {
-          "title": "What is Inpatient Rehabilitation?",
-          "content": "Inpatient rehabilitation centers, also known as residential treatment facilities, provide 24-hour care in a structured environment for individuals struggling with addiction or substance use disorders. These facilities offer comprehensive treatment programs that remove patients from their everyday environment, allowing them to focus entirely on recovery without the distractions and triggers of daily life.\n\nResidential treatment typically lasts 28 to 90 days, though some programs may be shorter or longer depending on individual needs. During this time, patients live at the facility and participate in a structured schedule of therapies, counseling sessions, and activities designed to address the physical, psychological, and social aspects of addiction.\n\nInpatient programs are particularly beneficial for individuals with severe addictions, those who have relapsed after outpatient treatment, or anyone who needs a safe, supportive environment away from negative influences. The immersive nature of residential treatment allows for intensive therapy and the development of strong coping skills."
+          "title": "Wat is een Split-unit Airco?",
+          "content": "Een split-unit airco bestaat uit twee delen: een binnenunit die in de kamer hangt en een buitenunit die buiten geplaatst wordt. Deze twee units zijn met elkaar verbonden via koelleidingen en elektrische kabels. De buitenunit bevat de compressor en warmtewisselaar, terwijl de binnenunit de gekoelde of verwarmde lucht de kamer in blaast.\n\nSplit-units zijn de populairste keuze voor woningen in Nederland vanwege hun efficientie, stil werkend vermogen en het feit dat ze zowel kunnen koelen als verwarmen. Ze zijn geschikt voor kamers van 15 tot 60 vierkante meter, afhankelijk van het gekozen vermogen."
         },
-        "history": {
-          "title": "Evolution of Residential Treatment",
-          "content": "The concept of residential treatment for addiction has evolved significantly over the past century. Early treatment facilities were often associated with hospitals or psychiatric institutions, but the modern approach to addiction treatment emerged in the mid-20th century with the development of the therapeutic community model.\n\nThe Minnesota Model, developed in the 1950s at Hazelden and other pioneering facilities, revolutionized addiction treatment by combining professional medical care with the peer support principles of Alcoholics Anonymous. This integrated approach became the foundation for many modern inpatient programs.\n\nToday's inpatient rehabilitation centers incorporate evidence-based practices, including cognitive-behavioral therapy, medication-assisted treatment, and holistic approaches. The field continues to advance with new research into addiction neuroscience and personalized treatment approaches."
+        "howItWorks": {
+          "title": "Hoe Werkt een Split-unit?",
+          "content": "Een split-unit airco werkt volgens het warmtepompprincipe. In de koelmodus ontrekt de binnenunit warmte aan de kamerlucht en transporteert deze via koudemiddel naar de buitenunit, waar de warmte wordt afgegeven aan de buitenlucht. In de verwarmingsmodus werkt dit precies andersom: warmte wordt uit de buitenlucht gehaald en naar binnen gebracht.\n\nHet koudemiddel circuleert door de leidingen tussen binnen- en buitenunit. In de verdamper (binnenunit) verdampt het koudemiddel en neemt warmte op. In de condensor (buitenunit) condenseert het koudemiddel en geeft warmte af. Dit proces is zeer energiezuinig en levert tot 4 keer meer koeling of warmte dan het aan stroom verbruikt."
         },
         "characteristics": {
-          "title": "Key Features of Inpatient Programs",
+          "title": "Kenmerken van Split-units",
           "items": [
             {
-              "title": "24/7 Medical Supervision",
-              "description": "Round-the-clock medical and clinical staff ensure patient safety, especially during detoxification. Medical professionals can address complications and adjust treatment plans as needed."
+              "title": "Energiezuinig",
+              "description": "Split-units hebben vaak een A+++ energielabel en zijn tot 4x efficienter dan elektrische verwarming of mobiele airco's."
             },
             {
-              "title": "Structured Daily Schedule",
-              "description": "Patients follow a consistent routine that includes individual therapy, group sessions, meals, physical activities, and rest. This structure helps establish healthy habits and reduces anxiety."
+              "title": "Stil in gebruik",
+              "description": "De binnenunit produceert slechts 19-25 dB, vergelijkbaar met gefluister. De buitenunit staat buiten en veroorzaakt geen geluidshinder binnen."
             },
             {
-              "title": "Individual and Group Therapy",
-              "description": "A combination of one-on-one counseling with licensed therapists and group therapy sessions helps patients understand their addiction, develop coping skills, and build peer support networks."
+              "title": "Koelen en verwarmen",
+              "description": "Moderne split-units kunnen zowel koelen in de zomer als efficient verwarmen in de winter als lucht-lucht warmtepomp."
             },
             {
-              "title": "Family Programs",
-              "description": "Many facilities offer family therapy sessions and education programs, recognizing that addiction affects the entire family unit and that family support is crucial for long-term recovery."
+              "title": "Compact design",
+              "description": "Binnenunits zijn slank en modern vormgegeven en passen in elk interieur. Ze nemen weinig ruimte in beslag."
             },
             {
-              "title": "Aftercare Planning",
-              "description": "Discharge planning begins early in treatment, ensuring patients have a solid plan for continuing care, support groups, and resources after leaving the facility."
+              "title": "Snelle koeling",
+              "description": "Een split-unit kan een kamer binnen 10-15 minuten merkbaar afkoelen, veel sneller dan een mobiele airco."
             },
             {
-              "title": "Comfortable Living Environment",
-              "description": "Modern facilities provide comfortable accommodations, nutritious meals, and amenities that support physical and mental well-being during the recovery process."
+              "title": "Lange levensduur",
+              "description": "Bij goed onderhoud gaat een split-unit 15-20 jaar mee. Premium merken bieden uitgebreide garantie."
             }
           ]
         },
-        "howToFind": {
-          "title": "How to Find Inpatient Treatment",
-          "content": "Finding the right inpatient rehabilitation center involves several considerations. Start by consulting with healthcare providers, insurance companies, or addiction specialists who can provide referrals. Our comprehensive directory allows you to search for facilities by location, specialization, and amenities.\n\nWhen evaluating facilities, consider accreditation status (look for Joint Commission or CARF accreditation), treatment approaches offered, staff credentials, and success rates if available. Many facilities offer virtual tours or initial consultations to help families make informed decisions.\n\nInsurance coverage varies widely, so contact your provider to understand your benefits. Many facilities also offer payment plans or can help connect patients with financing options for treatment."
+        "installation": {
+          "title": "Installatie van een Split-unit",
+          "content": "De installatie van een split-unit moet altijd uitgevoerd worden door een F-gassen gecertificeerde monteur. Dit is wettelijk verplicht vanwege het werken met koudemiddelen. Een standaard installatie duurt 4-6 uur.\n\nDe installatie omvat: het monteren van de binnenunit aan de muur, het plaatsen van de buitenunit (op de grond, aan de gevel of op het dak), het aanleggen van koelleidingen door de muur, de elektrische aansluiting en het inbedrijfstellen van het systeem. Na installatie test de monteur het systeem en legt de bediening uit."
         },
-        "visiting": {
-          "title": "What to Expect During Treatment",
-          "content": "Upon admission to an inpatient facility, patients typically undergo a comprehensive assessment that includes medical evaluation, psychiatric screening, and addiction history. This assessment informs the development of an individualized treatment plan.\n\nThe first phase often involves medically supervised detoxification if needed, followed by the therapeutic phase of treatment. Patients participate in various therapies and activities throughout the day, with scheduled breaks and recreational time.\n\nFamily members may visit during designated hours, and many programs include family therapy sessions or family weekends. Communication policies vary by facility, with some limiting phone and internet access to help patients focus on recovery.\n\nAs patients progress through treatment, they gradually take on more responsibility and may participate in off-site activities or community meetings as part of preparing for discharge."
+        "costs": {
+          "title": "Kosten Split-unit Airco",
+          "content": "De totale kosten voor een split-unit airco inclusief installatie liggen tussen de 1.800 en 3.500 euro. Dit is afhankelijk van het merk, vermogen en de complexiteit van de installatie. Premium merken zoals Daikin en Mitsubishi zijn duurder maar bieden betere efficientie en langere garantie.\n\nDe jaarlijkse energiekosten bedragen bij gemiddeld gebruik (500 uur) ongeveer 150-250 euro. Onderhoud kost 80-150 euro per jaar. Op lange termijn is een split-unit voordeliger dan een mobiele airco door de hogere efficientie."
         }
       },
       "faqs": [
         {
-          "question": "How long does inpatient treatment typically last?",
-          "answer": "Standard inpatient programs are 28-30 days, but many individuals benefit from 60-90 day programs. The appropriate length depends on the severity of addiction, presence of co-occurring disorders, and individual progress. Longer treatment is generally associated with better outcomes."
+          "question": "Hoeveel kost een split-unit airco?",
+          "answer": "Een complete split-unit installatie kost 1.800 tot 3.500 euro inclusief montage. De unit zelf kost 800-2.000 euro, de installatie 700-1.500 euro afhankelijk van de complexiteit."
         },
         {
-          "question": "What should I bring to inpatient rehab?",
-          "answer": "Most facilities provide a packing list that typically includes comfortable clothing, toiletries, insurance information, and any prescribed medications. Items like electronics, jewelry, and outside food are often restricted. Contact the facility directly for their specific guidelines."
+          "question": "Hoe groot moet een split-unit zijn voor mijn kamer?",
+          "answer": "Reken met 100 watt per m2. Een kamer van 25m2 heeft ongeveer 2,5 kW koelvermogen nodig. Bij veel ramen, slechte isolatie of hoge plafonds kan dit meer zijn."
         },
         {
-          "question": "Is inpatient treatment covered by insurance?",
-          "answer": "Many insurance plans cover at least a portion of inpatient treatment under the Mental Health Parity and Addiction Equity Act. Coverage varies by plan, so contact your insurance provider to verify benefits. Most facilities have staff who can help verify insurance coverage."
+          "question": "Is een split-unit beter dan een mobiele airco?",
+          "answer": "Ja, voor permanente koeling is een split-unit veel beter. Ze zijn 2-3x efficienter, veel stiller (20 dB vs 50+ dB), koelen sneller en kunnen ook verwarmen. Alleen de aanschaf is hoger."
         },
         {
-          "question": "Can I continue working during inpatient treatment?",
-          "answer": "Inpatient treatment requires full-time residence at the facility, so continuing regular work is not possible. However, FMLA may protect your job, and many employers support employees seeking treatment. Discuss options with your HR department before admission."
+          "question": "Mag ik zelf een split-unit installeren?",
+          "answer": "Nee, de installatie moet door een F-gassen gecertificeerde monteur gebeuren. Dit is wettelijk verplicht vanwege het werken met koudemiddelen die het milieu kunnen schaden."
         },
         {
-          "question": "What happens after inpatient treatment?",
-          "answer": "Aftercare typically includes stepping down to outpatient treatment, attending support group meetings (like AA or NA), continuing individual therapy, and possibly residing in a sober living home. The transition plan is developed during treatment to ensure continuity of care."
+          "question": "Hoeveel geluid maakt een split-unit?",
+          "answer": "De binnenunit maakt slechts 19-25 dB, vergelijkbaar met gefluister. Je hoort hem nauwelijks. De buitenunit maakt 40-55 dB maar staat buiten."
         }
       ]
     },
     {
-      "slug": "outpatient-programs",
-      "typeSlug": "outpatient-program",
-      "title": "Outpatient Treatment Programs",
-      "subtitle": "Flexible Recovery Options While Maintaining Daily Life",
-      "metaTitle": "Outpatient Treatment Programs Guide | Flexible Addiction Recovery",
-      "metaDescription": "Comprehensive guide to outpatient treatment programs for addiction recovery. Learn about IOP, PHP, and standard outpatient options that allow you to maintain work and family responsibilities.",
-      "heroImage": "/images/guides/outpatient-hero.jpg",
+      "slug": "multi-split-systeem",
+      "typeSlug": "multi-split",
+      "title": "Multi-split Systeem",
+      "subtitle": "Meerdere kamers koelen met een buitenunit",
+      "metaTitle": "Multi-split Airco Gids | Meerdere Kamers Koelen",
+      "metaDescription": "Alles over multi-split aircosystemen. Koel meerdere kamers met een buitenunit. Kosten, voordelen en installatie uitgelegd.",
+      "heroImage": "/images/guides/multi-split-hero.jpg",
       "sections": {
         "introduction": {
-          "title": "What is Outpatient Treatment?",
-          "content": "Outpatient treatment programs provide addiction recovery services while allowing patients to live at home and maintain many of their daily responsibilities. These programs range from intensive outpatient programs (IOP) requiring multiple sessions per week to standard outpatient care with weekly appointments.\n\nOutpatient treatment is ideal for individuals with less severe addictions, strong support systems at home, or those stepping down from residential treatment. It offers flexibility for people who cannot take extended time away from work, school, or family obligations.\n\nThe structure of outpatient programs varies significantly. Intensive outpatient programs typically involve 9-20 hours of treatment per week, while standard outpatient care may consist of one or two sessions weekly. This flexibility allows treatment to be tailored to individual needs and circumstances."
+          "title": "Wat is een Multi-split Systeem?",
+          "content": "Een multi-split systeem is een airconditioning waarbij een buitenunit meerdere binnenunits aanstuurt. Hiermee kun je met een enkele buitenunit tot 5 verschillende kamers koelen of verwarmen. Elke binnenunit is apart regelbaar, zodat je per kamer de temperatuur kunt instellen.\n\nMulti-split systemen zijn ideaal voor woningen waar je meerdere kamers wilt klimatiseren maar niet de ruimte hebt voor meerdere buitenunits. Ze zijn populair bij grotere woningen, appartementen en kleine kantoren."
         },
-        "history": {
-          "title": "Development of Outpatient Services",
-          "content": "Outpatient addiction treatment has expanded significantly since the 1970s, driven by research showing that many individuals can successfully recover without residential care. The development of community mental health centers and the recognition that addiction is a chronic condition led to more accessible treatment options.\n\nThe passage of the Mental Health Parity and Addiction Equity Act in 2008 increased insurance coverage for outpatient services, making treatment more accessible. The COVID-19 pandemic accelerated the adoption of telehealth options, further expanding outpatient treatment possibilities.\n\nToday, outpatient programs incorporate evidence-based practices including cognitive-behavioral therapy, motivational interviewing, and medication-assisted treatment. The continuum of care model recognizes outpatient treatment as an essential component of long-term recovery."
+        "howItWorks": {
+          "title": "Hoe Werkt een Multi-split?",
+          "content": "Een multi-split werkt volgens hetzelfde principe als een single split, maar dan met meerdere binnenunits aangesloten op een krachtigere buitenunit. Het koudemiddel wordt via een verdeelblok naar de verschillende binnenunits geleid.\n\nModerne multi-split systemen gebruiken inverter technologie waardoor de compressor zijn vermogen aanpast aan de vraag. Als maar een kamer koeling nodig heeft, draait de compressor op laag vermogen. Dit maakt het systeem zeer energiezuinig."
         },
         "characteristics": {
-          "title": "Types of Outpatient Programs",
+          "title": "Kenmerken van Multi-split Systemen",
           "items": [
             {
-              "title": "Partial Hospitalization Program (PHP)",
-              "description": "The most intensive outpatient option, PHP typically requires 5-7 days per week, 4-6 hours per day. Patients return home each evening but receive structured treatment similar to inpatient care during the day."
+              "title": "Een buitenunit voor meerdere kamers",
+              "description": "Bespaar ruimte en houd de gevel netjes met slechts een buitenunit voor 2-5 binnenunits."
             },
             {
-              "title": "Intensive Outpatient Program (IOP)",
-              "description": "IOP typically involves 3-5 sessions per week, 3-4 hours per session. This level of care allows patients to work or attend school while still receiving substantial treatment support."
+              "title": "Individuele temperatuurregeling",
+              "description": "Elke kamer heeft zijn eigen thermostaat en kan apart geregeld worden."
             },
             {
-              "title": "Standard Outpatient",
-              "description": "The least intensive option, standard outpatient involves one to two sessions per week. This is often appropriate for maintenance after completing more intensive treatment or for individuals with mild addiction."
+              "title": "Verschillende binnenunit types",
+              "description": "Combineer wandunits, cassette-units, vloermodellen of inbouwunits naar behoefte."
             },
             {
-              "title": "Evening and Weekend Programs",
-              "description": "Many facilities offer flexible scheduling with evening or weekend sessions to accommodate work and family schedules, making treatment accessible to more people."
+              "title": "Kostenefficient",
+              "description": "Goedkoper dan meerdere losse split-units, zowel in aanschaf als onderhoud."
             },
             {
-              "title": "Telehealth Options",
-              "description": "Virtual outpatient sessions via video conferencing provide treatment access for those in rural areas or with transportation barriers. Many programs now offer hybrid models combining in-person and virtual sessions."
+              "title": "Flexibel uit te breiden",
+              "description": "Bij veel systemen kun je later extra binnenunits toevoegen."
             },
             {
-              "title": "Specialized Programs",
-              "description": "Some outpatient programs specialize in particular populations (adolescents, women, veterans) or specific addictions (opioids, alcohol), providing targeted treatment approaches."
+              "title": "Wifi-bediening",
+              "description": "De meeste moderne systemen zijn via een app te bedienen, ook op afstand."
             }
           ]
         },
-        "howToFind": {
-          "title": "Finding the Right Outpatient Program",
-          "content": "Selecting an outpatient program involves considering your schedule, the severity of your addiction, insurance coverage, and personal preferences. Our directory helps you search for programs by location, hours of operation, and treatment specializations.\n\nLook for programs with licensed clinicians, evidence-based treatment approaches, and good reviews from former patients. Many programs offer free assessments to determine the appropriate level of care.\n\nInsurance typically covers outpatient treatment, but verify benefits and any requirements like prior authorization. Some programs offer sliding scale fees or payment plans for those without adequate insurance coverage."
+        "installation": {
+          "title": "Installatie Multi-split",
+          "content": "De installatie van een multi-split is complexer dan een single split en duurt 1-2 dagen. Alle koelleidingen moeten van de buitenunit naar de verschillende binnenunits geleid worden, vaak via een centraal verdeelpunt.\n\nDe monteur bepaalt de optimale route voor de leidingen en de beste positie voor elke binnenunit. Hierbij wordt rekening gehouden met luchtstroom, esthetiek en praktische toegankelijkheid voor onderhoud."
         },
-        "visiting": {
-          "title": "What to Expect in Outpatient Treatment",
-          "content": "Outpatient treatment typically begins with a comprehensive assessment to determine the appropriate level of care and develop an individualized treatment plan. You'll meet with counselors, therapists, and possibly medical staff to establish your treatment goals.\n\nSessions typically include a combination of individual therapy, group therapy, and educational sessions about addiction and recovery. You'll learn coping skills, relapse prevention strategies, and healthy lifestyle habits while building a support network with peers in recovery.\n\nBetween sessions, you'll be responsible for applying what you've learned in your daily life. This might include completing homework assignments, attending support group meetings, or practicing new coping skills. Progress is regularly assessed, and your treatment plan may be adjusted as needed."
+        "costs": {
+          "title": "Kosten Multi-split Systeem",
+          "content": "Een multi-split systeem met 2 binnenunits kost gemiddeld 4.500 tot 6.500 euro inclusief installatie. Voor 3-4 binnenunits reken je op 6.000 tot 9.000 euro. Premium merken zijn duurder maar bieden betere prestaties en langere garantie.\n\nVergeleken met meerdere losse split-units is een multi-split vaak voordeliger, zowel in aanschaf als in jaarlijks onderhoud. Het energieverbruik is vergelijkbaar."
         }
       },
       "faqs": [
         {
-          "question": "How do I know if outpatient treatment is right for me?",
-          "answer": "Outpatient treatment may be appropriate if you have a stable living situation, support at home, no need for medical detox, and can commit to attending scheduled sessions. A professional assessment can help determine the right level of care for your situation."
+          "question": "Hoeveel binnenunits kan ik aansluiten op een multi-split?",
+          "answer": "De meeste multi-split systemen ondersteunen 2-5 binnenunits. Het maximum hangt af van het vermogen van de buitenunit. Neem contact op met een installateur voor advies op maat."
         },
         {
-          "question": "Can I work while in outpatient treatment?",
-          "answer": "Yes, outpatient treatment is designed to accommodate work and other responsibilities. Many programs offer flexible scheduling, including evening and weekend options. Intensive programs require more time but can often work around employment."
+          "question": "Is een multi-split voordeliger dan meerdere single splits?",
+          "answer": "Ja, meestal wel. Je bespaart op buitenunits, installatiekosten en onderhoud. Alleen bij grote afstanden tussen de kamers kunnen losse splits voordeliger zijn."
         },
         {
-          "question": "How long does outpatient treatment last?",
-          "answer": "Treatment duration varies based on individual needs. IOP typically lasts 8-12 weeks, while standard outpatient may continue for several months to a year. Many people benefit from ongoing maintenance sessions even after completing a formal program."
+          "question": "Kunnen alle binnenunits tegelijk draaien?",
+          "answer": "Ja, maar het vermogen wordt dan verdeeld. Een goed gedimensioneerd systeem kan alle units op vol vermogen laten draaien. Bespreek je wensen met de installateur."
         },
         {
-          "question": "Is outpatient treatment effective?",
-          "answer": "Research shows outpatient treatment is effective for many individuals, particularly those with less severe addictions or strong support systems. Success rates are comparable to inpatient treatment when the appropriate level of care is matched to individual needs."
-        },
-        {
-          "question": "What if I relapse during outpatient treatment?",
-          "answer": "Relapse is often part of the recovery process. If you relapse during outpatient treatment, your care team will work with you to adjust your treatment plan. This might include increasing session frequency or considering a higher level of care temporarily."
+          "question": "Kan ik verschillende types binnenunits combineren?",
+          "answer": "Ja, bij de meeste merken kun je wandunits, cassettes en vloermodellen combineren binnen een systeem. Dit geeft flexibiliteit per ruimte."
         }
       ]
     },
     {
-      "slug": "detox-centers",
-      "typeSlug": "detox-center",
-      "title": "Detoxification Centers",
-      "subtitle": "Medical Support for Safe Withdrawal",
-      "metaTitle": "Detox Centers Guide | Medical Detoxification Services in the USA",
-      "metaDescription": "Complete guide to detox centers in the United States. Learn about medical detoxification, what to expect during withdrawal, and how to find the right facility.",
-      "heroImage": "/images/guides/detox-hero.jpg",
+      "slug": "warmtepomp",
+      "typeSlug": "warmtepomp",
+      "title": "Lucht-lucht Warmtepomp",
+      "subtitle": "Verwarmen en koelen in een systeem",
+      "metaTitle": "Lucht-lucht Warmtepomp Gids | Verwarmen met Airco",
+      "metaDescription": "Alles over lucht-lucht warmtepompen. Hoe werken ze, wat kosten ze en hoeveel kun je besparen? Complete gids voor Nederland.",
+      "heroImage": "/images/guides/warmtepomp-hero.jpg",
       "sections": {
         "introduction": {
-          "title": "What is Medical Detoxification?",
-          "content": "Medical detoxification is the process of safely managing withdrawal symptoms when someone stops using alcohol or drugs. Detox centers provide 24-hour medical supervision to ensure safety and comfort during this critical first phase of recovery.\n\nWithdrawal can be dangerous, even life-threatening, depending on the substance and severity of dependence. Medical detox provides medications to ease symptoms, monitoring for complications, and support to help patients through the challenging initial days of sobriety.\n\nDetoxification is typically the first step in addiction treatment, not a complete treatment in itself. After completing detox, patients should transition to ongoing treatment—either inpatient rehabilitation or outpatient programs—to address the psychological and behavioral aspects of addiction."
+          "title": "Wat is een Lucht-lucht Warmtepomp?",
+          "content": "Een lucht-lucht warmtepomp is technisch gezien hetzelfde als een moderne split-unit airco. Het toestel kan zowel koelen als verwarmen door het warmtepompproces om te keren. In de zomer ontrekt het warmte aan de binnenlucht en blaast deze naar buiten. In de winter haalt het warmte uit de buitenlucht en brengt deze naar binnen.\n\nDe term 'warmtepomp' wordt gebruikt wanneer de verwarmingsfunctie centraal staat, terwijl 'airco' de koelfunctie benadrukt. Functioneel zijn ze identiek. Een lucht-lucht warmtepomp is ideaal als bijverwarming of hoofdverwarming in goed geisoleerde woningen."
         },
-        "history": {
-          "title": "Evolution of Detoxification Services",
-          "content": "The understanding of withdrawal as a medical condition requiring professional intervention has evolved significantly. Historically, withdrawal was often managed without medical support, leading to unnecessary suffering and sometimes death, particularly from alcohol withdrawal.\n\nThe development of medications like benzodiazepines for alcohol withdrawal and buprenorphine for opioid withdrawal has made detox safer and more comfortable. Medical protocols have been refined to minimize complications and improve patient outcomes.\n\nToday's detox centers utilize evidence-based protocols, including standardized withdrawal assessment tools and medication algorithms. The integration of behavioral support during detox helps prepare patients for ongoing treatment."
+        "howItWorks": {
+          "title": "Hoe Werkt een Lucht-lucht Warmtepomp?",
+          "content": "Een lucht-lucht warmtepomp gebruikt elektriciteit om warmte te verplaatsen in plaats van te genereren. Zelfs bij temperaturen tot -15 graden bevat buitenlucht nog warmte die de warmtepomp kan onttrekken en naar binnen pompen.\n\nDoor dit principe levert een warmtepomp 3-5 kWh warmte per 1 kWh stroom die het verbruikt. Dit wordt de COP (Coefficient of Performance) genoemd. Dit maakt het tot 4x efficienter dan elektrische verwarming en vaak voordeliger dan gasverwarming."
         },
         "characteristics": {
-          "title": "Key Features of Detox Centers",
+          "title": "Kenmerken van Lucht-lucht Warmtepompen",
           "items": [
             {
-              "title": "24/7 Medical Monitoring",
-              "description": "Continuous monitoring of vital signs and withdrawal symptoms ensures patient safety. Medical staff can intervene immediately if complications arise."
+              "title": "Hoog rendement",
+              "description": "Met een COP van 3-5 krijg je 3-5 kWh warmte voor elke kWh stroom. Dit is veel efficienter dan andere verwarmingsvormen."
             },
             {
-              "title": "Medication Management",
-              "description": "Physicians prescribe medications to reduce withdrawal symptoms, prevent seizures, and ease discomfort. Medication protocols are tailored to the substance and individual patient needs."
+              "title": "Koelen en verwarmen",
+              "description": "Een systeem voor het hele jaar. Verwarmen in de winter en koelen in de zomer."
             },
             {
-              "title": "Comfortable Environment",
-              "description": "Modern detox facilities provide comfortable accommodations to help patients rest and recover. A calm, supportive environment contributes to successful completion of detox."
+              "title": "Subsidie beschikbaar",
+              "description": "Via de ISDE-regeling kun je 500-1.500 euro subsidie krijgen voor een lucht-lucht warmtepomp."
             },
             {
-              "title": "Nutritional Support",
-              "description": "Proper nutrition and hydration are essential during detox. Many facilities provide nutritious meals and supplements to support physical recovery."
+              "title": "Snel warm",
+              "description": "Een ruimte is binnen 15-30 minuten op temperatuur, sneller dan vloerverwarming."
             },
             {
-              "title": "Mental Health Support",
-              "description": "Counselors and mental health professionals provide emotional support during the vulnerable detox period. Initial assessments may identify co-occurring mental health conditions."
+              "title": "Per ruimte regelbaar",
+              "description": "Ideaal als bijverwarming voor specifieke ruimtes zoals een thuiskantoor of slaapkamer."
             },
             {
-              "title": "Treatment Planning",
-              "description": "During detox, staff work with patients to develop plans for continuing treatment. This ensures a smooth transition to the next phase of care."
+              "title": "Milieuvriendelijk",
+              "description": "Geen CO2-uitstoot ter plaatse. Met groene stroom volledig duurzaam verwarmen."
             }
           ]
         },
-        "howToFind": {
-          "title": "Finding a Detox Center",
-          "content": "When searching for a detox center, consider the substances involved, as different facilities may specialize in specific types of withdrawal. Our directory allows you to filter by location and specialization.\n\nLook for facilities with licensed medical staff, including physicians experienced in addiction medicine. Accreditation from organizations like the Joint Commission indicates quality standards are met.\n\nVerify insurance coverage before admission when possible. Many detox centers offer phone assessments to help determine if their services are appropriate for your situation."
+        "savings": {
+          "title": "Besparing met een Warmtepomp",
+          "content": "De besparing hangt af van je huidige situatie. Bij vervanging van elektrische verwarming bespaar je tot 75% op verwarmingskosten. Bij vervanging van gasverwarming hangt de besparing af van de gasprijzen, maar bij de huidige prijzen is vaak 30-50% besparing mogelijk.\n\nEen lucht-lucht warmtepomp is vooral interessant als bijverwarming voor ruimtes die je vaak gebruikt. Voor hele huisverwarming wordt vaak een lucht-water warmtepomp met vloerverwarming gekozen."
         },
-        "visiting": {
-          "title": "What to Expect During Detox",
-          "content": "Detox typically begins with a medical assessment, including physical examination, lab tests, and evaluation of substance use history. This information guides the treatment approach.\n\nThe duration of detox varies by substance: alcohol detox typically takes 3-7 days, opioid detox 5-7 days, and benzodiazepine detox may take longer. Withdrawal symptoms peak within the first few days and gradually subside.\n\nDuring detox, patients receive medications as needed to manage symptoms. Staff regularly assess withdrawal severity and adjust treatment accordingly. Support from counselors helps patients cope with the emotional aspects of early sobriety.\n\nAs physical withdrawal symptoms resolve, the focus shifts to preparing for ongoing treatment. Staff will discuss options and help arrange the next level of care."
+        "costs": {
+          "title": "Kosten Lucht-lucht Warmtepomp",
+          "content": "Een lucht-lucht warmtepomp (split-unit met verwarmingsfunctie) kost 1.800 tot 3.500 euro inclusief installatie. Na aftrek van ISDE-subsidie (500-1.500 euro) komt dit neer op 1.000 tot 3.000 euro.\n\nDe terugverdientijd is afhankelijk van gebruik en energieprijzen, maar ligt meestal tussen 3-7 jaar. Daarna profiteer je nog 10-15 jaar van lagere energiekosten."
         }
       },
       "faqs": [
         {
-          "question": "Is medical detox necessary for everyone?",
-          "answer": "Not everyone requires medical detox, but it is essential for alcohol, benzodiazepines, and severe opioid dependence due to potentially dangerous withdrawal symptoms. A medical professional can assess your situation and recommend the appropriate level of care."
+          "question": "Werkt een warmtepomp ook bij vrieskou?",
+          "answer": "Ja, moderne warmtepompen werken tot -15 of zelfs -20 graden. Wel neemt de efficientie af bij lagere temperaturen. Onder -5 graden kan een hybride opstelling of bijverwarming verstandig zijn."
         },
         {
-          "question": "How long does detox take?",
-          "answer": "Detox duration varies by substance: alcohol (3-7 days), opioids (5-7 days), benzodiazepines (1-4 weeks for acute withdrawal). Individual factors like length of use and overall health also affect duration."
+          "question": "Kan ik subsidie krijgen voor een lucht-lucht warmtepomp?",
+          "answer": "Ja, via de ISDE-regeling kun je 500-1.500 euro subsidie krijgen, afhankelijk van het vermogen. Check ook gemeentelijke subsidies in je woonplaats."
         },
         {
-          "question": "Can I detox at home?",
-          "answer": "Home detox can be dangerous, especially for alcohol and benzodiazepines, which can cause life-threatening seizures. Even when not physically dangerous, medical supervision improves comfort and completion rates. Always consult a medical professional."
+          "question": "Is een lucht-lucht warmtepomp geschikt als hoofdverwarming?",
+          "answer": "Voor goed geisoleerde woningen wel. Voor oudere, slecht geisoleerde woningen is het beter als bijverwarming of in combinatie met een andere warmtebron."
         },
         {
-          "question": "Does insurance cover detox?",
-          "answer": "Most insurance plans cover medical detox as it is considered medically necessary. Coverage details vary by plan, so verify benefits before admission. Many facilities have staff who can help with insurance verification."
+          "question": "Hoeveel kan ik besparen met een warmtepomp?",
+          "answer": "Ten opzichte van elektrische verwarming tot 75%. Ten opzichte van gas, bij huidige prijzen, 30-50%. Dit hangt af van isolatie, gebruik en energieprijzen."
         },
         {
-          "question": "What happens after detox?",
-          "answer": "Detox addresses physical dependence but not the underlying addiction. Continuing treatment through inpatient or outpatient programs is essential for lasting recovery. Your detox facility should help arrange the next level of care."
+          "question": "Wat is het verschil met een lucht-water warmtepomp?",
+          "answer": "Een lucht-lucht warmtepomp blaast warme lucht de kamer in. Een lucht-water warmtepomp verwarmt water voor radiatoren of vloerverwarming. Lucht-water is duurder maar geschikter voor hele huisverwarming."
         }
       ]
     },
     {
-      "slug": "sober-living",
-      "typeSlug": "sober-living",
-      "title": "Sober Living Homes",
-      "subtitle": "Transitional Housing for Sustained Recovery",
-      "metaTitle": "Sober Living Homes Guide | Transitional Recovery Housing in the USA",
-      "metaDescription": "Complete guide to sober living homes in the United States. Learn about transitional housing options, house rules, and how to find supportive recovery communities.",
-      "heroImage": "/images/guides/sober-living-hero.jpg",
+      "slug": "airco-onderhoud",
+      "typeSlug": "onderhoud",
+      "title": "Airco Onderhoud",
+      "subtitle": "Houd je airco in topconditie",
+      "metaTitle": "Airco Onderhoud Gids | Onderhoudsbeurt en Service",
+      "metaDescription": "Complete gids voor airco onderhoud. Wat houdt een onderhoudsbeurt in, hoe vaak is het nodig en wat zijn de kosten?",
+      "heroImage": "/images/guides/onderhoud-hero.jpg",
       "sections": {
         "introduction": {
-          "title": "What is Sober Living?",
-          "content": "Sober living homes are substance-free living environments for individuals recovering from addiction. These residences provide a bridge between intensive treatment and independent living, offering structure and peer support during the vulnerable early recovery period.\n\nUnlike treatment centers, sober living homes do not provide clinical treatment on-site. Residents typically attend outpatient programs, work or attend school, and participate in support group meetings while living in a supportive, substance-free community.\n\nSober living emphasizes personal responsibility while providing accountability structures. Residents must follow house rules, which typically include maintaining sobriety, contributing to household duties, and participating in house meetings. This combination of freedom and structure helps individuals practice living sober before returning to fully independent living."
+          "title": "Waarom is Airco Onderhoud Belangrijk?",
+          "content": "Regelmatig onderhoud van je airco is essentieel voor optimale prestaties, energiebesparing en een lange levensduur. Zonder onderhoud kan het koelvermogen met 5% per jaar afnemen, stijgt het energieverbruik en kunnen er gezondheidsproblemen ontstaan door schimmel en bacterien in het systeem.\n\nEen goed onderhouden airco gaat 15-20 jaar mee, terwijl verwaarloosde systemen vaak na 8-10 jaar problemen krijgen. De jaarlijkse onderhoudskosten verdien je ruimschoots terug in energiebesparing en vermeden reparaties."
         },
-        "history": {
-          "title": "Origins of Recovery Housing",
-          "content": "Recovery housing has roots in the early days of Alcoholics Anonymous, when members often opened their homes to others seeking sobriety. The Oxford House model, established in 1975, pioneered the democratically-run, self-supporting recovery home concept.\n\nOver the decades, sober living has evolved to include various models from peer-run houses to more structured environments with professional oversight. Research has consistently shown that recovery housing improves outcomes, particularly when combined with ongoing treatment.\n\nToday, the National Alliance for Recovery Residences (NARR) provides standards and certification for recovery housing, helping to ensure quality and accountability in this growing sector of addiction services."
+        "whatIncluded": {
+          "title": "Wat Omvat een Onderhoudsbeurt?",
+          "content": "Een professionele onderhoudsbeurt omvat: reiniging van de binnenunit-filters en warmtewisselaar, controle en eventueel bijvullen van koudemiddel, inspectie van alle elektrische aansluitingen, reiniging van de buitenunit, controle van de afvoer, test van alle functies en waar nodig smering van bewegende delen.\n\nDe monteur checkt ook op lekkages, abnormale geluiden en slijtage. Na de beurt krijg je een rapport met de bevindingen en eventuele aanbevelingen."
         },
         "characteristics": {
-          "title": "Types of Sober Living",
+          "title": "Onderdelen van Onderhoud",
           "items": [
             {
-              "title": "Level 1: Peer-Run Homes",
-              "description": "Democratically operated homes where residents manage the household. Minimal structure with basic requirements for sobriety and participation in household responsibilities."
+              "title": "Filterreiniging",
+              "description": "Vuile filters verminderen de luchtstroom en koelcapaciteit. Professionele reiniging haalt alle stof en allergenen weg."
             },
             {
-              "title": "Level 2: Monitored Homes",
-              "description": "House manager provides oversight and accountability. More structure including regular drug testing and house meetings. May have staff on-site part-time."
+              "title": "Warmtewisselaar reinigen",
+              "description": "De lamellen van de verdamper worden ontdaan van stof en vuil voor optimale warmteoverdracht."
             },
             {
-              "title": "Level 3: Supervised Homes",
-              "description": "Professional staff provide support and structure. Clinical services may be provided on-site or coordinated through partnerships. More intensive support for those who need it."
+              "title": "Koudemiddel controleren",
+              "description": "Het niveau en de druk van het koudemiddel worden gecontroleerd. Bij te weinig koudemiddel wordt bijgevuld."
             },
             {
-              "title": "Level 4: Integrated Homes",
-              "description": "Licensed facilities combining housing with clinical services. Most structured option with professional treatment integrated into daily living."
+              "title": "Buitenunit reinigen",
+              "description": "Bladeren, vuil en stof worden verwijderd voor goede luchtdoorstroming."
             },
             {
-              "title": "Gender-Specific Homes",
-              "description": "Many sober living homes are gender-specific, providing a comfortable environment and reducing potential distractions during early recovery."
+              "title": "Afvoer controleren",
+              "description": "De condensafvoer wordt gecontroleerd op verstoppingen om waterlekkage te voorkomen."
             },
             {
-              "title": "Specialized Populations",
-              "description": "Some homes serve specific populations such as young adults, veterans, or individuals with co-occurring mental health conditions."
+              "title": "Systeemtest",
+              "description": "Alle functies worden getest: koeling, verwarming, ventilatie en eventuele smart-functies."
             }
           ]
         },
-        "howToFind": {
-          "title": "Finding a Sober Living Home",
-          "content": "When searching for sober living, consider location (proximity to work, treatment, and support meetings), cost, level of structure needed, and any specialized needs. Our directory helps you search for verified recovery residences.\n\nLook for homes that are NARR-certified or meet state licensing requirements where applicable. Visit the home if possible, meet current residents, and understand all house rules and fees before committing.\n\nCosts vary significantly by location and amenities. Many sober living homes charge weekly or monthly rent, and some accept insurance or offer scholarships. Be wary of homes that seem too good to be true or have unclear policies."
+        "frequency": {
+          "title": "Hoe Vaak Onderhoud?",
+          "content": "Een jaarlijkse professionele onderhoudsbeurt wordt aanbevolen, bij voorkeur in het voorjaar voordat het koelseizoen begint. Bij intensief gebruik (meer dan 8 uur per dag of jaarrond) is een halfjaarlijkse controle verstandig.\n\nTussendoor kun je zelf de filters elke 2-4 weken controleren en reinigen met lauw water. Dit is eenvoudig en zorgt voor betere luchtkwaliteit en efficientie."
         },
-        "visiting": {
-          "title": "Life in Sober Living",
-          "content": "Sober living homes typically require residents to maintain sobriety (verified through drug testing), pay rent on time, follow house rules, attend house meetings, and contribute to household chores. Many require participation in outside support activities like 12-step meetings.\n\nResidents often share bedrooms and common areas, fostering community while keeping costs affordable. House meetings provide a forum for addressing issues, celebrating recovery milestones, and building peer support.\n\nLength of stay varies from a few months to over a year. Research suggests longer stays in sober living are associated with better outcomes. The goal is to gradually transition to independent living when ready.\n\nMany sober living residents work, attend school, or participate in outpatient treatment during the day. Evenings and weekends may include required meetings, social activities with housemates, and personal time."
+        "costs": {
+          "title": "Kosten Onderhoudsbeurt",
+          "content": "Een standaard onderhoudsbeurt kost tussen de 80 en 150 euro. Dit is inclusief reiniging, controles en kleine bijstellingen. Koudemiddel bijvullen of onderdelen vervangen kan extra kosten met zich meebrengen.\n\nVeel installateurs bieden onderhoudscontracten aan waarbij je jaarlijks een vast bedrag betaalt en voorrang krijgt bij storingen. Dit kan voordeliger zijn en geeft gemoedsrust."
         }
       },
       "faqs": [
         {
-          "question": "How much does sober living cost?",
-          "answer": "Costs vary widely by location and amenities, typically ranging from $500 to $3,000+ per month. Basic peer-run homes are generally more affordable, while higher-level homes with more services cost more. Some homes accept insurance or offer payment assistance."
+          "question": "Hoe vaak moet mijn airco onderhouden worden?",
+          "answer": "Minimaal een keer per jaar, bij voorkeur in het voorjaar. Bij intensief gebruik (jaarrond of meer dan 8 uur per dag) is tweemaal per jaar aan te raden."
         },
         {
-          "question": "How long should I stay in sober living?",
-          "answer": "Research suggests longer stays (6+ months) are associated with better outcomes. Most residents stay 3-12 months. The appropriate length depends on your individual progress, support system, and readiness for independent living."
+          "question": "Kan ik zelf mijn airco onderhouden?",
+          "answer": "De filters kun je zelf reinigen. Voor de rest van het onderhoud heb je een gecertificeerde monteur nodig, vooral voor het controleren en bijvullen van koudemiddel."
         },
         {
-          "question": "Can I work while living in sober living?",
-          "answer": "Yes, most sober living homes expect residents to work, attend school, or engage in structured activities during the day. This supports the transition to independent living while maintaining a stable, supportive home environment."
+          "question": "Wat kost een airco onderhoudsbeurt?",
+          "answer": "Gemiddeld 80-150 euro voor een standaard onderhoudsbeurt. Een onderhoudscontract kost vaak 100-200 euro per jaar en biedt extra voordelen."
         },
         {
-          "question": "What happens if someone relapses?",
-          "answer": "Policies vary by home. Some homes require immediate departure after any substance use, while others offer a chance to return to treatment and try again. Understanding the relapse policy before moving in is important."
+          "question": "Wat zijn signalen dat mijn airco onderhoud nodig heeft?",
+          "answer": "Verminderde koeling, vreemde geurtjes, meer geluid dan normaal, ijsvorming op de unit of een hoger energieverbruik zijn tekenen dat onderhoud nodig is."
         },
         {
-          "question": "Do I need to come from treatment to enter sober living?",
-          "answer": "Not always. While many residents transition from inpatient or outpatient treatment, some homes accept individuals who are committed to sobriety regardless of treatment history. Each home has its own admission requirements."
+          "question": "Vervalt mijn garantie zonder onderhoud?",
+          "answer": "Bij veel fabrikanten is jaarlijks onderhoud een voorwaarde voor garantie. Check je garantievoorwaarden en bewaar de onderhoudsrapporten."
         }
       ]
     },
     {
-      "slug": "dual-diagnosis",
-      "typeSlug": "dual-diagnosis",
-      "title": "Dual Diagnosis Treatment Centers",
-      "subtitle": "Integrated Care for Addiction and Mental Health",
-      "metaTitle": "Dual Diagnosis Treatment Guide | Co-Occurring Disorder Treatment",
-      "metaDescription": "Comprehensive guide to dual diagnosis treatment for co-occurring addiction and mental health disorders. Learn about integrated treatment approaches and how to find specialized care.",
-      "heroImage": "/images/guides/dual-diagnosis-hero.jpg",
+      "slug": "klimaatbeheersing-bedrijven",
+      "typeSlug": "zakelijk",
+      "title": "Klimaatbeheersing voor Bedrijven",
+      "subtitle": "Airco oplossingen voor kantoren en bedrijfspanden",
+      "metaTitle": "Zakelijke Klimaatbeheersing | Airco voor Bedrijven",
+      "metaDescription": "Complete gids voor klimaatbeheersing in bedrijven. Van kantoorairco tot klimaatinstallaties voor winkels en horeca.",
+      "heroImage": "/images/guides/zakelijk-hero.jpg",
       "sections": {
         "introduction": {
-          "title": "What is Dual Diagnosis?",
-          "content": "Dual diagnosis, also called co-occurring disorders, refers to the presence of both a substance use disorder and a mental health condition. Common combinations include addiction with depression, anxiety, bipolar disorder, PTSD, or other psychiatric conditions.\n\nResearch shows that about half of people with a substance use disorder also have a mental health condition, and vice versa. These conditions often interact, with each potentially worsening the other if not treated together.\n\nDual diagnosis treatment centers specialize in addressing both conditions simultaneously through integrated care. This approach recognizes that treating only one condition while ignoring the other often leads to poor outcomes and relapse."
+          "title": "Klimaatbeheersing voor Bedrijven",
+          "content": "Een goed klimaat op de werkvloer is essentieel voor productiviteit en welzijn van medewerkers. Onderzoek toont aan dat de productiviteit met 5-15% daalt bij temperaturen boven 25 graden. Voor bedrijven is een professionele klimaatoplossing daarom geen luxe maar een investering.\n\nZakelijke klimaatbeheersing verschilt van particuliere installaties door de schaal, de eisen en de regelgeving. Denk aan grotere vermogens, centrale aansturing, energiemonitoringsystemen en specifieke ventilatievereisten."
         },
-        "history": {
-          "title": "Evolution of Integrated Treatment",
-          "content": "Historically, addiction and mental health treatment were provided separately, often by different systems that didn't communicate. Individuals with co-occurring disorders often fell through the cracks, receiving inadequate care for both conditions.\n\nThe recognition of dual diagnosis as a distinct treatment need emerged in the 1980s. Research demonstrated that integrated treatment—addressing both conditions together with a unified approach—produces better outcomes than treating conditions separately.\n\nToday, SAMHSA and other leading organizations promote integrated treatment as the evidence-based standard for co-occurring disorders. Many treatment facilities now offer specialized dual diagnosis programs with trained staff who can address the complex interplay between addiction and mental health."
+        "systems": {
+          "title": "Systemen voor Bedrijven",
+          "content": "Voor bedrijven zijn er diverse oplossingen: VRF/VRV-systemen voor grote panden, cassette-units voor kantoorruimtes, luchtbehandelingskasten voor grote hallen en speciale systemen voor serverruimtes en productieomgevingen.\n\nVRF-systemen (Variable Refrigerant Flow) kunnen tientallen binnenunits aansturen vanaf meerdere buitenunits en zijn ideaal voor kantoorgebouwen. Cassette-units worden in het systeemplafond ingebouwd voor een strakke uitstraling."
         },
         "characteristics": {
-          "title": "Key Features of Dual Diagnosis Treatment",
+          "title": "Kenmerken Zakelijke Systemen",
           "items": [
             {
-              "title": "Comprehensive Assessment",
-              "description": "Thorough evaluation of both substance use and mental health symptoms to develop an accurate diagnosis and individualized treatment plan."
+              "title": "Centrale aansturing",
+              "description": "Beheer alle units vanaf een centraal punt of via een gebouwbeheersysteem (BMS)."
             },
             {
-              "title": "Integrated Treatment Team",
-              "description": "Psychiatrists, therapists, and addiction counselors work together, sharing information and coordinating care to address the whole person."
+              "title": "Energiemonitoring",
+              "description": "Inzicht in energieverbruik per zone of afdeling voor kostentoerekening en optimalisatie."
             },
             {
-              "title": "Medication Management",
-              "description": "Psychiatric medications for mental health conditions are carefully managed alongside any medications used in addiction treatment, ensuring safety and effectiveness."
+              "title": "Schaalbaarheid",
+              "description": "Systemen kunnen meegroeien met je bedrijf. Eenvoudig uitbreiden met extra units."
             },
             {
-              "title": "Specialized Therapies",
-              "description": "Evidence-based therapies like CBT, DBT, and trauma-informed approaches address both addiction and mental health symptoms simultaneously."
+              "title": "Stille werking",
+              "description": "Zakelijke units zijn ontworpen voor lage geluidsproductie, belangrijk in kantooromgevingen."
             },
             {
-              "title": "Education and Skills",
-              "description": "Patients learn about the relationship between their conditions and develop skills to manage both addiction triggers and mental health symptoms."
+              "title": "Warmteterugwinning",
+              "description": "Geavanceerde systemen kunnen warmte uit koelzones hergebruiken voor verwarming elders."
             },
             {
-              "title": "Long-term Planning",
-              "description": "Aftercare planning ensures continued treatment for both conditions, including medication management, therapy, and support groups."
+              "title": "Onderhoud en service",
+              "description": "Onderhoudscontracten met SLA's zorgen voor minimale downtime en snelle respons bij storingen."
             }
           ]
         },
-        "howToFind": {
-          "title": "Finding Dual Diagnosis Treatment",
-          "content": "When searching for dual diagnosis treatment, look for facilities that explicitly offer integrated care for co-occurring disorders. Our directory allows you to filter by this specialization.\n\nVerify that the facility has psychiatrists on staff or as consultants, as proper medication management is often essential for dual diagnosis patients. Ask about the specific mental health conditions they treat and their experience with your particular combination of conditions.\n\nInsurance coverage for dual diagnosis treatment is often good due to parity laws, but verify benefits for both mental health and substance abuse treatment."
+        "regulations": {
+          "title": "Regelgeving voor Bedrijven",
+          "content": "Bedrijven moeten voldoen aan het Arbobesluit voor binnenklimaat (temperatuur, ventilatie, luchtkwaliteit). Daarnaast gelden strengere F-gassen voorschriften voor systemen met meer dan 5 ton CO2-equivalent koudemiddel.\n\nVanaf 2025 gelden strengere eisen voor energieprestaties van gebouwen. Veel bedrijven kiezen nu al voor energiezuinige systemen om voorbereid te zijn en te profiteren van subsidies."
         },
-        "visiting": {
-          "title": "What to Expect in Treatment",
-          "content": "Dual diagnosis treatment typically begins with thorough assessment of both conditions. You may meet with a psychiatrist for evaluation and potential medication, in addition to addiction counselors.\n\nTreatment addresses both conditions throughout your stay. You might participate in addiction-focused groups, mental health therapy, and sessions that explore how your conditions interact. Medications for both conditions are coordinated.\n\nThe pace of treatment may differ from standard programs, as stabilizing mental health symptoms takes time. Be patient with the process—addressing both conditions properly leads to better long-term outcomes.\n\nAftercare planning emphasizes continuity for both conditions, including ongoing psychiatric care, therapy, support groups for addiction, and possibly peer support for mental health."
+        "costs": {
+          "title": "Kosten Zakelijke Klimaatbeheersing",
+          "content": "De kosten voor zakelijke klimaatbeheersing varieren sterk afhankelijk van de grootte en complexiteit. Een kantoor van 500m2 vraagt een investering van 15.000 tot 40.000 euro. Voor grotere panden kan dit oplopen tot honderdduizenden euro's.\n\nHoudt rekening met installatiekosten, aanpassingen aan het gebouw, elektra-uitbreiding en onderhoudscontracten. Veel bedrijven kiezen voor lease-constructies om de investering te spreiden."
         }
       },
       "faqs": [
         {
-          "question": "Why do addiction and mental health problems often occur together?",
-          "answer": "Several factors contribute: common risk factors (genetics, trauma, stress), self-medication (using substances to cope with mental health symptoms), and substance effects on brain chemistry that can trigger or worsen psychiatric symptoms."
+          "question": "Welk systeem is geschikt voor mijn kantoor?",
+          "answer": "Dit hangt af van de grootte, indeling en het bestaande gebouw. Voor kantoren tot 200m2 is een multi-split vaak voldoende. Grotere panden vragen om VRF-systemen. Vraag een klimaatadvies aan."
         },
         {
-          "question": "Which condition should be treated first?",
-          "answer": "Neither—integrated treatment addresses both simultaneously. Trying to treat one condition while ignoring the other often fails because the conditions are interconnected and can trigger each other."
+          "question": "Moet ik een onderhoudscontract afsluiten?",
+          "answer": "Voor zakelijke installaties is een onderhoudscontract sterk aan te raden. Het waarborgt optimale prestaties, voorkomt kostbare storingen en is vaak een voorwaarde voor garantie."
         },
         {
-          "question": "Can I take psychiatric medication in addiction treatment?",
-          "answer": "Yes, many psychiatric medications are appropriate and necessary for dual diagnosis patients. A psychiatrist experienced with addiction can prescribe medications that help mental health while supporting recovery goals."
+          "question": "Kan ik subsidie krijgen voor zakelijke klimaatbeheersing?",
+          "answer": "Ja, via de EIA (Energie-investeringsaftrek) kun je 45,5% van de investering in energiezuinige klimaatinstallaties aftrekken. Check ook ISDE voor warmtepompen."
         },
         {
-          "question": "Is dual diagnosis treatment more expensive?",
-          "answer": "Dual diagnosis treatment may cost more due to the additional psychiatric services required, but proper treatment of both conditions is more cost-effective long-term than repeated failed treatments of only one condition."
+          "question": "Hoe snel kan een zakelijk systeem geinstalleerd worden?",
+          "answer": "Een standaard kantoorinstallatie duurt 2-5 werkdagen. Grote projecten kunnen weken tot maanden duren. Plan de installatie buiten kantooruren om verstoring te minimaliseren."
         },
         {
-          "question": "How do I know if I have a dual diagnosis?",
-          "answer": "Professional assessment is needed for diagnosis. Signs that suggest co-occurring disorders include mental health symptoms that persist during sobriety, using substances to cope with emotions, and difficulty staying sober despite treatment."
-        }
-      ]
-    },
-    {
-      "slug": "luxury-rehab",
-      "typeSlug": "luxury-rehab",
-      "title": "Luxury Rehabilitation Centers",
-      "subtitle": "Premium Treatment in Exclusive Settings",
-      "metaTitle": "Luxury Rehab Centers Guide | Executive Treatment Programs",
-      "metaDescription": "Guide to luxury and executive rehabilitation centers offering premium addiction treatment with upscale amenities, privacy, and personalized care.",
-      "heroImage": "/images/guides/luxury-rehab-hero.jpg",
-      "sections": {
-        "introduction": {
-          "title": "What is Luxury Rehabilitation?",
-          "content": "Luxury rehabilitation centers provide addiction treatment in upscale, resort-like settings with premium amenities and highly personalized care. These facilities cater to executives, professionals, celebrities, and others who desire privacy and comfort during treatment.\n\nBeyond comfortable accommodations, luxury rehab often features low staff-to-client ratios ensuring individualized attention, alternative therapies like equine therapy or adventure therapy, and amenities such as gourmet meals, fitness facilities, and spa services.\n\nWhile the setting is luxurious, the clinical treatment at quality facilities is based on the same evidence-based practices used in standard programs. The difference lies in the privacy, comfort, and additional services that support recovery in an exclusive environment."
-        },
-        "history": {
-          "title": "Rise of Premium Treatment",
-          "content": "Luxury rehabilitation emerged as a distinct sector in the 1980s and 1990s as celebrities seeking treatment wanted privacy and comfort beyond what standard facilities offered. Pioneering facilities in destinations like Malibu and Arizona created a new model of addiction treatment.\n\nThe executive rehab concept developed to serve professionals who needed to maintain some work connectivity during treatment. These programs offer amenities like private offices, secure internet access, and flexible scheduling.\n\nToday, luxury rehabilitation has expanded globally, with high-end facilities on every continent. While expensive, these programs provide an option for those who can afford premium care and might otherwise avoid treatment due to privacy concerns or unwillingness to accept basic accommodations."
-        },
-        "characteristics": {
-          "title": "Features of Luxury Treatment",
-          "items": [
-            {
-              "title": "Private Accommodations",
-              "description": "Private or semi-private rooms, often suite-style, with upscale furnishings and amenities. Some facilities offer separate cottages or villas."
-            },
-            {
-              "title": "Low Client-to-Staff Ratio",
-              "description": "More individualized attention with fewer clients per therapist. Some facilities offer nearly one-on-one staffing ratios."
-            },
-            {
-              "title": "Gourmet Nutrition",
-              "description": "Chef-prepared meals tailored to individual preferences and nutritional needs. Many facilities offer organic, farm-to-table cuisine."
-            },
-            {
-              "title": "Alternative Therapies",
-              "description": "Equine therapy, adventure therapy, art therapy, yoga, meditation, and other holistic approaches complement traditional treatment methods."
-            },
-            {
-              "title": "Fitness and Wellness",
-              "description": "Full gym facilities, personal trainers, pools, tennis courts, and spa services support physical recovery and stress relief."
-            },
-            {
-              "title": "Beautiful Locations",
-              "description": "Scenic settings—beaches, mountains, or countryside—provide a peaceful, inspiring environment for recovery."
-            }
-          ]
-        },
-        "howToFind": {
-          "title": "Choosing a Luxury Facility",
-          "content": "When evaluating luxury programs, look beyond the amenities to the clinical program. Verify accreditation, staff credentials, and treatment approaches. Beautiful settings mean nothing without effective treatment.\n\nAsk about privacy policies if confidentiality is a concern. Understand what amenities are included in the base price versus those with additional charges. Request detailed information about the daily schedule and clinical programming.\n\nLuxury treatment is typically private pay, as costs far exceed insurance reimbursement. Be prepared for rates ranging from $30,000 to $100,000+ per month. Some facilities offer financing options."
-        },
-        "visiting": {
-          "title": "What to Expect",
-          "content": "The luxury rehab experience begins with concierge-level intake, often including private transportation from the airport. The comprehensive assessment process leads to a highly individualized treatment plan.\n\nDaily life includes clinical programming—individual therapy, groups, educational sessions—along with wellness activities and time to enjoy the facility's amenities. The schedule is typically less rigid than standard programs, with more free time.\n\nStaff attention to individual needs is a hallmark of luxury care. From dietary preferences to scheduling accommodation for business needs (in executive programs), the experience is tailored to each client.\n\nDespite the luxurious setting, the work of recovery remains challenging. The comfort of the environment is meant to support, not distract from, the hard work of addressing addiction."
-        }
-      },
-      "faqs": [
-        {
-          "question": "Is luxury rehab more effective than standard treatment?",
-          "answer": "Research doesn't show that luxury amenities themselves improve outcomes. However, the lower staff ratios and individualized care may benefit some people. The best program is one you'll fully engage with—if luxury amenities help you commit to treatment, that matters."
-        },
-        {
-          "question": "How much does luxury rehab cost?",
-          "answer": "Luxury programs typically cost $30,000 to $100,000+ per month. Some ultra-luxury facilities charge even more. These costs are usually out-of-pocket as they exceed insurance coverage."
-        },
-        {
-          "question": "Can I work during executive rehab?",
-          "answer": "Executive programs are designed to allow some work connectivity with private offices, secure internet, and flexible scheduling. However, the focus should remain on recovery—unlimited work access may undermine treatment."
-        },
-        {
-          "question": "Is privacy guaranteed at luxury facilities?",
-          "answer": "Reputable luxury facilities have strict privacy policies, but no facility can guarantee absolute privacy. Discuss specific concerns and review policies before admission. HIPAA protections apply regardless of facility type."
-        },
-        {
-          "question": "What should I look for in a luxury program?",
-          "answer": "Clinical quality should be the priority: accreditation, staff credentials, evidence-based treatment approaches. Once you've verified clinical excellence, then compare amenities, location, and other luxury features."
+          "question": "Wat zijn de exploitatiekosten?",
+          "answer": "Reken op energiekosten van 15-30 euro per m2 per jaar en onderhoudskosten van 3-5 euro per m2 per jaar. Energiezuinige systemen en goed onderhoud verlagen deze kosten."
         }
       ]
     }
