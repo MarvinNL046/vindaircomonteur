@@ -179,8 +179,8 @@ export default function DashboardPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center">
-              <span className="text-xl font-bold text-green-700">Rehab</span>
-              <span className="text-xl font-bold text-gray-700">NearMe</span>
+              <span className="text-xl font-bold text-cyan-700">VindAirco</span>
+              <span className="text-xl font-bold text-gray-700">Monteur</span>
             </Link>
             <div className="flex items-center gap-4">
               <span className="text-sm text-gray-600 hidden sm:block">{user.email}</span>
@@ -205,10 +205,10 @@ export default function DashboardPage() {
         {/* Welcome Section */}
         <div className="mb-8">
           <h1 className="text-2xl font-bold text-gray-900 mb-2">
-            Welcome back, {user.name}!
+            Welkom terug, {user.name}!
           </h1>
           <p className="text-gray-600">
-            Manage your facility listings from your dashboard.
+            Beheer je installateur vermeldingen vanuit je dashboard.
           </p>
         </div>
 
@@ -216,11 +216,11 @@ export default function DashboardPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <div className="bg-white rounded-xl shadow-sm p-6">
             <div className="flex items-center gap-4">
-              <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center">
-                <Building2 className="w-6 h-6 text-green-600" />
+              <div className="w-12 h-12 bg-cyan-100 rounded-xl flex items-center justify-center">
+                <Building2 className="w-6 h-6 text-cyan-600" />
               </div>
               <div>
-                <p className="text-sm text-gray-500">Claimed locations</p>
+                <p className="text-sm text-gray-500">Geclaimde locaties</p>
                 <p className="text-2xl font-bold text-gray-900">
                   {claims.filter(c => c.status === 'approved').length}
                 </p>
@@ -234,7 +234,7 @@ export default function DashboardPage() {
                 <Clock className="w-6 h-6 text-yellow-600" />
               </div>
               <div>
-                <p className="text-sm text-gray-500">Pending</p>
+                <p className="text-sm text-gray-500">In behandeling</p>
                 <p className="text-2xl font-bold text-gray-900">
                   {claims.filter(c => c.status === 'pending' || c.status === 'verified').length}
                 </p>
@@ -248,7 +248,7 @@ export default function DashboardPage() {
                 <Heart className="w-6 h-6 text-red-500" />
               </div>
               <div>
-                <p className="text-sm text-gray-500">Saved locations</p>
+                <p className="text-sm text-gray-500">Opgeslagen locaties</p>
                 <p className="text-2xl font-bold text-gray-900">{favorites.length}</p>
               </div>
             </div>
@@ -262,13 +262,13 @@ export default function DashboardPage() {
             <div className="bg-white rounded-xl shadow-sm">
               <div className="p-6 border-b border-gray-200">
                 <div className="flex items-center justify-between">
-                  <h2 className="text-lg font-semibold text-gray-900">My Claims</h2>
+                  <h2 className="text-lg font-semibold text-gray-900">Mijn Claims</h2>
                   <Link
                     href="/search"
-                    className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors"
+                    className="inline-flex items-center gap-2 bg-cyan-600 hover:bg-cyan-700 text-white text-sm font-medium px-4 py-2 rounded-lg transition-colors"
                   >
                     <Plus className="w-4 h-4" />
-                    New claim
+                    Nieuwe claim
                   </Link>
                 </div>
               </div>
@@ -279,17 +279,17 @@ export default function DashboardPage() {
                     <MapPin className="w-8 h-8 text-gray-400" />
                   </div>
                   <h3 className="text-lg font-medium text-gray-900 mb-2">
-                    No claims yet
+                    Nog geen claims
                   </h3>
                   <p className="text-gray-500 mb-6 max-w-sm mx-auto">
-                    Claim a facility listing to manage it and update your information.
+                    Claim een installateur vermelding om deze te beheren en je gegevens bij te werken.
                   </p>
                   <Link
                     href="/search"
-                    className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-medium px-6 py-3 rounded-lg transition-colors"
+                    className="inline-flex items-center gap-2 bg-cyan-600 hover:bg-cyan-700 text-white font-medium px-6 py-3 rounded-lg transition-colors"
                   >
                     <Plus className="w-5 h-5" />
-                    Find a facility
+                    Zoek een installateur
                   </Link>
                 </div>
               ) : (
@@ -307,10 +307,10 @@ export default function DashboardPage() {
                               {getStatusBadge(claim.status)}
                             </div>
                             <p className="text-sm text-gray-500 mb-2">
-                              {claim.businessRole || 'Manager'}
+                              {claim.businessRole || 'Beheerder'}
                             </p>
                             <p className="text-xs text-gray-400">
-                              Submitted on {new Date(claim.createdAt).toLocaleDateString('en-US', {
+                              Ingediend op {new Date(claim.createdAt).toLocaleDateString('nl-NL', {
                                 day: 'numeric',
                                 month: 'long',
                                 year: 'numeric',
@@ -338,7 +338,7 @@ export default function DashboardPage() {
               <div className="p-6 border-b border-gray-200">
                 <div className="flex items-center gap-3">
                   <Heart className="w-5 h-5 text-red-500" />
-                  <h2 className="text-lg font-semibold text-gray-900">Saved locations</h2>
+                  <h2 className="text-lg font-semibold text-gray-900">Opgeslagen locaties</h2>
                 </div>
               </div>
 
@@ -348,17 +348,17 @@ export default function DashboardPage() {
                     <Heart className="w-8 h-8 text-red-300" />
                   </div>
                   <h3 className="text-lg font-medium text-gray-900 mb-2">
-                    No saved locations
+                    Geen opgeslagen locaties
                   </h3>
                   <p className="text-gray-500 mb-6 max-w-sm mx-auto">
-                    Save treatment centers you want to remember or compare later.
+                    Sla installateurs op die je wilt onthouden of vergelijken.
                   </p>
                   <Link
                     href="/search"
                     className="inline-flex items-center gap-2 bg-red-500 hover:bg-red-600 text-white font-medium px-6 py-3 rounded-lg transition-colors"
                   >
                     <Heart className="w-5 h-5" />
-                    Discover facilities
+                    Ontdek installateurs
                   </Link>
                 </div>
               ) : (
@@ -374,7 +374,7 @@ export default function DashboardPage() {
                             {favorite.facility_name || favorite.facility_slug.replace(/-/g, ' ')}
                           </h3>
                           <p className="text-xs text-gray-400 mt-1">
-                            Saved on {new Date(favorite.created_at).toLocaleDateString('en-US', {
+                            Opgeslagen op {new Date(favorite.created_at).toLocaleDateString('nl-NL', {
                               day: 'numeric',
                               month: 'long',
                               year: 'numeric',
@@ -392,7 +392,7 @@ export default function DashboardPage() {
                             onClick={() => handleRemoveFavorite(favorite.facility_slug, favorite.id)}
                             disabled={removingFavorite === favorite.id}
                             className="text-gray-400 hover:text-red-500 p-2 disabled:opacity-50"
-                            title="Remove"
+                            title="Verwijderen"
                           >
                             {removingFavorite === favorite.id ? (
                               <Loader2 className="w-5 h-5 animate-spin" />
@@ -413,14 +413,14 @@ export default function DashboardPage() {
           <div className="space-y-6">
             {/* Profile Card */}
             <div className="bg-white rounded-xl shadow-sm p-6">
-              <h3 className="font-semibold text-gray-900 mb-4">Account details</h3>
+              <h3 className="font-semibold text-gray-900 mb-4">Account gegevens</h3>
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center">
                     <User className="w-5 h-5 text-gray-500" />
                   </div>
                   <div>
-                    <p className="text-sm text-gray-500">Name</p>
+                    <p className="text-sm text-gray-500">Naam</p>
                     <p className="font-medium text-gray-900">{user.name}</p>
                   </div>
                 </div>
@@ -429,7 +429,7 @@ export default function DashboardPage() {
                     <Mail className="w-5 h-5 text-gray-500" />
                   </div>
                   <div>
-                    <p className="text-sm text-gray-500">Email</p>
+                    <p className="text-sm text-gray-500">E-mail</p>
                     <p className="font-medium text-gray-900">{user.email}</p>
                   </div>
                 </div>
@@ -438,18 +438,18 @@ export default function DashboardPage() {
 
             {/* Quick Actions */}
             <div className="bg-white rounded-xl shadow-sm p-6">
-              <h3 className="font-semibold text-gray-900 mb-4">Quick actions</h3>
+              <h3 className="font-semibold text-gray-900 mb-4">Snelle acties</h3>
               <div className="space-y-2">
                 <Link
                   href="/search"
                   className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 transition-colors group"
                 >
-                  <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center group-hover:bg-green-200 transition-colors">
-                    <Plus className="w-5 h-5 text-green-600" />
+                  <div className="w-10 h-10 bg-cyan-100 rounded-lg flex items-center justify-center group-hover:bg-cyan-200 transition-colors">
+                    <Plus className="w-5 h-5 text-cyan-600" />
                   </div>
                   <div>
-                    <p className="font-medium text-gray-900">New claim</p>
-                    <p className="text-sm text-gray-500">Claim a facility</p>
+                    <p className="font-medium text-gray-900">Nieuwe claim</p>
+                    <p className="text-sm text-gray-500">Claim een installateur</p>
                   </div>
                 </Link>
                 <button
@@ -460,8 +460,8 @@ export default function DashboardPage() {
                     <MessageSquare className="w-5 h-5 text-blue-600" />
                   </div>
                   <div className="text-left">
-                    <p className="font-medium text-gray-900">Messages</p>
-                    <p className="text-sm text-gray-500">Coming soon</p>
+                    <p className="font-medium text-gray-900">Berichten</p>
+                    <p className="text-sm text-gray-500">Binnenkort beschikbaar</p>
                   </div>
                 </button>
                 <button
@@ -472,24 +472,24 @@ export default function DashboardPage() {
                     <Settings className="w-5 h-5 text-gray-600" />
                   </div>
                   <div className="text-left">
-                    <p className="font-medium text-gray-900">Settings</p>
-                    <p className="text-sm text-gray-500">Coming soon</p>
+                    <p className="font-medium text-gray-900">Instellingen</p>
+                    <p className="text-sm text-gray-500">Binnenkort beschikbaar</p>
                   </div>
                 </button>
               </div>
             </div>
 
             {/* Help Card */}
-            <div className="bg-gradient-to-br from-green-600 to-green-700 rounded-xl shadow-sm p-6 text-white">
-              <h3 className="font-semibold mb-2">Need help?</h3>
-              <p className="text-green-100 text-sm mb-4">
-                Contact us if you have questions about claiming or managing listings.
+            <div className="bg-gradient-to-br from-cyan-600 to-cyan-700 rounded-xl shadow-sm p-6 text-white">
+              <h3 className="font-semibold mb-2">Hulp nodig?</h3>
+              <p className="text-cyan-100 text-sm mb-4">
+                Neem contact met ons op als je vragen hebt over het claimen of beheren van vermeldingen.
               </p>
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 bg-white text-green-700 font-medium px-4 py-2 rounded-lg hover:bg-green-50 transition-colors text-sm"
+                className="inline-flex items-center gap-2 bg-white text-cyan-700 font-medium px-4 py-2 rounded-lg hover:bg-cyan-50 transition-colors text-sm"
               >
-                Contact us
+                Contact opnemen
                 <ChevronRight className="w-4 h-4" />
               </Link>
             </div>

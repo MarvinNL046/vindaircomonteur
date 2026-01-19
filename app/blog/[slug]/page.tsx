@@ -32,9 +32,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 
   return {
-    title: `${post.title} | Blog - Rehab Near Me`,
+    title: `${post.title} | Blog - VindAircoMonteur.nl`,
     description: post.excerpt,
-    keywords: `${post.category.toLowerCase()}, addiction treatment, rehab, recovery, ${post.title.toLowerCase().split(' ').slice(0, 3).join(', ')}`,
+    keywords: `${post.category.toLowerCase()}, airco, klimaatbeheersing, ${post.title.toLowerCase().split(' ').slice(0, 3).join(', ')}`,
     authors: [{ name: post.author }],
     openGraph: {
       title: post.title,
@@ -42,8 +42,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       type: 'article',
       authors: [post.author],
       publishedTime: post.date,
-      siteName: 'Rehab Near Me',
-      locale: 'en_US',
+      siteName: 'VindAircoMonteur.nl',
+      locale: 'nl_NL',
     },
     twitter: {
       card: 'summary_large_image',
@@ -88,15 +88,15 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     dateModified: post.date,
     publisher: {
       '@type': 'Organization',
-      name: 'Rehab Near Me',
+      name: 'VindAircoMonteur.nl',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://www.rehabnearbyme.com/logo.png',
+        url: 'https://www.vindaircomonteur.nl/logo.png',
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://www.rehabnearbyme.com/blog/${slug}`,
+      '@id': `https://www.vindaircomonteur.nl/blog/${slug}`,
     },
   };
 
@@ -281,14 +281,14 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                   href="/search"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors"
                 >
-                  Find Rehab Centers
+                  Vind Airco Monteurs
                   <ArrowRight className="w-4 h-4" />
                 </Link>
                 <Link
                   href="/blog"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-accent-foreground rounded-lg font-medium hover:bg-accent/90 transition-colors"
                 >
-                  More Articles
+                  Meer Artikelen
                   <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>

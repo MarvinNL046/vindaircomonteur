@@ -10,16 +10,16 @@ import { getCtaStatsText } from '@/lib/stats-config';
 
 const ctaStatsText = getCtaStatsText();
 
-// Placeholder images for blog posts (recovery/treatment themed)
+// Placeholder images for blog posts (airco themed)
 const blogImages = [
-  '/images/blog/recovery-support.jpg',
-  '/images/blog/treatment-center.jpg',
-  '/images/blog/therapy-session.jpg',
-  '/images/blog/family-support.jpg',
-  '/images/blog/meditation.jpg',
-  '/images/blog/group-therapy.jpg',
-  '/images/blog/nature-healing.jpg',
-  '/images/blog/hope-recovery.jpg',
+  '/images/blog/airco-installatie.jpg',
+  '/images/blog/split-unit.jpg',
+  '/images/blog/warmtepomp.jpg',
+  '/images/blog/klimaat.jpg',
+  '/images/blog/onderhoud.jpg',
+  '/images/blog/koeling.jpg',
+  '/images/blog/buitenunit.jpg',
+  '/images/blog/binnenunit.jpg',
 ];
 
 // Helper function to get a placeholder image based on post index
@@ -28,21 +28,21 @@ function getPlaceholderImage(index: number): string {
 }
 
 export const metadata: Metadata = {
-  title: 'Blog | Rehab Near Me - Addiction Treatment & Recovery Resources',
-  description: 'Expert articles about addiction treatment, recovery tips, how to choose a rehab, insurance coverage, and supporting loved ones through addiction.',
-  keywords: 'addiction treatment blog, rehab guide, recovery tips, drug rehab articles, alcohol treatment resources, addiction help, family support addiction',
-  authors: [{ name: 'Rehab Near Me' }],
+  title: 'Blog | VindAircoMonteur.nl - Airco Tips & Gidsen',
+  description: 'Deskundige artikelen over airco installatie, onderhoud tips, de juiste airco kiezen, kosten en F-gassen certificering.',
+  keywords: 'airco blog, airco tips, klimaat gids, split-unit, warmtepomp, koeling, installatie advies, onderhoud',
+  authors: [{ name: 'VindAircoMonteur.nl' }],
   openGraph: {
-    title: 'Blog - Rehab Near Me',
-    description: 'Expert resources on addiction treatment, recovery strategies, and finding the right rehab center',
+    title: 'Blog - VindAircoMonteur.nl',
+    description: 'Deskundige informatie over airco installatie, onderhoud en het kiezen van de juiste airco',
     type: 'website',
-    siteName: 'Rehab Near Me',
-    locale: 'en_US',
+    siteName: 'VindAircoMonteur.nl',
+    locale: 'nl_NL',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Blog - Rehab Near Me',
-    description: 'Expert resources on addiction treatment and recovery',
+    title: 'Blog - VindAircoMonteur.nl',
+    description: 'Deskundige informatie over airco en klimaatbeheersing',
   },
   robots: {
     index: true,
@@ -262,7 +262,7 @@ export default function BlogPage() {
               href="/search"
               className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors"
             >
-              Find Rehab Centers
+              Vind Airco Monteurs
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>

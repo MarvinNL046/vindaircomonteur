@@ -1,146 +1,143 @@
-# RehabNearMe.com - Project Roadmap
+# VindAircoMonteur.nl - Project Roadmap
 
-**Repository:** https://github.com/MarvinNL046/rehabnearbyme
-**Last Updated:** 18-01-2026 18:45u
+**Website:** https://vindaircomonteur.nl
+**Last Updated:** 19-01-2026
 **Status:** Development Phase
 
 ---
 
 ## Project Overview
 
-RehabNearMe.com is a comprehensive directory of addiction treatment and rehabilitation centers across the United States. The platform helps individuals and families find appropriate treatment facilities based on location, treatment type, and insurance coverage.
+VindAircoMonteur.nl is een uitgebreide directory van airco installateurs, monteurs en klimaattechniek specialisten in Nederland. Het platform helpt particulieren en bedrijven bij het vinden van gekwalificeerde airco monteurs op basis van locatie, specialisatie en certificeringen.
 
 ---
 
-## Completed Tasks
+## Voltooide Taken
 
-### Phase 1: Site Transformation (Completed)
-- [x] Transform codebase from cemetery directory to rehab directory
-- [x] Update all components, pages, and APIs for rehab context
-- [x] Remove all Dutch content and cemetery references
-- [x] Create new drizzle schema with facilities table
-- [x] Add indexes and relations to database schema
+### Fase 1: Site Transformatie (Voltooid)
+- [x] Codebase opzetten voor Nederlandse airco monteur directory
+- [x] Alle componenten, pagina's en APIs aanpassen voor airco context
+- [x] Nederlandse content en terminologie toevoegen
+- [x] Drizzle schema maken met facilities/installers tabel
+- [x] Indexen en relaties toevoegen aan database schema
 
-### Phase 2: Design Overhaul (Completed)
-- [x] Update color theme: forest green/gold → teal/coral
-- [x] Update Logo component with Heart icon
-- [x] Redesign homepage hero section
-- [x] Update all components with new color scheme
-- [x] Update Header and Footer for rehab branding
-- [x] Add SAMHSA helpline banner (verified: 1-800-662-4357)
+### Fase 2: Design Update (Voltooid)
+- [x] Kleurthema: Cyaan/blauw voor koeling/airco associatie
+- [x] Logo component met sneeuwvlok icoon
+- [x] Homepage hero sectie herontwerpen
+- [x] Alle componenten updaten met nieuw kleurschema
+- [x] Header en Footer voor airco monteur branding
 
-### Phase 3: Content & Pages (Completed)
-- [x] Create /guide/insurance page
-- [x] Create /guide/what-to-expect page
-- [x] Update affiliate and premium content components
-- [x] Fix broken internal links
-- [x] Fix missing image references
+### Fase 3: Content & Pagina's (Voltooid)
+- [x] /guide/airco-kiezen pagina maken
+- [x] /guide/kosten pagina maken
+- [x] /guide/f-gassen pagina maken
+- [x] Premium en affiliate content componenten updaten
+- [x] Interne links repareren
 
-### Phase 4: Developer Tooling (Completed)
-- [x] Create health check script (scripts/check-health.ts)
-- [x] Install missing dependencies (sharp, chalk, openai, etc.)
+### Fase 4: Developer Tooling (Voltooid)
+- [x] Health check script (scripts/check-health.ts)
+- [x] Ontbrekende dependencies installeren
 
 ---
 
-## Pending Tasks
+## Lopende Taken
 
-### Phase 5: Data & Scraping (High Priority)
-- [ ] **Set up Neon PostgreSQL database**
-  - Create new database instance
-  - Configure DATABASE_URL in .env.local
-  - Run drizzle migrations
+### Fase 5: Data & Scraping (Hoge Prioriteit)
+- [ ] **Neon PostgreSQL database opzetten**
+  - Database instance aanmaken
+  - DATABASE_URL configureren in .env.local
+  - Drizzle migrations uitvoeren
 
-- [ ] **Facility Data Collection**
-  - [ ] Update discovery script for SAMHSA API integration
-  - [ ] Scrape treatment facilities from Google Places
-  - [ ] Import SAMHSA treatment locator data
-  - [ ] Enrich facility data with GPT (descriptions, features)
-  - [ ] Add facility photos from Google Places
+- [ ] **Installateur Data Verzamelen**
+  - [ ] Discovery script updaten voor Google Places API
+  - [ ] Airco installateurs scrapen uit Google Places
+  - [ ] Data verrijken met GPT (beschrijvingen, specialisaties)
+  - [ ] Foto's toevoegen van Google Places
 
-- [ ] **Data Quality**
-  - [ ] Verify facility contact information
-  - [ ] Add insurance acceptance data
-  - [ ] Add treatment type classifications
-  - [ ] Generate SEO content for each facility
+- [ ] **Data Kwaliteit**
+  - [ ] Contactgegevens verifi??ren
+  - [ ] Certificeringen toevoegen (F-gassen, STEK)
+  - [ ] Service types classificeren
+  - [ ] SEO content genereren per installateur
 
-### Phase 6: Core Features (Medium Priority)
-- [ ] **Search & Filtering**
-  - [ ] Implement location-based search (city, state, zip)
-  - [ ] Add treatment type filters
-  - [ ] Add insurance filter
-  - [ ] Add amenity filters
-  - [ ] Implement sorting (rating, distance, name)
+### Fase 6: Core Features (Medium Prioriteit)
+- [ ] **Zoeken & Filteren**
+  - [ ] Locatie-gebaseerd zoeken (stad, postcode)
+  - [ ] Filter op service type
+  - [ ] Filter op merk specialisatie (Daikin, Mitsubishi, LG)
+  - [ ] Filter op certificering
+  - [ ] Sorteren (rating, afstand, naam)
 
-- [ ] **User Features**
-  - [ ] Enable user authentication (currently disabled)
-  - [ ] User reviews and ratings
-  - [ ] Save/bookmark facilities
-  - [ ] Contact facility form
-  - [ ] Insurance verification requests
+- [ ] **Gebruikers Features**
+  - [ ] Gebruiker authenticatie
+  - [ ] Reviews en ratings
+  - [ ] Favorieten opslaan
+  - [ ] Contact formulier
+  - [ ] Offerte aanvragen
 
-- [ ] **Facility Owner Features**
-  - [ ] Claim listing functionality
-  - [ ] Dashboard for facility owners
-  - [ ] Edit facility information
-  - [ ] Respond to reviews
-  - [ ] Upload photos
+- [ ] **Installateur Features**
+  - [ ] Claim listing functionaliteit
+  - [ ] Dashboard voor installateurs
+  - [ ] Bedrijfsgegevens bewerken
+  - [ ] Reageren op reviews
+  - [ ] Foto's uploaden
 
-### Phase 7: SEO & Marketing (Medium Priority)
-- [ ] **SEO Optimization**
-  - [ ] Generate state landing pages with content
-  - [ ] Generate city landing pages
-  - [ ] Generate treatment type landing pages
-  - [ ] Create blog content about addiction/recovery
-  - [ ] Submit sitemap to Google Search Console
-  - [ ] Set up Google Analytics
+### Fase 7: SEO & Marketing (Medium Prioriteit)
+- [ ] **SEO Optimalisatie**
+  - [ ] Provincie landing pagina's genereren met content
+  - [ ] Stad landing pagina's genereren
+  - [ ] Service type landing pagina's
+  - [ ] Blog content over airco/klimaat
+  - [ ] Sitemap indienen bij Google Search Console
+  - [ ] Google Analytics instellen
 
 - [ ] **Schema Markup**
-  - [ ] Add LocalBusiness schema to facility pages
-  - [ ] Add BreadcrumbList schema
-  - [ ] Add FAQPage schema to guide pages
-  - [ ] Add Review schema
+  - [ ] LocalBusiness schema op installateur pagina's
+  - [ ] BreadcrumbList schema
+  - [ ] FAQPage schema op guide pagina's
+  - [ ] Review schema
 
-### Phase 8: Monetization (Low Priority)
-- [ ] **Advertising**
-  - [ ] Set up Google AdSense
-  - [ ] Configure ad placements
-  - [ ] Add affiliate partnerships (insurance, interventionists)
+### Fase 8: Monetisatie (Lage Prioriteit)
+- [ ] **Advertenties**
+  - [ ] Google AdSense opzetten
+  - [ ] Ad placements configureren
+  - [ ] Affiliate partnerships (airco merken, leveranciers)
 
 - [ ] **Premium Features**
-  - [ ] Featured listing upgrades
-  - [ ] Lead generation for facilities
-  - [ ] Premium facility profiles
+  - [ ] Uitgelichte vermeldingen
+  - [ ] Lead generatie voor installateurs
+  - [ ] Premium installateur profielen
 
-### Phase 9: Deployment & Launch (High Priority)
+### Fase 9: Deployment & Launch (Hoge Prioriteit)
 - [ ] **Vercel Deployment**
-  - [ ] Connect GitHub repository
-  - [ ] Configure environment variables
-  - [ ] Set up custom domain (rehabnearme.com)
-  - [ ] Configure SSL certificate
-  - [ ] Set up preview deployments
+  - [ ] GitHub repository koppelen
+  - [ ] Environment variables configureren
+  - [ ] Custom domein instellen (vindaircomonteur.nl)
+  - [ ] SSL certificaat configureren
+  - [ ] Preview deployments opzetten
 
 - [ ] **Post-Launch**
-  - [ ] Monitor error tracking (Sentry)
-  - [ ] Set up uptime monitoring
-  - [ ] Performance optimization
-  - [ ] Mobile responsiveness testing
+  - [ ] Error tracking monitoren (Sentry)
+  - [ ] Uptime monitoring instellen
+  - [ ] Performance optimalisatie
+  - [ ] Mobile responsiveness testen
 
 ---
 
-## Technical Debt
+## Technische Schuld
 
-- [ ] Fix npm audit vulnerabilities (7 found)
-- [ ] Update Node.js to v22+ (required by @react-email packages)
-- [ ] Review and remove unused exports (111 flagged)
-- [ ] Add TypeScript strict mode
-- [ ] Add unit tests for critical functions
-- [ ] Add E2E tests with Playwright
+- [ ] npm audit vulnerabilities fixen
+- [ ] Ongebruikte exports verwijderen
+- [ ] TypeScript strict mode toevoegen
+- [ ] Unit tests voor kritieke functies
+- [ ] E2E tests met Playwright
 
 ---
 
 ## Environment Setup
 
-### Required Environment Variables
+### Vereiste Environment Variables
 ```env
 # Database
 DATABASE_URL=postgresql://...
@@ -151,7 +148,7 @@ JWT_SECRET=your-secret-key
 # Google APIs
 GOOGLE_PLACES_API_KEY=your-api-key
 
-# OpenAI (for content enrichment)
+# OpenAI (voor content verrijking)
 OPENAI_API_KEY=your-api-key
 
 # Email (Resend)
@@ -166,29 +163,56 @@ NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
 ## Quick Start
 
 ```bash
-# Install dependencies
+# Dependencies installeren
 npm install
 
-# Run development server
+# Development server starten
 npm run dev -- -p 3003
 
-# Run health check
+# Health check uitvoeren
 npx tsx scripts/check-health.ts
 
-# Run TypeScript check
+# TypeScript check
 npx tsc --noEmit
 
-# Build for production
+# Build voor productie
 npm run build
 ```
 
 ---
 
-## Contact
+## Service Types (Diensten)
 
-For questions or contributions, please open an issue on GitHub:
-https://github.com/MarvinNL046/rehabnearbyme/issues
+- **Airco Installatie** - Professionele plaatsing van aircosystemen
+- **Airco Onderhoud** - Periodiek onderhoud en service
+- **Warmtepomp** - Installatie en onderhoud van warmtepompen
+- **Split-unit** - Enkelvoudige aircosystemen
+- **Multi-split** - Systemen met meerdere binnenunits
+- **Airco Reparatie** - Storingen en reparaties
+- **Klimaatbeheersing** - Complete klimaatoplossingen
+
+## Certificeringen
+
+- **F-gassen gecertificeerd** - EU vereiste certificering voor koudemiddelen
+- **STEK gecertificeerd** - Nederlandse kwaliteitsnorm
+- **Erkend installateur** - Merk-specifieke erkenningen
+
+## Airco Merken
+
+- Daikin
+- Mitsubishi Electric
+- LG
+- Samsung
+- Toshiba
+- Panasonic
+- Fujitsu
 
 ---
 
-*This roadmap is a living document and will be updated as the project progresses.*
+## Contact
+
+Voor vragen of bijdragen, open een issue op GitHub.
+
+---
+
+*Deze roadmap is een levend document en wordt bijgewerkt naarmate het project vordert.*

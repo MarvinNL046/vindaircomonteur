@@ -25,9 +25,9 @@ export interface Facility {
   // Classification
   type: string;
   type_slug: string;
-  facility_types: string[];
-  treatment_types: string[];
-  insurance_accepted: string[];
+  facility_types: string[];    // installateur types (airco-installateur, warmtepomp-specialist, etc.)
+  treatment_types: string[];   // service types (airco-installatie, onderhoud, etc.) - kept for DB compatibility
+  insurance_accepted: string[]; // not used for airco, kept for DB compatibility
 
   // Contact
   phone?: string;
@@ -67,15 +67,15 @@ export interface Facility {
 export interface GeneratedContent {
   summary: string;
   about: string;
-  features: string[];
+  features: string[];        // diensten en specialisaties
   accessibility: string;
-  amenities: string[];
-  visitor_tips: string[];
-  treatment_approach?: string;
-  success_stories?: string;
+  amenities: string[];       // voorzieningen
+  visitor_tips: string[];    // klantentips
+  service_approach?: string; // werkwijze
+  certifications?: string;   // certificeringen (F-gassen, STEK)
   local_context?: string;
-  state_info?: string;
-  type_info?: string;
+  state_info?: string;       // provincie info
+  type_info?: string;        // service type info
   practical_info?: string;
   directions?: string;
 }
@@ -122,6 +122,7 @@ export interface State {
 }
 
 // Service type interface (diensten - stored as treatment_types in DB for compatibility)
+// Examples: airco-installatie, airco-onderhoud, warmtepomp, split-unit, airco-reparatie
 export interface TreatmentType {
   slug: string;
   name: string;
@@ -129,10 +130,11 @@ export interface TreatmentType {
   search_terms?: string[];
 }
 
-// Alias for clarity
+// Alias for clarity - ServiceType is the preferred name for airco context
 export type ServiceType = TreatmentType;
 
-// Facility type interface
+// Facility/Installer type interface
+// Examples: airco-installateur, klimaattechniek-bedrijf, warmtepomp-specialist
 export interface FacilityType {
   slug: string;
   name: string;
@@ -404,7 +406,7 @@ export async function getFacilitiesByCity(city: string, state?: string): Promise
   }
 }
 
-// ===== TREATMENT TYPE FUNCTIONS =====
+// ===== SERVICE TYPE FUNCTIONS (stored as treatment_types in DB) =====
 
 export async function getAllTreatmentTypes(): Promise<TreatmentType[]> {
   if (treatmentTypesCache) return treatmentTypesCache;
@@ -416,30 +418,39 @@ export async function getAllTreatmentTypes(): Promise<TreatmentType[]> {
     treatmentTypesCache = data.types as TreatmentType[];
     return treatmentTypesCache;
   } catch (error) {
-    console.error('Error loading treatment types:', error);
+    console.error('Error loading service types:', error);
     return [];
   }
 }
+
+// Alias for clarity
+export const getAllServiceTypes = getAllTreatmentTypes;
 
 export async function getTreatmentTypeBySlug(slug: string): Promise<TreatmentType | null> {
   const types = await getAllTreatmentTypes();
   return types.find(t => t.slug === slug) || null;
 }
 
-export async function getFacilitiesByTreatmentType(treatmentType: string): Promise<Facility[]> {
+// Alias for clarity
+export const getServiceTypeBySlug = getTreatmentTypeBySlug;
+
+export async function getFacilitiesByTreatmentType(serviceType: string): Promise<Facility[]> {
   try {
     const results = await db.select()
       .from(facilities)
       .where(
-        sql`${treatmentType} = ANY(${facilities.treatmentTypes})`
+        sql`${serviceType} = ANY(${facilities.treatmentTypes})`
       );
 
     return results.map(mapRowToFacility);
   } catch (error) {
-    console.error('Error loading facilities by treatment type:', error);
+    console.error('Error loading facilities by service type:', error);
     return [];
   }
 }
+
+// Alias for clarity
+export const getFacilitiesByServiceType = getFacilitiesByTreatmentType;
 
 // ===== FACILITY TYPE FUNCTIONS =====
 

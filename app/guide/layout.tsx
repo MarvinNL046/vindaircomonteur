@@ -2,10 +2,10 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Rehab Near Me Guides',
-    default: 'Treatment Guides & Resources | Rehab Near Me',
+    template: '%s | VindAircoMonteur.nl Gidsen',
+    default: 'Airco Gidsen & Informatie | VindAircoMonteur.nl',
   },
-  description: 'Expert guides on addiction treatment types, rehab options, insurance coverage, and recovery resources across America.',
+  description: 'Uitgebreide gidsen over airco installatie, onderhoud, kosten, F-gassen certificering en tips voor het kiezen van de juiste airco.',
 };
 
 export default function GuideLayout({

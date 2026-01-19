@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contact | Rehab Near Me',
-  description: 'Contact Rehab Near Me for questions, suggestions or collaborations.',
+  title: 'Contact | VindAircoMonteur.nl',
+  description: 'Neem contact op met VindAircoMonteur.nl voor vragen, suggesties of samenwerkingen.',
 };
 
 export default function ContactLayout({

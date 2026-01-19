@@ -12,18 +12,17 @@ interface PageProps {
 }
 
 const typeDescriptions: Record<string, string> = {
-  'inpatient': 'Inpatient rehabilitation centers provide 24/7 medical supervision and structured treatment programs. Patients reside at the facility for the duration of treatment, typically 30-90 days.',
-  'outpatient': 'Outpatient treatment programs allow patients to receive therapy and support while living at home. These programs offer flexible scheduling for those who cannot commit to inpatient care.',
-  'detox': 'Detoxification centers provide medical supervision during the withdrawal process. Staff monitor vital signs and provide medication to safely manage withdrawal symptoms.',
-  'residential': 'Residential treatment facilities offer long-term care in a home-like environment. These programs focus on building life skills and sustainable recovery habits.',
-  'intensive-outpatient': 'Intensive outpatient programs (IOP) provide structured treatment several hours per day while allowing patients to maintain work and family responsibilities.',
-  'partial-hospitalization': 'Partial hospitalization programs (PHP) offer hospital-level care during the day with patients returning home at night. This provides intensive treatment without full hospitalization.',
-  'sober-living': 'Sober living homes provide structured, substance-free housing for individuals in recovery. These homes offer peer support and accountability in a community setting.',
-  'luxury-rehab': 'Luxury rehabilitation centers offer high-end amenities and personalized treatment in resort-like settings. These facilities provide privacy and comfort alongside clinical excellence.',
-  'dual-diagnosis': 'Dual diagnosis treatment centers specialize in treating both substance abuse and co-occurring mental health disorders. Integrated care addresses all aspects of patient wellbeing.',
-  'adolescent': 'Adolescent treatment programs are specifically designed for teenagers struggling with addiction. These programs address the unique developmental and psychological needs of young people.',
-  'veterans': 'Veterans-specific treatment programs understand the unique challenges faced by those who served. These facilities often specialize in PTSD and combat-related trauma alongside addiction treatment.',
-  'holistic': 'Holistic treatment centers integrate alternative therapies like yoga, meditation, and acupuncture with traditional addiction treatment approaches.',
+  'airco-installateur': 'Airco installateurs zijn gespecialiseerd in het plaatsen van airconditioningsystemen voor woningen en bedrijven. Ze zorgen voor professionele installatie volgens F-gassen regelgeving.',
+  'warmtepomp-specialist': 'Warmtepomp specialisten installeren en onderhouden lucht-lucht en lucht-water warmtepompen voor effici\u00EBnt verwarmen en koelen van je woning.',
+  'klimaattechniek-bedrijf': 'Klimaattechniek bedrijven bieden complete oplossingen voor klimaatbeheersing, inclusief airco, ventilatie en luchtvochtigheidsregeling.',
+  'koeltechniek-bedrijf': 'Koeltechniek bedrijven zijn gespecialiseerd in professionele koelinstallaties voor zowel particuliere als zakelijke toepassingen.',
+  'airco-onderhoudsbedrijf': 'Airco onderhoudsbedrijven verzorgen periodiek onderhoud, filters vervangen en controles om je airco optimaal te laten functioneren.',
+  'split-unit-specialist': 'Split-unit specialisten installeren en onderhouden single en multi-split aircosystemen voor woningen en kleine kantoren.',
+  'daikin-dealer': 'Daikin dealers zijn erkende installateurs voor Daikin airconditioners en warmtepompen, een van de toonaangevende merken in klimaattechniek.',
+  'mitsubishi-dealer': 'Mitsubishi Electric dealers installeren airconditioners van dit Japanse premiummerk, bekend om fluisterstille werking en betrouwbaarheid.',
+  'lg-dealer': 'LG dealers zijn gespecialiseerd in LG airconditioners, bekend om hun moderne design en slimme functies.',
+  'samsung-dealer': 'Samsung dealers installeren Samsung airconditioners met innovatieve Wind-Free technologie voor comfortabele koeling.',
+  'toshiba-dealer': 'Toshiba dealers zijn experts in Toshiba aircosystemen, de uitvinder van de split-unit airconditioning.',
 };
 
 export async function generateStaticParams() {
@@ -41,15 +40,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const type = await getFacilityTypeBySlug(typeSlug);
 
   if (!type) {
-    return { title: 'Treatment Type Not Found' };
+    return { title: 'Service Type Niet Gevonden' };
   }
 
   return {
-    title: `${type.name} Treatment Centers in the USA | Rehab Near Me`,
-    description: `Find ${type.name.toLowerCase()} treatment centers across the United States. View locations, services, and insurance accepted.`,
+    title: `${type.name} in Nederland | VindAircoMonteur.nl`,
+    description: `Vind ${type.name.toLowerCase()} in heel Nederland. Bekijk locaties, diensten en certificeringen.`,
     openGraph: {
-      title: `${type.name} Treatment Centers`,
-      description: `All ${type.name.toLowerCase()} facilities in the USA`,
+      title: `${type.name} in Nederland`,
+      description: `Alle ${type.name.toLowerCase()} in Nederland`,
       type: 'website',
     },
   };

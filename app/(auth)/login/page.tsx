@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { Mail, ArrowRight, Loader2, KeyRound, Trees } from 'lucide-react';
+import { Mail, ArrowRight, Loader2, KeyRound, Snowflake } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 
@@ -73,32 +73,32 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen flex">
       {/* Left Side - Gradient Branding */}
-      <div className="hidden lg:flex lg:w-1/2 relative bg-gradient-to-br from-teal-800 via-teal-700 to-teal-900 overflow-hidden">
+      <div className="hidden lg:flex lg:w-1/2 relative bg-gradient-to-br from-cyan-800 via-cyan-700 to-cyan-900 overflow-hidden">
         {/* Decorative background elements */}
         <div className="absolute inset-0">
-          <div className="absolute top-0 left-0 w-96 h-96 bg-teal-600/20 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
-          <div className="absolute bottom-0 right-0 w-80 h-80 bg-coral-500/10 rounded-full blur-3xl translate-x-1/3 translate-y-1/3" />
-          <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-teal-500/15 rounded-full blur-2xl -translate-x-1/2 -translate-y-1/2" />
+          <div className="absolute top-0 left-0 w-96 h-96 bg-cyan-600/20 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
+          <div className="absolute bottom-0 right-0 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl translate-x-1/3 translate-y-1/3" />
+          <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-cyan-500/15 rounded-full blur-2xl -translate-x-1/2 -translate-y-1/2" />
           {/* Subtle grid pattern */}
           <div className="absolute inset-0 opacity-5" style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, white 1px, transparent 1px)', backgroundSize: '40px 40px' }} />
         </div>
         <div className="relative z-10 flex flex-col justify-center px-12 xl:px-16">
           <Link href="/" className="flex items-center gap-3 mb-8">
             <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center">
-              <Trees className="w-6 h-6 text-coral-400" />
+              <Snowflake className="w-6 h-6 text-cyan-300" />
             </div>
             <div>
-              <span className="text-2xl font-serif font-bold text-white">Rehab</span>
-              <span className="text-2xl font-serif font-bold text-coral-400">NearMe</span>
+              <span className="text-2xl font-serif font-bold text-white">VindAirco</span>
+              <span className="text-2xl font-serif font-bold text-cyan-300">Monteur</span>
             </div>
           </Link>
           <h2 className="font-serif text-4xl xl:text-5xl font-bold text-white leading-tight mb-6">
-            Find recovery, hope
+            Vind de beste
             <br />
-            <span className="text-coral-300">and healing.</span>
+            <span className="text-cyan-300">airco monteur.</span>
           </h2>
           <p className="text-white/70 text-lg max-w-md">
-            Manage your treatment facility listings and help people find the right care.
+            Beheer je installateur vermeldingen en help mensen de juiste airco specialist vinden.
           </p>
         </div>
       </div>
@@ -109,10 +109,10 @@ export default function LoginPage() {
           {/* Mobile Logo */}
           <div className="lg:hidden text-center mb-8">
             <Link href="/" className="inline-flex items-center gap-2">
-              <Trees className="w-8 h-8 text-primary" />
+              <Snowflake className="w-8 h-8 text-primary" />
               <div>
-                <span className="text-xl font-serif font-bold text-primary">Rehab</span>
-                <span className="text-xl font-serif font-bold text-accent">NearMe</span>
+                <span className="text-xl font-serif font-bold text-primary">VindAirco</span>
+                <span className="text-xl font-serif font-bold text-accent">Monteur</span>
               </div>
             </Link>
           </div>
@@ -121,12 +121,12 @@ export default function LoginPage() {
             {/* Header */}
             <div className="text-center mb-8">
               <h1 className="font-serif text-2xl sm:text-3xl font-bold text-foreground mb-2">
-                Welcome back
+                Welkom terug
               </h1>
               <p className="text-muted-foreground">
                 {step === 'email'
-                  ? 'Log in with your email address'
-                  : 'Enter the verification code'}
+                  ? 'Log in met je e-mailadres'
+                  : 'Voer de verificatiecode in'}
               </p>
             </div>
 
@@ -141,7 +141,7 @@ export default function LoginPage() {
               <form onSubmit={handleSendCode} className="space-y-6">
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                    Email address
+                    E-mailadres
                   </label>
                   <div className="relative">
                     <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
@@ -168,7 +168,7 @@ export default function LoginPage() {
                     <Loader2 className="w-5 h-5 animate-spin" />
                   ) : (
                     <>
-                      Send code
+                      Code versturen
                       <ArrowRight className="w-5 h-5 ml-2" />
                     </>
                   )}
@@ -178,10 +178,10 @@ export default function LoginPage() {
               <form onSubmit={handleVerifyCode} className="space-y-6">
                 <div>
                   <label htmlFor="code" className="block text-sm font-medium text-foreground mb-2">
-                    Verification code
+                    Verificatiecode
                   </label>
                   <p className="text-sm text-muted-foreground mb-3">
-                    We sent a 6-digit code to <strong className="text-foreground">{email}</strong>
+                    We hebben een 6-cijferige code gestuurd naar <strong className="text-foreground">{email}</strong>
                   </p>
                   <div className="relative">
                     <KeyRound className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
@@ -210,7 +210,7 @@ export default function LoginPage() {
                     <Loader2 className="w-5 h-5 animate-spin" />
                   ) : (
                     <>
-                      Log in
+                      Inloggen
                       <ArrowRight className="w-5 h-5 ml-2" />
                     </>
                   )}
@@ -225,7 +225,7 @@ export default function LoginPage() {
                   }}
                   className="w-full text-muted-foreground hover:text-foreground text-sm py-2 transition-colors"
                 >
-                  Use different email address
+                  Ander e-mailadres gebruiken
                 </button>
               </form>
             )}
@@ -233,9 +233,9 @@ export default function LoginPage() {
             {/* Footer */}
             <div className="mt-8 pt-6 border-t border-border text-center">
               <p className="text-muted-foreground">
-                Don&apos;t have an account?{' '}
+                Nog geen account?{' '}
                 <Link href="/register" className="text-accent hover:text-accent/80 font-semibold transition-colors">
-                  Register
+                  Registreren
                 </Link>
               </p>
             </div>
@@ -243,9 +243,9 @@ export default function LoginPage() {
 
           {/* Additional Info */}
           <p className="text-center text-muted-foreground text-sm mt-6">
-            By logging in you agree to our{' '}
+            Door in te loggen ga je akkoord met ons{' '}
             <Link href="/privacy" className="text-accent hover:underline">
-              privacy policy
+              privacybeleid
             </Link>
           </p>
         </div>

@@ -33,11 +33,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   return {
-    title: `Rehab Centers in ${state.name} | Treatment Centers Near You`,
-    description: `Find addiction treatment centers and rehab facilities in ${state.name}. View locations, treatment types, insurance accepted, and reviews of rehab centers near you.`,
+    title: `Airco Monteurs in ${state.name} | VindAircoMonteur.nl`,
+    description: `Vind airco installateurs en monteurs in ${state.name}. Bekijk locaties, diensten, certificeringen en reviews van airco specialisten bij jou in de buurt.`,
     openGraph: {
-      title: `Rehab & Treatment Centers in ${state.name}`,
-      description: `Directory of all addiction treatment and rehabilitation centers in ${state.name}`,
+      title: `Airco Monteurs in ${state.name}`,
+      description: `Directory van alle airco installateurs in ${state.name}`,
       type: 'website',
     },
   };
@@ -145,25 +145,25 @@ export default async function StatePage({ params }: PageProps) {
             </nav>
 
             <h1 className="font-serif text-4xl sm:text-5xl font-bold mb-4">
-              Rehab Centers in {state.name}
+              Airco Monteurs in {state.name}
             </h1>
             <p className="text-primary-foreground/80 text-lg max-w-2xl mb-8">
-              Find addiction treatment centers and rehabilitation facilities in {state.name}. Select a county to view treatment centers in that area.
+              Vind airco installateurs en monteurs in {state.name}. Selecteer een gemeente om airco bedrijven in dat gebied te bekijken.
             </p>
 
             {/* Stats */}
             <div className="flex flex-wrap gap-8">
               <div>
-                <div className="text-3xl font-bold text-coral-300">{facilities.length}</div>
-                <div className="text-primary-foreground/70 text-sm">Treatment Centers</div>
+                <div className="text-3xl font-bold text-cyan-300">{facilities.length}</div>
+                <div className="text-primary-foreground/70 text-sm">Airco Bedrijven</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-coral-300">{counties.length}</div>
-                <div className="text-primary-foreground/70 text-sm">Counties</div>
+                <div className="text-3xl font-bold text-cyan-300">{counties.length}</div>
+                <div className="text-primary-foreground/70 text-sm">Gemeenten</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-coral-300">{cities.length}</div>
-                <div className="text-primary-foreground/70 text-sm">Cities</div>
+                <div className="text-3xl font-bold text-cyan-300">{cities.length}</div>
+                <div className="text-primary-foreground/70 text-sm">Steden</div>
               </div>
             </div>
           </div>

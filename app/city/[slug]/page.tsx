@@ -46,11 +46,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const state = facilities[0]?.state || '';
 
   return {
-    title: `Rehab & Treatment Centers in ${city} | Rehab Near By Me`,
-    description: `Find all ${facilities.length} addiction treatment centers and rehab facilities in ${city}, ${county ? `${county} County, ` : ''}${state}. View locations, services, and contact information for local treatment centers.`,
+    title: `Airco Monteurs in ${city} | VindAircoMonteur.nl`,
+    description: `Vind alle ${facilities.length} airco installateurs en monteurs in ${city}, ${county ? `gemeente ${county}, ` : ''}${state}. Bekijk locaties, diensten en contactgegevens van lokale airco specialisten.`,
     openGraph: {
-      title: `Treatment Centers in ${city}`,
-      description: `All rehab facilities in ${city}${county ? `, ${county} County` : ''}`,
+      title: `Airco Monteurs in ${city}`,
+      description: `Alle airco installateurs in ${city}${county ? `, gemeente ${county}` : ''}`,
       type: 'website',
     },
   };
@@ -77,7 +77,7 @@ export default async function CityPage({ params }: PageProps) {
 
   // Count facility types
   const typeCount = facilities.reduce((acc: Record<string, number>, facility: Facility) => {
-    const typeName = facility.type || 'Treatment Center';
+    const typeName = facility.type || 'Airco Installateur';
     acc[typeName] = (acc[typeName] || 0) + 1;
     return acc;
   }, {} as Record<string, number>);
@@ -257,10 +257,10 @@ export default async function CityPage({ params }: PageProps) {
 
               {/* Info Box */}
               <div className="bg-muted rounded-lg p-6">
-                <h3 className="text-lg font-semibold mb-2">About {city}</h3>
+                <h3 className="text-lg font-semibold mb-2">Over {city}</h3>
                 <p className="text-sm text-muted-foreground">
-                  {city} is located in {county ? `${county} County, ` : ''}{state}.
-                  This page provides an overview of all addiction treatment centers and rehab facilities in this area.
+                  {city} ligt in {county ? `gemeente ${county}, ` : ''}{state}.
+                  Deze pagina geeft een overzicht van alle airco installateurs en monteurs in dit gebied.
                 </p>
               </div>
             </div>
@@ -269,36 +269,36 @@ export default async function CityPage({ params }: PageProps) {
 
         {/* SEO Content */}
         <div className="mt-12 prose prose-lg max-w-none">
-          <h2>Treatment Centers and Rehab Facilities in {city}</h2>
+          <h2>Airco Installateurs en Monteurs in {city}</h2>
           <p>
-            In {city} you&apos;ll find various types of treatment centers, from inpatient rehabilitation facilities to
-            outpatient programs and sober living homes. Each facility offers specialized care and support for those seeking recovery.
+            In {city} vind je verschillende soorten airco bedrijven, van installateurs tot onderhoudsbedrijven
+            en warmtepomp specialisten. Elk bedrijf biedt gespecialiseerde diensten voor klimaatbeheersing.
           </p>
 
-          {typeCount['Inpatient Rehabilitation'] > 0 && (
+          {typeCount['Airco Installateur'] > 0 && (
             <>
-              <h3>Inpatient Rehabilitation Centers</h3>
+              <h3>Airco Installateurs</h3>
               <p>
-                {city} has {typeCount['Inpatient Rehabilitation']} inpatient {typeCount['Inpatient Rehabilitation'] > 1 ? 'facilities' : 'facility'}.
-                These programs provide 24/7 care and support in a residential setting for those beginning their recovery journey.
+                {city} heeft {typeCount['Airco Installateur']} airco {typeCount['Airco Installateur'] > 1 ? 'installateurs' : 'installateur'}.
+                Deze bedrijven zijn gespecialiseerd in het plaatsen van airconditioningsystemen voor woningen en bedrijven.
               </p>
             </>
           )}
 
-          {typeCount['Outpatient Treatment'] > 0 && (
+          {typeCount['Warmtepomp Specialist'] > 0 && (
             <>
-              <h3>Outpatient Treatment Programs</h3>
+              <h3>Warmtepomp Specialisten</h3>
               <p>
-                There {typeCount['Outpatient Treatment'] > 1 ? 'are' : 'is'} {typeCount['Outpatient Treatment']} outpatient
-                {typeCount['Outpatient Treatment'] > 1 ? ' programs' : ' program'} in {city}, offering flexible treatment options for those who need to maintain work or family commitments.
+                Er {typeCount['Warmtepomp Specialist'] > 1 ? 'zijn' : 'is'} {typeCount['Warmtepomp Specialist']} warmtepomp
+                {typeCount['Warmtepomp Specialist'] > 1 ? ' specialisten' : ' specialist'} in {city}, die lucht-lucht en lucht-water warmtepompen installeren en onderhouden.
               </p>
             </>
           )}
 
-          <h3>Getting Help Information</h3>
+          <h3>Meer informatie</h3>
           <p>
-            For more information about a specific treatment center in {city}, click on the facility
-            above. There you will find contact details, services offered, insurance information, and how to get started with treatment.
+            Voor meer informatie over een specifieke airco installateur in {city}, klik op het bedrijf
+            hierboven. Daar vind je contactgegevens, aangeboden diensten, certificeringen en hoe je een offerte kunt aanvragen.
           </p>
         </div>
       </div>

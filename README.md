@@ -1,10 +1,10 @@
-# RehabNearByMe.com
+# VindAircoMonteur.nl
 
-A comprehensive online directory for finding rehabilitation and addiction treatment centers in the United States.
+Een uitgebreide online directory voor het vinden van airco installateurs, monteurs en klimaattechniek specialisten in Nederland.
 
 ## Project Status
 
-Active development - building a comprehensive database of treatment facilities.
+Actieve ontwikkeling - bezig met het opbouwen van een uitgebreide database van airco installateurs.
 
 ## Tech Stack
 
@@ -34,19 +34,45 @@ npm run start
 
 ```
 ├── app/                    # Next.js app directory
-│   ├── facility/          # Facility detail pages
-│   ├── city/              # City overview pages
-│   ├── county/            # County overview pages
-│   ├── state/             # State overview pages
-│   └── search/            # Search functionality
+│   ├── facility/          # Installateur detail pagina's
+│   ├── city/              # Stad overzicht pagina's
+│   ├── county/            # Gemeente overzicht pagina's
+│   ├── state/             # Provincie overzicht pagina's
+│   └── search/            # Zoek functionaliteit
 ├── components/            # React components
 ├── data/                  # Database files
 ├── public/               # Static assets
 └── docs/                 # Documentation
-    └── archive/          # Archived documentation
+    └── archive/          # Gearchiveerde documentatie
 ```
+
+## Features
+
+- Zoek airco installateurs op locatie (stad, postcode, provincie)
+- Filter op service type (installatie, onderhoud, reparatie)
+- Filter op merk specialisatie (Daikin, Mitsubishi, LG, etc.)
+- Filter op certificering (F-gassen, STEK)
+- Bekijk ratings en reviews
+- Contactgegevens en website links
+- Kaartweergave van installateurs in de buurt
+
+## Service Types
+
+- Airco Installatie
+- Airco Onderhoud
+- Warmtepomp
+- Split-unit systemen
+- Multi-split systemen
+- Airco Reparatie
+- Klimaatbeheersing
+
+## Certificeringen
+
+- F-gassen gecertificeerd (EU vereist)
+- STEK gecertificeerd
+- Erkend installateur per merk
 
 ## Contact
 
-- Website: https://rehabnearbyme.com
-- Email: info@rehabnearbyme.com
+- Website: https://vindaircomonteur.nl
+- Email: info@vindaircomonteur.nl

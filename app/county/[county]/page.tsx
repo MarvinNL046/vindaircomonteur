@@ -45,11 +45,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   return {
-    title: `Rehab Centers in ${matchedCounty} County | RehabNearByMe`,
-    description: `Find all rehab and addiction treatment centers in ${matchedCounty} County. View facilities, treatment types, insurance accepted, and contact information.`,
+    title: `Airco Monteurs in Gemeente ${matchedCounty} | VindAircoMonteur.nl`,
+    description: `Vind alle airco installateurs en monteurs in gemeente ${matchedCounty}. Bekijk bedrijven, diensten, certificeringen en contactgegevens.`,
     openGraph: {
-      title: `Rehab Centers in ${matchedCounty} County`,
-      description: `Directory of all rehab and treatment centers in ${matchedCounty} County`,
+      title: `Airco Monteurs in Gemeente ${matchedCounty}`,
+      description: `Directory van alle airco installateurs in gemeente ${matchedCounty}`,
       type: 'website',
     },
   };
@@ -144,21 +144,21 @@ export default async function CountyPage({ params }: PageProps) {
             </nav>
 
             <h1 className="font-serif text-4xl sm:text-5xl font-bold mb-4">
-              Rehab Centers in {matchedCounty} County
+              Airco Monteurs in Gemeente {matchedCounty}
             </h1>
 
             {/* Author byline */}
             <div className="flex items-center gap-4 text-sm text-primary-foreground/70 mb-8">
               <div className="flex items-center gap-2">
                 <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center">
-                  <span className="text-xs font-semibold">RN</span>
+                  <span className="text-xs font-semibold">VA</span>
                 </div>
-                <span>By Rehab Near By Me</span>
+                <span>Door VindAircoMonteur.nl</span>
               </div>
-              <span>•</span>
+              <span>-</span>
               <div className="flex items-center gap-2">
                 <Calendar className="w-4 h-4" />
-                <span>Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+                <span>Laatst bijgewerkt: {new Date().toLocaleDateString('nl-NL', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
               </div>
             </div>
 
@@ -225,33 +225,33 @@ export default async function CountyPage({ params }: PageProps) {
 
               {/* Facility Type Cards */}
               <div>
-                <h2 className="font-serif text-2xl font-semibold mb-6">Types of Treatment Centers</h2>
+                <h2 className="font-serif text-2xl font-semibold mb-6">Soorten Airco Diensten</h2>
                 <div className="grid md:grid-cols-3 gap-4">
                   <Card className="p-5 hover:shadow-hover transition-all duration-300 border-2 border-transparent hover:border-accent/30">
-                    <div className="w-10 h-10 bg-teal-100 rounded-lg flex items-center justify-center mb-3">
-                      <Building2 className="w-5 h-5 text-teal-700" />
+                    <div className="w-10 h-10 bg-cyan-100 rounded-lg flex items-center justify-center mb-3">
+                      <Building2 className="w-5 h-5 text-cyan-700" />
                     </div>
-                    <h3 className="font-semibold mb-2">Inpatient Rehab</h3>
+                    <h3 className="font-semibold mb-2">Airco Installatie</h3>
                     <p className="text-sm text-muted-foreground">
-                      Residential treatment with 24/7 medical supervision. Intensive programs for severe addiction cases.
+                      Professionele plaatsing van split-units en multi-split systemen voor woningen en bedrijven.
                     </p>
                   </Card>
                   <Card className="p-5 hover:shadow-hover transition-all duration-300 border-2 border-transparent hover:border-accent/30">
-                    <div className="w-10 h-10 bg-teal-100 rounded-lg flex items-center justify-center mb-3">
-                      <Trees className="w-5 h-5 text-teal-700" />
+                    <div className="w-10 h-10 bg-cyan-100 rounded-lg flex items-center justify-center mb-3">
+                      <Trees className="w-5 h-5 text-cyan-700" />
                     </div>
-                    <h3 className="font-semibold mb-2">Outpatient Treatment</h3>
+                    <h3 className="font-semibold mb-2">Warmtepomp</h3>
                     <p className="text-sm text-muted-foreground">
-                      Flexible treatment schedule allowing you to live at home while receiving therapy and support.
+                      Installatie en onderhoud van lucht-lucht en lucht-water warmtepompen voor verwarmen en koelen.
                     </p>
                   </Card>
                   <Card className="p-5 hover:shadow-hover transition-all duration-300 border-2 border-transparent hover:border-accent/30">
-                    <div className="w-10 h-10 bg-teal-100 rounded-lg flex items-center justify-center mb-3">
-                      <Users className="w-5 h-5 text-teal-700" />
+                    <div className="w-10 h-10 bg-cyan-100 rounded-lg flex items-center justify-center mb-3">
+                      <Users className="w-5 h-5 text-cyan-700" />
                     </div>
-                    <h3 className="font-semibold mb-2">Detox Centers</h3>
+                    <h3 className="font-semibold mb-2">Onderhoud & Reparatie</h3>
                     <p className="text-sm text-muted-foreground">
-                      Medical detoxification services with supervision to safely manage withdrawal symptoms.
+                      Periodiek onderhoud, filters vervangen en storingen verhelpen door gecertificeerde monteurs.
                     </p>
                   </Card>
                 </div>
@@ -260,7 +260,7 @@ export default async function CountyPage({ params }: PageProps) {
               {/* All Facilities */}
               <div>
                 <h2 className="font-serif text-2xl font-semibold mb-6">
-                  All {facilities.length} {facilities.length !== 1 ? 'Treatment Centers' : 'Treatment Center'}
+                  Alle {facilities.length} {facilities.length !== 1 ? 'Airco Bedrijven' : 'Airco Bedrijf'}
                 </h2>
                 <div className="grid gap-6 md:grid-cols-2">
                   {facilities.map((facility: Facility) => (
@@ -356,20 +356,20 @@ export default async function CountyPage({ params }: PageProps) {
                   </li>
                   <li>
                     <Link
-                      href="/type/inpatient"
+                      href="/type/airco-installateur"
                       className="flex items-center gap-2 text-muted-foreground hover:text-accent transition-colors"
                     >
                       <ChevronRight className="w-4 h-4" />
-                      Inpatient Rehab Centers
+                      Airco Installateurs
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/type/outpatient"
+                      href="/type/warmtepomp-specialist"
                       className="flex items-center gap-2 text-muted-foreground hover:text-accent transition-colors"
                     >
                       <ChevronRight className="w-4 h-4" />
-                      Outpatient Programs
+                      Warmtepomp Specialisten
                     </Link>
                   </li>
                   <li>
@@ -378,7 +378,7 @@ export default async function CountyPage({ params }: PageProps) {
                       className="flex items-center gap-2 text-muted-foreground hover:text-accent transition-colors"
                     >
                       <ChevronRight className="w-4 h-4" />
-                      Search Treatment Centers
+                      Zoek Airco Monteurs
                     </Link>
                   </li>
                   <li>
