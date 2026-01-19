@@ -1,15 +1,15 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { Users, Heart, Target, Shield, Clock, ArrowRight, Sparkles, TreePine, Quote } from 'lucide-react';
+import { Users, Snowflake, Target, Shield, Clock, ArrowRight, Sparkles, Award, Quote, MapPin, Wrench, CheckCircle } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 import InlineAd from '@/components/ads/InlineAd';
 
 export const metadata: Metadata = {
-  title: 'About Us | Rehab Near Me',
-  description: 'Learn about Rehab Near Me, the most comprehensive directory of addiction treatment centers and rehabilitation facilities in the United States.',
+  title: 'Over Ons | VindAircoMonteur.nl',
+  description: 'Leer meer over VindAircoMonteur.nl, het meest uitgebreide overzicht van airco installateurs en klimaattechniek bedrijven in Nederland.',
   openGraph: {
-    title: 'About Rehab Near Me',
-    description: 'Your trusted guide for finding addiction treatment centers across the United States',
+    title: 'Over VindAircoMonteur.nl',
+    description: 'Uw betrouwbare gids voor het vinden van airco monteurs door heel Nederland',
   },
 };
 
@@ -17,23 +17,23 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <div className="bg-primary text-primary-foreground py-16">
+      <div className="bg-gradient-to-br from-cyan-600 to-blue-700 text-white py-16">
         <div className="container mx-auto px-4">
           {/* Breadcrumb */}
           <nav className="mb-6">
-            <ol className="flex items-center space-x-2 text-sm text-primary-foreground/70">
+            <ol className="flex items-center space-x-2 text-sm text-white/70">
               <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
               <li>/</li>
-              <li className="text-white">About Us</li>
+              <li className="text-white">Over Ons</li>
             </ol>
           </nav>
 
           <h1 className="font-serif text-4xl sm:text-5xl font-bold mb-4">
-            About Rehab Near Me
+            Over VindAircoMonteur.nl
           </h1>
-          <p className="text-primary-foreground/80 text-lg max-w-2xl">
-            The most comprehensive and reliable directory of addiction treatment centers in the United States,
-            carefully curated to help you find the right path to recovery.
+          <p className="text-white/80 text-lg max-w-2xl">
+            Het meest uitgebreide en betrouwbare overzicht van airco installateurs in Nederland,
+            zorgvuldig samengesteld om u te helpen de juiste monteur te vinden.
           </p>
         </div>
       </div>
@@ -43,9 +43,9 @@ export default function AboutPage() {
           {/* Introduction */}
           <Card className="p-8 shadow-soft mb-12">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Rehab Near Me was created to provide a complete, reliable, and accessible
-              database of addiction treatment centers across the United States. We believe everyone
-              deserves access to information that can help them find the right treatment facility.
+              VindAircoMonteur.nl is opgericht om een compleet, betrouwbaar en toegankelijk
+              overzicht te bieden van airco installateurs door heel Nederland. Wij geloven dat iedereen
+              toegang verdient tot informatie die helpt bij het vinden van de juiste klimaattechniek specialist.
             </p>
           </Card>
 
@@ -54,80 +54,80 @@ export default function AboutPage() {
           {/* Mission Section */}
           <section className="mb-16">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 rounded-lg bg-accent text-accent-foreground flex items-center justify-center">
+              <div className="w-10 h-10 rounded-lg bg-cyan-500 text-white flex items-center justify-center">
                 <Target className="w-5 h-5" />
               </div>
-              <h2 className="font-serif text-2xl font-bold">Our Mission</h2>
+              <h2 className="font-serif text-2xl font-bold">Onze Missie</h2>
             </div>
-            <Card className="p-6 shadow-soft bg-gradient-to-br from-teal-50 to-coral-50/50 dark:from-teal-900/20 dark:to-coral-900/10 border-teal-100 dark:border-teal-800">
+            <Card className="p-6 shadow-soft bg-gradient-to-br from-cyan-50 to-blue-50/50 dark:from-cyan-900/20 dark:to-blue-900/10 border-cyan-100 dark:border-cyan-800">
               <p className="text-muted-foreground leading-relaxed">
-                We strive to be the most complete and user-friendly resource for addiction treatment
-                information in the United States. Whether you&apos;re seeking help for yourself,
-                supporting a loved one, or researching treatment options - we&apos;re here to help
-                guide you toward recovery.
+                Wij streven ernaar de meest complete en gebruiksvriendelijke bron voor airco installatie
+                informatie in Nederland te zijn. Of u nu zoekt naar een monteur voor uzelf,
+                uw bedrijf ondersteunt, of klimaatoplossingen onderzoekt - wij helpen u graag
+                bij het vinden van de perfecte specialist.
               </p>
             </Card>
           </section>
 
           {/* What We Offer Section */}
           <section className="mb-16">
-            <h2 className="font-serif text-2xl font-bold mb-6">What We Offer</h2>
+            <h2 className="font-serif text-2xl font-bold mb-6">Wat Wij Bieden</h2>
             <div className="grid gap-4 md:grid-cols-2">
-              <Card className="p-6 shadow-soft border-2 border-transparent hover:border-accent/30 transition-all duration-300">
+              <Card className="p-6 shadow-soft border-2 border-transparent hover:border-cyan-300 transition-all duration-300">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-teal-100 rounded-xl flex items-center justify-center shrink-0">
-                    <Users className="w-6 h-6 text-teal-700" />
+                  <div className="w-12 h-12 bg-cyan-100 rounded-xl flex items-center justify-center shrink-0">
+                    <Users className="w-6 h-6 text-cyan-700" />
                   </div>
                   <div>
-                    <h3 className="font-serif font-semibold text-lg mb-2">Comprehensive Database</h3>
+                    <h3 className="font-serif font-semibold text-lg mb-2">Uitgebreide Database</h3>
                     <p className="text-sm text-muted-foreground">
-                      Thousands of treatment centers with up-to-date information including
-                      services, insurance accepted, and contact details.
+                      Honderden airco monteurs met actuele informatie over diensten,
+                      specialisaties en contactgegevens.
                     </p>
                   </div>
                 </div>
               </Card>
 
-              <Card className="p-6 shadow-soft border-2 border-transparent hover:border-accent/30 transition-all duration-300">
+              <Card className="p-6 shadow-soft border-2 border-transparent hover:border-cyan-300 transition-all duration-300">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-teal-100 rounded-xl flex items-center justify-center shrink-0">
-                    <Heart className="w-6 h-6 text-teal-700" />
+                  <div className="w-12 h-12 bg-cyan-100 rounded-xl flex items-center justify-center shrink-0">
+                    <Shield className="w-6 h-6 text-cyan-700" />
                   </div>
                   <div>
-                    <h3 className="font-serif font-semibold text-lg mb-2">Carefully Curated</h3>
+                    <h3 className="font-serif font-semibold text-lg mb-2">F-gassen Gecertificeerd</h3>
                     <p className="text-sm text-muted-foreground">
-                      Each facility is carefully documented with respect for the
-                      sensitive nature of addiction treatment.
+                      Alleen monteurs met de vereiste F-gassen certificering volgens
+                      EU-wetgeving worden opgenomen.
                     </p>
                   </div>
                 </div>
               </Card>
 
-              <Card className="p-6 shadow-soft border-2 border-transparent hover:border-accent/30 transition-all duration-300">
+              <Card className="p-6 shadow-soft border-2 border-transparent hover:border-cyan-300 transition-all duration-300">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-teal-100 rounded-xl flex items-center justify-center shrink-0">
-                    <Clock className="w-6 h-6 text-teal-700" />
+                  <div className="w-12 h-12 bg-cyan-100 rounded-xl flex items-center justify-center shrink-0">
+                    <Clock className="w-6 h-6 text-cyan-700" />
                   </div>
                   <div>
-                    <h3 className="font-serif font-semibold text-lg mb-2">Always Updated</h3>
+                    <h3 className="font-serif font-semibold text-lg mb-2">Altijd Actueel</h3>
                     <p className="text-sm text-muted-foreground">
-                      We continuously work to keep information such as services,
-                      insurance, and contact details current.
+                      Wij werken continu aan het bijwerken van informatie zoals diensten,
+                      merken en contactgegevens.
                     </p>
                   </div>
                 </div>
               </Card>
 
-              <Card className="p-6 shadow-soft border-2 border-transparent hover:border-accent/30 transition-all duration-300">
+              <Card className="p-6 shadow-soft border-2 border-transparent hover:border-cyan-300 transition-all duration-300">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-teal-100 rounded-xl flex items-center justify-center shrink-0">
-                    <Shield className="w-6 h-6 text-teal-700" />
+                  <div className="w-12 h-12 bg-cyan-100 rounded-xl flex items-center justify-center shrink-0">
+                    <MapPin className="w-6 h-6 text-cyan-700" />
                   </div>
                   <div>
-                    <h3 className="font-serif font-semibold text-lg mb-2">Privacy First</h3>
+                    <h3 className="font-serif font-semibold text-lg mb-2">Landelijke Dekking</h3>
                     <p className="text-sm text-muted-foreground">
-                      We respect your privacy and strictly follow data protection
-                      guidelines when processing information.
+                      Monteurs in alle 12 provincies, van Groningen tot Limburg,
+                      van Zeeland tot Overijssel.
                     </p>
                   </div>
                 </div>
@@ -137,35 +137,35 @@ export default function AboutPage() {
 
           {/* Values Section */}
           <section className="mb-16">
-            <h2 className="font-serif text-2xl font-bold mb-6">Our Values</h2>
+            <h2 className="font-serif text-2xl font-bold mb-6">Onze Waarden</h2>
             <div className="grid gap-4 md:grid-cols-3">
               <Card className="p-6 shadow-soft text-center">
-                <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Heart className="w-6 h-6 text-accent" />
+                <div className="w-12 h-12 bg-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Snowflake className="w-6 h-6 text-cyan-600" />
                 </div>
-                <h3 className="font-serif font-semibold mb-2">Respect</h3>
+                <h3 className="font-serif font-semibold mb-2">Kwaliteit</h3>
                 <p className="text-sm text-muted-foreground">
-                  We treat this subject with the respect and dignity it deserves.
+                  Alleen gecertificeerde en betrouwbare installateurs.
                 </p>
               </Card>
 
               <Card className="p-6 shadow-soft text-center">
-                <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="w-6 h-6 text-accent" />
+                <div className="w-12 h-12 bg-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Users className="w-6 h-6 text-cyan-600" />
                 </div>
-                <h3 className="font-serif font-semibold mb-2">Accessibility</h3>
+                <h3 className="font-serif font-semibold mb-2">Toegankelijkheid</h3>
                 <p className="text-sm text-muted-foreground">
-                  Information should be easy to find and understand for everyone.
+                  Informatie moet eenvoudig te vinden en begrijpen zijn.
                 </p>
               </Card>
 
               <Card className="p-6 shadow-soft text-center">
-                <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Shield className="w-6 h-6 text-accent" />
+                <div className="w-12 h-12 bg-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <CheckCircle className="w-6 h-6 text-cyan-600" />
                 </div>
-                <h3 className="font-serif font-semibold mb-2">Reliability</h3>
+                <h3 className="font-serif font-semibold mb-2">Betrouwbaarheid</h3>
                 <p className="text-sm text-muted-foreground">
-                  We strive for 100% accurate and up-to-date information.
+                  Wij streven naar 100% accurate en actuele informatie.
                 </p>
               </Card>
             </div>
@@ -174,43 +174,75 @@ export default function AboutPage() {
           <InlineAd />
 
           {/* Quote Section */}
-          <Card className="p-8 shadow-soft bg-gradient-to-r from-teal-50 to-coral-50/30 dark:from-teal-900/20 dark:to-coral-900/10 border-teal-100 dark:border-teal-800 mb-16">
+          <Card className="p-8 shadow-soft bg-gradient-to-r from-cyan-50 to-blue-50/30 dark:from-cyan-900/20 dark:to-blue-900/10 border-cyan-100 dark:border-cyan-800 mb-16">
             <div className="flex items-start gap-4">
-              <Quote className="w-8 h-8 text-accent shrink-0" />
+              <Quote className="w-8 h-8 text-cyan-500 shrink-0" />
               <div>
                 <p className="text-lg font-medium text-foreground mb-4 italic">
-                  &quot;Making addiction treatment information accessible to everyone across America&quot;
+                  &quot;Airco installatie informatie toegankelijk maken voor iedereen in Nederland&quot;
                 </p>
                 <p className="text-sm text-muted-foreground">
-                  - Rehab Near Me Team
+                  - Team VindAircoMonteur.nl
                 </p>
               </div>
             </div>
           </Card>
 
-          {/* Future Vision Section */}
+          {/* Services Section */}
           <section className="mb-16">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 rounded-lg bg-accent text-accent-foreground flex items-center justify-center">
-                <Sparkles className="w-5 h-5" />
+              <div className="w-10 h-10 rounded-lg bg-blue-500 text-white flex items-center justify-center">
+                <Wrench className="w-5 h-5" />
               </div>
-              <h2 className="font-serif text-2xl font-bold">Future Vision</h2>
+              <h2 className="font-serif text-2xl font-bold">Diensten</h2>
             </div>
             <Card className="p-6 shadow-soft">
               <p className="text-muted-foreground mb-6">
-                We continue to work on improving our services. In the future, we plan to:
+                Onze database bevat monteurs gespecialiseerd in diverse diensten:
               </p>
               <ul className="space-y-3">
                 {[
-                  'Add interactive maps for better navigation',
-                  'Expand insurance verification tools',
-                  'Provide a platform for sharing recovery stories',
-                  'Partner with healthcare professionals',
-                  'Add virtual facility tours',
+                  'Airco installatie (split-unit en multi-split)',
+                  'Warmtepomp installatie en onderhoud',
+                  'Airco onderhoud en service',
+                  'Klimaatbeheersing voor bedrijven',
+                  'Airco reparatie en storingen',
+                  'F-gassen service en bijvullen',
                 ].map((item, index) => (
                   <li key={index} className="flex items-center gap-3 text-muted-foreground">
-                    <div className="w-6 h-6 rounded-full bg-teal-100 flex items-center justify-center shrink-0">
-                      <TreePine className="w-3 h-3 text-teal-700" />
+                    <div className="w-6 h-6 rounded-full bg-cyan-100 flex items-center justify-center shrink-0">
+                      <CheckCircle className="w-3 h-3 text-cyan-700" />
+                    </div>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </Card>
+          </section>
+
+          {/* Future Vision Section */}
+          <section className="mb-16">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-10 h-10 rounded-lg bg-cyan-500 text-white flex items-center justify-center">
+                <Sparkles className="w-5 h-5" />
+              </div>
+              <h2 className="font-serif text-2xl font-bold">Toekomstvisie</h2>
+            </div>
+            <Card className="p-6 shadow-soft">
+              <p className="text-muted-foreground mb-6">
+                Wij blijven werken aan het verbeteren van onze diensten. In de toekomst willen wij:
+              </p>
+              <ul className="space-y-3">
+                {[
+                  'Interactieve kaarten toevoegen voor betere navigatie',
+                  'Offerte aanvraag mogelijkheden uitbreiden',
+                  'Platform voor klantbeoordelingen ontwikkelen',
+                  'Samenwerken met fabrikanten en groothandels',
+                  'Energiebesparing calculators toevoegen',
+                ].map((item, index) => (
+                  <li key={index} className="flex items-center gap-3 text-muted-foreground">
+                    <div className="w-6 h-6 rounded-full bg-cyan-100 flex items-center justify-center shrink-0">
+                      <Award className="w-3 h-3 text-cyan-700" />
                     </div>
                     {item}
                   </li>
@@ -221,27 +253,27 @@ export default function AboutPage() {
 
           {/* Collaboration Section */}
           <section className="mb-16">
-            <h2 className="font-serif text-2xl font-bold mb-6">Collaboration</h2>
+            <h2 className="font-serif text-2xl font-bold mb-6">Samenwerking</h2>
             <Card className="p-6 shadow-soft">
               <p className="text-muted-foreground mb-4">
-                Do you manage a treatment facility or have additional information to share?
-                We&apos;re always open to collaboration to improve and expand our database.
+                Bent u airco monteur of beheert u een klimaattechniek bedrijf? Heeft u aanvullende informatie?
+                Wij staan altijd open voor samenwerking om onze database uit te breiden en te verbeteren.
               </p>
               <p className="text-muted-foreground mb-6">
-                Feel free to reach out via{' '}
-                <Link href="/contact" className="text-accent hover:underline font-medium">
-                  our contact form
+                Neem gerust contact op via{' '}
+                <Link href="/contact" className="text-cyan-600 hover:underline font-medium">
+                  ons contactformulier
                 </Link>{' '}
-                or send an email to{' '}
-                <a href="mailto:info@rehabnearbyme.com" className="text-accent hover:underline font-medium">
-                  info@rehabnearbyme.com
+                of stuur een e-mail naar{' '}
+                <a href="mailto:info@vindaircomonteur.nl" className="text-cyan-600 hover:underline font-medium">
+                  info@vindaircomonteur.nl
                 </a>.
               </p>
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-accent-foreground rounded-lg font-medium hover:bg-accent/90 transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-cyan-600 text-white rounded-lg font-medium hover:bg-cyan-700 transition-colors"
               >
-                Contact Us
+                Neem Contact Op
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </Card>
@@ -250,16 +282,16 @@ export default function AboutPage() {
           {/* CTA Section */}
           <div className="text-center">
             <h2 className="font-serif text-2xl font-semibold mb-4">
-              Start Your Search
+              Start Uw Zoekopdracht
             </h2>
             <p className="text-muted-foreground mb-6 max-w-lg mx-auto">
-              Find addiction treatment centers across the United States and take the first step toward recovery.
+              Vind airco monteurs door heel Nederland en zet de eerste stap naar een aangenaam binnenklimaat.
             </p>
             <Link
               href="/search"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-cyan-600 text-white rounded-lg font-medium hover:bg-cyan-700 transition-colors"
             >
-              Search Treatment Centers
+              Zoek Airco Monteurs
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>

@@ -1,56 +1,56 @@
 /**
- * Central Statistics Configuration for RehabNearMe.com
+ * Central Statistics Configuration for VindAircoMonteur.nl
  *
  * Update these values in ONE place when data changes.
  * All components and pages import from here.
  *
- * Last update: 2025-01-18
- * - Initial setup for addiction treatment facility directory
+ * Last update: 2025-01-19
+ * - Dutch airco monteur directory configuration
  */
 
 export const SITE_STATS = {
   // Display values (formatted for UI)
-  totalFacilitiesDisplay: '15,000',  // Estimated treatment facilities
-  totalFacilitiesExact: 15000,
+  totalFacilitiesDisplay: '500',  // Estimated airco monteurs
+  totalFacilitiesExact: 500,
 
-  // Geographic coverage
-  totalStates: 50,
-  totalStatesWithDC: 51,  // 50 states + DC
-  totalCounties: 3143,    // US counties
+  // Geographic coverage - Netherlands
+  totalStates: 12,  // Dutch provinces
+  totalMunicipalities: 342,  // Dutch gemeenten
+  totalCities: 2500,  // Approximate cities/towns
 
   // Dynamic placeholder (when API hasn't loaded yet)
-  facilitiesPlaceholder: '15,000+',
+  facilitiesPlaceholder: '500+',
 
   // Site info
-  siteName: 'RehabNearMe',
-  siteUrl: 'https://www.rehabnearbyme.com',
-  country: 'United States',
-  countryShort: 'USA',
+  siteName: 'VindAircoMonteur',
+  siteUrl: 'https://www.vindaircomonteur.nl',
+  country: 'Nederland',
+  countryShort: 'NL',
 
-  // Treatment facility stats
-  inpatientCentersCount: 4500,
-  outpatientCentersCount: 8000,
-  detoxCentersCount: 2500,
-  soberLivingCount: 3000,
+  // Airco service stats
+  installateurCount: 300,
+  onderhoudsbedrijfCount: 150,
+  warmtepompSpecialistCount: 100,
+  reparatieServiceCount: 200,
 
-  // Recovery statistics (SAMHSA data)
-  americansInRecovery: '23 million',
-  annualAdmissions: '1.5 million',
-  substanceUseDisorderRate: '10%',
+  // Market statistics
+  aircosInNederland: '1,5 miljoen',
+  jaarlijkseInstallaties: '100.000',
+  gemiddeldePrijs: '2.000 - 3.500',
 
-  // Top states by facility count
-  topStates: {
-    california: 2100,
-    florida: 1800,
-    texas: 1200,
-    newYork: 1100,
-    pennsylvania: 900,
+  // Top provinces by monteur count
+  topProvinces: {
+    noordHolland: 80,
+    zuidHolland: 90,
+    noordBrabant: 60,
+    gelderland: 45,
+    utrecht: 40,
   },
 
-  // Treatment types
-  treatmentTypesCount: 12,
-  insuranceProvidersAccepted: 500,
-  totalReviewsDisplay: '25,000+',
+  // Service types
+  serviceTypesCount: 8,
+  brandsSupported: 20,
+  totalReviewsDisplay: '5.000+',
 } as const;
 
 /**
@@ -59,13 +59,13 @@ export const SITE_STATS = {
 export function getStatsDescription(variant: 'short' | 'long' | 'seo' = 'short'): string {
   switch (variant) {
     case 'short':
-      return `Find treatment facilities across all ${SITE_STATS.totalStates} states.`;
+      return `Vind airco monteurs in alle ${SITE_STATS.totalStates} provincies.`;
     case 'long':
-      return `Search our comprehensive database of ${SITE_STATS.totalFacilitiesDisplay}+ addiction treatment centers, rehabilitation facilities, and detox programs across all ${SITE_STATS.totalStates} states in the ${SITE_STATS.country}.`;
+      return `Doorzoek ons uitgebreide netwerk van ${SITE_STATS.totalFacilitiesDisplay}+ airco installateurs, onderhoudsbedrijven en klimaatspecialisten in alle ${SITE_STATS.totalStates} provincies van ${SITE_STATS.country}.`;
     case 'seo':
-      return `Find addiction treatment centers, rehab facilities, and detox programs near you. Search by state, city, or zip code. Get verified information, insurance details, and reviews for treatment centers across the ${SITE_STATS.country}.`;
+      return `Vind airco monteurs, installateurs en onderhoudsbedrijven bij jou in de buurt. Zoek op provincie, stad of postcode. Bekijk reviews, diensten en contactgegevens van F-gassen gecertificeerde monteurs in ${SITE_STATS.country}.`;
     default:
-      return `Find treatment facilities across all ${SITE_STATS.totalStates} states.`;
+      return `Vind airco monteurs in alle ${SITE_STATS.totalStates} provincies.`;
   }
 }
 
@@ -73,33 +73,33 @@ export function getStatsDescription(variant: 'short' | 'long' | 'seo' = 'short')
  * Get CTA stats text for blog pages and promotional sections
  */
 export function getCtaStatsText(): string {
-  return `Search directly for treatment centers in our extensive database with more than ${SITE_STATS.totalFacilitiesDisplay} facilities.`;
+  return `Zoek direct naar airco monteurs in ons uitgebreide netwerk met meer dan ${SITE_STATS.totalFacilitiesDisplay} installateurs.`;
 }
 
 /**
- * Get FAQ answer about facility count
+ * Get FAQ answer about monteur count
  */
 export function getFaqFacilitiesAnswer(): string {
-  return `The ${SITE_STATS.country} has approximately ${SITE_STATS.totalFacilitiesDisplay} addiction treatment facilities, including inpatient rehab centers, outpatient programs, detox centers, and sober living homes. These facilities are spread across all ${SITE_STATS.totalStates} states, offering various treatment approaches and specializations.`;
+  return `${SITE_STATS.country} heeft honderden airco installateurs en klimaattechnici, verspreid over alle ${SITE_STATS.totalStates} provincies. Van grote landelijke bedrijven tot lokale specialisten - er is altijd een F-gassen gecertificeerde monteur bij jou in de buurt.`;
 }
 
 /**
  * Get "why us" feature text
  */
 export function getComprehensiveDataText(): string {
-  return `Information on treatment facilities across all ${SITE_STATS.totalStates} states with verified details, insurance information, and contact details.`;
+  return `Informatie over airco monteurs in alle ${SITE_STATS.totalStates} provincies met geverifieerde gegevens, diensten en contactinformatie.`;
 }
 
 /**
- * Get states message for empty state pages
+ * Get provinces message for empty province pages
  */
 export function getStatesComingSoonText(): string {
-  return `We're actively adding treatment facility data for all ${SITE_STATS.totalStates} states. Check back soon for updates!`;
+  return `We breiden ons netwerk continu uit met nieuwe monteurs in alle ${SITE_STATS.totalStates} provincies. Check binnenkort opnieuw!`;
 }
 
 /**
- * Get recovery statistics text
+ * Get market statistics text
  */
-export function getRecoveryStatsText(): string {
-  return `Over ${SITE_STATS.americansInRecovery} Americans are in recovery from addiction. With ${SITE_STATS.annualAdmissions} treatment admissions annually, finding the right facility is crucial for successful recovery.`;
+export function getMarketStatsText(): string {
+  return `Er zijn meer dan ${SITE_STATS.aircosInNederland} airconditioners geinstalleerd in Nederland, met jaarlijks ${SITE_STATS.jaarlijkseInstallaties} nieuwe installaties. De gemiddelde prijs voor een complete airco installatie ligt tussen ${SITE_STATS.gemiddeldePrijs} euro.`;
 }

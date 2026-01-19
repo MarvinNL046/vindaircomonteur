@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { BookOpen, Heart, Shield, Brain, Users, Stethoscope } from 'lucide-react';
+import { BookOpen, Snowflake, Shield, Wind, Wrench, Thermometer } from 'lucide-react';
 
 interface GuideLink {
   href: string;
@@ -13,93 +13,75 @@ interface GuideLink {
 const allGuides: GuideLink[] = [
   {
     href: '/guide/types',
-    label: 'Types of Treatment Centers',
-    description: 'Learn about different treatment options, from inpatient to outpatient programs.',
+    label: 'Soorten Airco Systemen',
+    description: 'Leer over verschillende airco opties, van split-unit tot multi-split systemen.',
     icon: BookOpen,
-    keywords: ['type', 'types', 'category', 'kind', 'inpatient', 'outpatient']
+    keywords: ['type', 'soort', 'split', 'multi', 'systeem']
   },
   {
-    href: '/guide/addiction-treatment',
-    label: 'Addiction Treatment Guide',
-    description: 'Comprehensive guide to understanding addiction and treatment approaches.',
-    icon: Heart,
-    keywords: ['addiction', 'treatment', 'recovery', 'substance', 'abuse']
+    href: '/type/airco-installatie',
+    label: 'Airco Installatie Gids',
+    description: 'Uitgebreide gids voor het installeren van uw airconditioning.',
+    icon: Wrench,
+    keywords: ['installatie', 'montage', 'plaatsen', 'aanleggen']
   },
   {
-    href: '/guide/insurance',
-    label: 'Insurance & Payment Options',
-    description: 'Understanding insurance coverage and payment options for treatment.',
+    href: '/guide/brands',
+    label: 'Airco Merken Vergelijken',
+    description: 'Vergelijk topmerken zoals Daikin, Mitsubishi, LG en Samsung.',
     icon: Shield,
-    keywords: ['insurance', 'payment', 'cost', 'coverage', 'medicaid', 'medicare']
+    keywords: ['merk', 'brand', 'daikin', 'mitsubishi', 'lg', 'samsung']
   },
   {
-    href: '/guide/mental-health',
-    label: 'Mental Health & Dual Diagnosis',
-    description: 'Information about co-occurring mental health and addiction treatment.',
-    icon: Brain,
-    keywords: ['mental', 'health', 'dual', 'diagnosis', 'depression', 'anxiety']
+    href: '/type/warmtepomp',
+    label: 'Warmtepomp Informatie',
+    description: 'Alles over warmtepompen voor verwarmen en koelen.',
+    icon: Wind,
+    keywords: ['warmtepomp', 'verwarming', 'energie', 'duurzaam']
   },
   {
-    href: '/guide/family-support',
-    label: 'Family Support Resources',
-    description: 'How families can support their loved ones through recovery.',
-    icon: Users,
-    keywords: ['family', 'support', 'loved', 'ones', 'intervention']
+    href: '/type/airco-onderhoud',
+    label: 'Airco Onderhoud Tips',
+    description: 'Hoe u uw airco optimaal onderhoudt voor langere levensduur.',
+    icon: Thermometer,
+    keywords: ['onderhoud', 'service', 'filter', 'reiniging']
   }
 ];
 
-// Sub-pillar content for specific treatment types
+// Sub-pillar content for specific service types
 const typeSubGuides: Record<string, GuideLink[]> = {
-  'inpatient': [
+  'airco-installatie': [
     {
-      href: '/guide/types#inpatient',
-      label: 'Understanding Inpatient Treatment',
-      description: 'What to expect from residential treatment programs.',
-      icon: BookOpen,
-      keywords: ['inpatient', 'residential']
+      href: '/guide/types#split-unit',
+      label: 'Split-unit Airco',
+      description: 'Populairste keuze voor woningen.',
+      icon: Snowflake,
+      keywords: ['split', 'unit', 'woning']
     }
   ],
-  'outpatient': [
+  'warmtepomp': [
     {
-      href: '/guide/types#outpatient',
-      label: 'Outpatient Treatment Options',
-      description: 'Flexible treatment while maintaining daily responsibilities.',
-      icon: Stethoscope,
-      keywords: ['outpatient', 'iop', 'php']
+      href: '/guide/types#warmtepomp',
+      label: 'Warmtepomp Systemen',
+      description: 'Energiezuinig verwarmen en koelen.',
+      icon: Wind,
+      keywords: ['warmtepomp', 'energie']
     }
   ],
-  'detox': [
+  'airco-onderhoud': [
     {
-      href: '/guide/types#detox',
-      label: 'Medical Detox Programs',
-      description: 'Safe, medically supervised detoxification services.',
-      icon: Shield,
-      keywords: ['detox', 'withdrawal', 'medical']
-    }
-  ],
-  'sober-living': [
-    {
-      href: '/guide/types#sober-living',
-      label: 'Sober Living Homes',
-      description: 'Transitional housing for continued recovery support.',
-      icon: Users,
-      keywords: ['sober', 'living', 'transitional', 'housing']
-    }
-  ],
-  'dual-diagnosis': [
-    {
-      href: '/guide/mental-health',
-      label: 'Dual Diagnosis Treatment',
-      description: 'Treatment for co-occurring mental health and substance use disorders.',
-      icon: Brain,
-      keywords: ['dual', 'diagnosis', 'mental', 'health']
+      href: '/guide/maintenance',
+      label: 'Onderhoudstips',
+      description: 'Verleng de levensduur van uw airco.',
+      icon: Wrench,
+      keywords: ['onderhoud', 'tips']
     }
   ]
 };
 
 interface RelatedGuidesProps {
   currentType?: string;
-  currentState?: string;
+  currentProvince?: string;
   maxGuides?: number;
   className?: string;
   showDescription?: boolean;
@@ -108,7 +90,7 @@ interface RelatedGuidesProps {
 
 export default function RelatedGuides({
   currentType,
-  currentState,
+  currentProvince,
   maxGuides = 3,
   className = '',
   showDescription = true,
@@ -131,8 +113,8 @@ export default function RelatedGuides({
       }
     }
 
-    // Boost insurance guide for all pages (always relevant)
-    if (guide.href === '/guide/insurance') {
+    // Boost installation guide for all pages (always relevant)
+    if (guide.href === '/type/airco-installatie') {
       score = Math.max(score, 2);
     }
 
@@ -163,14 +145,14 @@ export default function RelatedGuides({
     return (
       <div className={`${className}`}>
         <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-3">
-          Helpful Resources
+          Handige Informatie
         </h3>
         <ul className="space-y-2">
           {guidesToShow.map((guide) => (
             <li key={guide.href}>
               <Link
                 href={guide.href}
-                className="text-sm text-primary hover:underline flex items-center gap-2"
+                className="text-sm text-cyan-600 hover:underline flex items-center gap-2"
               >
                 <guide.icon className="w-4 h-4 flex-shrink-0" />
                 {guide.label}
@@ -185,19 +167,19 @@ export default function RelatedGuides({
   if (variant === 'card') {
     return (
       <div className={`bg-muted/50 rounded-lg p-6 ${className}`}>
-        <h3 className="font-semibold text-lg mb-4">Related Guides</h3>
+        <h3 className="font-semibold text-lg mb-4">Gerelateerde Gidsen</h3>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {guidesToShow.map((guide) => (
             <Link
               key={guide.href}
               href={guide.href}
-              className="group bg-background rounded-lg p-4 border hover:border-primary transition-colors"
+              className="group bg-background rounded-lg p-4 border hover:border-cyan-300 transition-colors"
             >
               <div className="flex items-center gap-3 mb-2">
-                <div className="p-2 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
-                  <guide.icon className="w-5 h-5 text-primary" />
+                <div className="p-2 bg-cyan-100 rounded-lg group-hover:bg-cyan-200 transition-colors">
+                  <guide.icon className="w-5 h-5 text-cyan-700" />
                 </div>
-                <h4 className="font-medium text-sm group-hover:text-primary transition-colors">
+                <h4 className="font-medium text-sm group-hover:text-cyan-700 transition-colors">
                   {guide.label}
                 </h4>
               </div>
@@ -216,19 +198,19 @@ export default function RelatedGuides({
   // Default variant
   return (
     <div className={`${className}`}>
-      <h3 className="font-semibold text-lg mb-4">Related Guides</h3>
+      <h3 className="font-semibold text-lg mb-4">Gerelateerde Gidsen</h3>
       <div className="space-y-4">
         {guidesToShow.map((guide) => (
           <Link
             key={guide.href}
             href={guide.href}
-            className="group flex items-start gap-4 p-4 rounded-lg border hover:border-primary hover:bg-muted/50 transition-all"
+            className="group flex items-start gap-4 p-4 rounded-lg border hover:border-cyan-300 hover:bg-cyan-50/50 transition-all"
           >
-            <div className="p-2 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors flex-shrink-0">
-              <guide.icon className="w-5 h-5 text-primary" />
+            <div className="p-2 bg-cyan-100 rounded-lg group-hover:bg-cyan-200 transition-colors flex-shrink-0">
+              <guide.icon className="w-5 h-5 text-cyan-700" />
             </div>
             <div>
-              <h4 className="font-medium group-hover:text-primary transition-colors">
+              <h4 className="font-medium group-hover:text-cyan-700 transition-colors">
                 {guide.label}
               </h4>
               {showDescription && (

@@ -15,12 +15,12 @@ interface BaseTemplateProps {
   children: React.ReactNode;
 }
 
-// Brand colors - Teal/Coral Healing Theme
+// Brand colors - Cyan/Blue Airco Theme
 const colors = {
-  primary: '#0D9488',      // Teal
-  primaryLight: '#14B8A6',
-  accent: '#F97316',       // Coral/Orange
-  accentLight: '#FB923C',
+  primary: '#06B6D4',      // Cyan
+  primaryLight: '#22D3EE',
+  accent: '#2563EB',       // Blue
+  accentLight: '#3B82F6',
   background: '#F8FAFC',   // Clean white
   foreground: '#334155',   // Dark slate gray
   muted: '#64748B',
@@ -38,8 +38,8 @@ export const BaseTemplate = ({ preview, children }: BaseTemplateProps) => {
           {/* Header */}
           <Section style={header}>
             <Text style={logoText}>
-              <span style={{ color: colors.white }}>Rehab</span>
-              <span style={{ color: colors.accent }}>NearMe</span>
+              <span style={{ color: colors.white }}>VindAirco</span>
+              <span style={{ color: colors.accentLight }}>Monteur</span>
             </Text>
           </Section>
 
@@ -51,23 +51,23 @@ export const BaseTemplate = ({ preview, children }: BaseTemplateProps) => {
           {/* Footer */}
           <Section style={footer}>
             <Text style={footerText}>
-              &copy; {new Date().getFullYear()} Rehab Near Me
+              &copy; {new Date().getFullYear()} VindAircoMonteur.nl
             </Text>
             <Text style={footerLinks}>
-              <Link href="https://www.rehabnearbyme.com" style={link}>
+              <Link href="https://www.vindaircomonteur.nl" style={link}>
                 Website
               </Link>
               {' • '}
-              <Link href="https://www.rehabnearbyme.com/contact" style={link}>
+              <Link href="https://www.vindaircomonteur.nl/contact" style={link}>
                 Contact
               </Link>
               {' • '}
-              <Link href="https://www.rehabnearbyme.com/privacy" style={link}>
+              <Link href="https://www.vindaircomonteur.nl/privacy" style={link}>
                 Privacy
               </Link>
             </Text>
             <Text style={footerDisclaimer}>
-              This is an automated message from rehabnearbyme.com
+              Dit is een automatisch bericht van vindaircomonteur.nl
             </Text>
           </Section>
         </Container>
@@ -90,11 +90,11 @@ const container = {
   maxWidth: '600px',
   borderRadius: '12px',
   overflow: 'hidden' as const,
-  boxShadow: '0 4px 20px rgba(13, 148, 136, 0.08)',
+  boxShadow: '0 4px 20px rgba(6, 182, 212, 0.08)',
 };
 
 const header = {
-  background: `linear-gradient(135deg, ${colors.primary} 0%, ${colors.primaryLight} 100%)`,
+  background: `linear-gradient(135deg, ${colors.primary} 0%, ${colors.accent} 100%)`,
   padding: '32px',
   textAlign: 'center' as const,
 };

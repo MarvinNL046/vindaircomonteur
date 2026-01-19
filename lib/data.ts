@@ -3,20 +3,20 @@ import path from 'path';
 import { db, facilities } from './db';
 import { eq, ilike, or, desc, asc, sql, and, count } from 'drizzle-orm';
 
-// US Treatment Facility Interface
+// NL Airco Monteur/Installateur Interface
 export interface Facility {
   // Core identifiers
   id: string;
   name: string;
   slug: string;
 
-  // Location - US geography
+  // Location - NL geography (uses Dutch provinces/municipalities)
   address?: string;
   city: string;
-  county?: string;
-  state: string;
+  county?: string;  // gemeente
+  state: string;    // provincie
   state_abbr: string;
-  zipCode?: string;
+  zipCode?: string; // postcode
   country: string;
   gps_coordinates?: string;
   latitude?: number;
@@ -121,13 +121,16 @@ export interface State {
   major_cities?: string[];
 }
 
-// Treatment type interface
+// Service type interface (diensten - stored as treatment_types in DB for compatibility)
 export interface TreatmentType {
   slug: string;
   name: string;
   description?: string;
   search_terms?: string[];
 }
+
+// Alias for clarity
+export type ServiceType = TreatmentType;
 
 // Facility type interface
 export interface FacilityType {

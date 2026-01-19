@@ -1,95 +1,95 @@
-# SEO Migration Plan - Safe Transition
+# SEO Migratie Plan - Veilige Overgang
 
-## Goal
-Prevent Google penalties and 404 errors during the transition to the new system.
+## Doel
+Voorkom Google-straffen en 404-fouten tijdens de overgang naar het nieuwe systeem.
 
-## Step-by-Step Plan for Safe Migration
+## Stappenplan voor Veilige Migratie
 
-### Phase 1: Preparation (Before Go-Live)
+### Fase 1: Voorbereiding (Voor Go-Live)
 
-1. **Inventory of old URLs**
-   - Check Google Search Console for indexed pages
-   - Download list of all current URLs
-   - Identify URL structure changes
+1. **Inventarisatie van oude URLs**
+   - Check Google Search Console voor geindexeerde pagina's
+   - Download lijst van alle huidige URLs
+   - Identificeer URL-structuurwijzigingen
 
-2. **Implement 301 Redirects**
-   - Old sitemap URLs -> new sitemap.xml
-   - Old page structures -> new structures
+2. **Implementeer 301 Redirects**
+   - Oude sitemap URLs -> nieuwe sitemap.xml
+   - Oude paginastructuren -> nieuwe structuren
    - Via `next.config.js` redirects
 
-3. **Test Redirects Locally**
+3. **Test Redirects Lokaal**
    ```bash
    npm run build
    npm run start
-   # Test old URLs to see if they redirect correctly
+   # Test oude URLs om te zien of ze correct redirecten
    ```
 
-### Phase 2: Deployment Strategy
+### Fase 2: Deployment Strategie
 
-1. **Keep Old Content Temporarily**
-   - Keep old sitemap files online for 30 days
-   - This gives Google time to process the redirects
-   - Prevents immediate 404s
+1. **Houd Oude Content Tijdelijk Online**
+   - Houd oude sitemap bestanden online voor 30 dagen
+   - Dit geeft Google tijd om de redirects te verwerken
+   - Voorkomt directe 404s
 
-2. **Dual Sitemap Strategy**
+2. **Dubbele Sitemap Strategie**
    ```xml
-   <!-- In robots.txt temporarily both sitemaps -->
-   Sitemap: https://www.rehabnearbyme.com/sitemap.xml
-   Sitemap: https://www.rehabnearbyme.com/sitemap-old.xml
+   <!-- In robots.txt tijdelijk beide sitemaps -->
+   Sitemap: https://www.vindaircomonteur.nl/sitemap.xml
+   Sitemap: https://www.vindaircomonteur.nl/sitemap-old.xml
    ```
 
 3. **Monitoring Setup**
-   - Google Search Console alerts for 404s
-   - Analytics tracking for redirect performance
+   - Google Search Console alerts voor 404s
+   - Analytics tracking voor redirect prestaties
 
-### Phase 3: Go-Live Checklist
+### Fase 3: Go-Live Checklist
 
-- [ ] All redirects tested
-- [ ] Old sitemaps still accessible (with redirect)
-- [ ] robots.txt updated
-- [ ] Google Search Console monitored
-- [ ] 404 error page friendly and helpful
+- [ ] Alle redirects getest
+- [ ] Oude sitemaps nog bereikbaar (met redirect)
+- [ ] robots.txt bijgewerkt
+- [ ] Google Search Console gemonitord
+- [ ] 404 error pagina vriendelijk en behulpzaam
 
-### Phase 4: Post-Launch (First 30 days)
+### Fase 4: Na Launch (Eerste 30 dagen)
 
-1. **Daily Monitoring**
-   - Check Search Console for crawl errors
-   - Monitor 404 reports
-   - Check rankings for important keywords
+1. **Dagelijkse Monitoring**
+   - Check Search Console voor crawl errors
+   - Monitor 404 rapporten
+   - Check rankings voor belangrijke keywords
 
-2. **Quick Fixes**
-   - Add missing redirects as soon as 404s are found
-   - Update `middleware.ts` for edge cases
+2. **Snelle Fixes**
+   - Voeg missende redirects toe zodra 404s gevonden worden
+   - Update `middleware.ts` voor edge cases
 
-3. **Communication with Google**
-   - Submit new sitemap in Search Console
-   - Request re-crawl for important pages
-   - Monitor indexing status
+3. **Communicatie met Google**
+   - Submit nieuwe sitemap in Search Console
+   - Vraag re-crawl aan voor belangrijke pagina's
+   - Monitor indexering status
 
-### Phase 5: Cleanup (After 30-60 days)
+### Fase 5: Opruimen (Na 30-60 dagen)
 
-1. **Remove Old Assets**
+1. **Verwijder Oude Assets**
    ```bash
    npx tsx scripts/cleanup-old-sitemaps.ts
    ```
 
-2. **Remove Temporary Redirects**
-   - Keep only permanent redirects
-   - Cleanup temporary dual-sitemap setup
+2. **Verwijder Tijdelijke Redirects**
+   - Houd alleen permanente redirects
+   - Cleanup tijdelijke dual-sitemap setup
 
-## Safety Measures
+## Veiligheidsmaatregelen
 
-### 1. 404 Fallback Page
+### 1. 404 Fallback Pagina
 ```typescript
 // app/not-found.tsx
 export default function NotFound() {
   return (
     <div>
-      <h1>Page not found</h1>
-      <p>The page may have been moved. Try:</p>
+      <h1>Pagina niet gevonden</h1>
+      <p>De pagina is mogelijk verplaatst. Probeer:</p>
       <ul>
-        <li><a href="/search">Search for a facility</a></li>
-        <li><a href="/">Go to homepage</a></li>
+        <li><a href="/search">Zoek een monteur</a></li>
+        <li><a href="/">Ga naar homepage</a></li>
       </ul>
     </div>
   )
@@ -98,9 +98,9 @@ export default function NotFound() {
 
 ### 2. Custom Error Tracking
 ```typescript
-// Track 404s for analysis
+// Track 404s voor analyse
 if (typeof window !== 'undefined') {
-  // Log to analytics
+  // Log naar analytics
   gtag('event', '404_error', {
     page_path: window.location.pathname,
     referrer: document.referrer
@@ -108,36 +108,36 @@ if (typeof window !== 'undefined') {
 }
 ```
 
-### 3. Gradual Rollout
-- Start with 10% traffic to new version
-- Monitor for issues
-- Increase gradually to 100%
+### 3. Geleidelijke Uitrol
+- Start met 10% traffic naar nieuwe versie
+- Monitor voor problemen
+- Verhoog geleidelijk naar 100%
 
-## Success Metrics
+## Succes Metrics
 
-- **404 Error Rate**: < 1% after first week
-- **Crawl Errors**: Declining trend in Search Console
-- **Rankings**: No significant drops
-- **Indexing**: New pages indexed within 7 days
+- **404 Error Rate**: < 1% na eerste week
+- **Crawl Errors**: Dalende trend in Search Console
+- **Rankings**: Geen significante dalingen
+- **Indexering**: Nieuwe pagina's geindexeerd binnen 7 dagen
 
-## Emergency Plan
+## Noodplan
 
-If rankings drop dramatically:
-1. Keep rollback to old version possible
-2. Immediate restore of all old URLs
-3. Communicate with Google via Search Console
-4. Temporary dual-site strategy
+Als rankings dramatisch dalen:
+1. Houd rollback naar oude versie mogelijk
+2. Onmiddellijk herstel van alle oude URLs
+3. Communiceer met Google via Search Console
+4. Tijdelijke dual-site strategie
 
 ## Tips
 
-1. **Timing**: Deploy during low traffic (weekend evening)
-2. **Communication**: Inform Google via Search Console
-3. **Patience**: SEO recovery can take 2-4 weeks
-4. **Documentation**: Log all changes and issues
+1. **Timing**: Deploy tijdens lage traffic (weekendavond)
+2. **Communicatie**: Informeer Google via Search Console
+3. **Geduld**: SEO herstel kan 2-4 weken duren
+4. **Documentatie**: Log alle wijzigingen en problemen
 
-## Tools for Monitoring
+## Tools voor Monitoring
 
 - Google Search Console (Crawl errors, Index status)
-- Google Analytics (Traffic patterns, 404s)
-- Screaming Frog (Crawl test for broken links)
+- Google Analytics (Traffic patronen, 404s)
+- Screaming Frog (Crawl test voor broken links)
 - Ahrefs/SEMrush (Ranking monitoring)

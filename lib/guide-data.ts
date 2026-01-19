@@ -42,37 +42,37 @@ export interface GuideCard {
 
 export const pillarGuideCards: GuideCard[] = [
   {
-    slug: 'treatment-types',
-    title: 'Types of Treatment',
-    description: 'Explore the different types of addiction treatment in America, from inpatient rehab to outpatient programs.',
+    slug: 'airco-kiezen',
+    title: 'Airco Kiezen',
+    description: 'Ontdek welke airco het beste bij jouw situatie past. Van split-unit tot multi-split systeem.',
     icon: 'building',
     color: 'forest',
   },
   {
-    slug: 'choosing-rehab',
-    title: 'Choosing a Rehab Center',
-    description: 'A comprehensive guide to selecting the right rehabilitation facility for your needs.',
+    slug: 'monteur-kiezen',
+    title: 'Monteur Kiezen',
+    description: 'Tips voor het selecteren van een betrouwbare en gecertificeerde airco installateur.',
     icon: 'star',
     color: 'gold',
   },
   {
-    slug: 'insurance-coverage',
-    title: 'Insurance & Payment Guide',
-    description: 'Understanding insurance coverage for addiction treatment and financing options.',
+    slug: 'kosten-overzicht',
+    title: 'Kosten Overzicht',
+    description: 'Wat kost een airco? Complete prijsindicatie voor installatie, onderhoud en reparatie.',
     icon: 'clipboard',
     color: 'slate',
   },
   {
-    slug: 'veterans',
-    title: 'Veterans Treatment Programs',
-    description: 'Learn about specialized treatment options and VA benefits for veterans.',
+    slug: 'f-gassen',
+    title: 'F-gassen Certificering',
+    description: 'Waarom F-gassen certificering belangrijk is en hoe je dit controleert.',
     icon: 'flag',
     color: 'navy',
   },
   {
-    slug: 'detox-guide',
-    title: 'Medical Detox Guide',
-    description: 'What to expect during detoxification and why medical supervision is important.',
+    slug: 'onderhoud',
+    title: 'Airco Onderhoud',
+    description: 'Alles over onderhoud: wanneer, waarom en wat het kost.',
     icon: 'leaf',
     color: 'green',
   },
@@ -80,134 +80,131 @@ export const pillarGuideCards: GuideCard[] = [
 
 // ===== PILLAR GUIDE CONTENT =====
 
-// Content will be loaded from JSON files or defined here
-// This provides the structure for future content expansion
-
 export const pillarGuides: Record<string, PillarGuide> = {
-  'treatment-types': {
-    slug: 'treatment-types',
-    title: 'Types of Addiction Treatment in America',
-    seoTitle: 'Types of Addiction Treatment in America: Complete Guide | Rehab Near Me',
-    seoDescription: 'Explore the different types of addiction treatment including inpatient rehab, outpatient programs, detox centers, and sober living. Find the right type for your needs.',
-    introduction: 'Understanding the different types of addiction treatment can help individuals and families make informed decisions during this important time. From intensive inpatient rehabilitation to flexible outpatient programs, each type offers unique benefits, approaches, and levels of care.',
+  'airco-kiezen': {
+    slug: 'airco-kiezen',
+    title: 'De Juiste Airco Kiezen',
+    seoTitle: 'De Juiste Airco Kiezen: Complete Gids | VindAircoMonteur.nl',
+    seoDescription: 'Ontdek welke airco het beste bij jouw situatie past. Vergelijk split-units, multi-split systemen en warmtepompen. Advies over merken, capaciteit en energielabels.',
+    introduction: 'Het kiezen van de juiste airconditioning kan overweldigend zijn met alle opties op de markt. Van split-units tot multi-split systemen en van wandmodellen tot plafondcassettes - deze gids helpt je de beste keuze te maken voor jouw situatie.',
     sections: [],
     faqs: [
       {
-        question: 'What is the difference between inpatient and outpatient treatment?',
-        answer: 'Inpatient treatment involves living at the facility for the duration of your program, typically 30-90 days, with 24/7 support. Outpatient treatment allows you to live at home while attending therapy sessions several times per week.',
+        question: 'Wat is het verschil tussen een split-unit en multi-split systeem?',
+        answer: 'Een split-unit bestaat uit een binnenunit en een buitenunit en koelt doorgaans een ruimte. Een multi-split systeem heeft meerdere binnenunits aangesloten op een buitenunit, waardoor je meerdere ruimtes kunt koelen met een systeem.',
       },
       {
-        question: 'How long does rehab typically last?',
-        answer: 'Treatment length varies based on individual needs. Detox typically takes 5-10 days, while inpatient programs range from 28 days to 90 days or longer. Outpatient programs can last several months.',
+        question: 'Welke airco capaciteit heb ik nodig?',
+        answer: 'Als vuistregel geldt 100 watt koelvermogen per vierkante meter. Voor een kamer van 30m2 heb je dus ongeveer 3.000 watt (3 kW) nodig. Factoren zoals isolatie, ramen op het zuiden en warmtebronnen kunnen dit beinvloeden.',
       },
       {
-        question: 'What is a partial hospitalization program (PHP)?',
-        answer: 'PHP is a step-down from inpatient care that provides intensive treatment during the day (5-7 days per week) while allowing patients to return home in the evenings.',
+        question: 'Welk merk airco is het beste?',
+        answer: 'Topmerken zijn Daikin, Mitsubishi Electric, Toshiba, LG, Samsung en Panasonic. Daikin en Mitsubishi staan bekend om betrouwbaarheid en efficiëntie. De beste keuze hangt af van je budget en specifieke wensen.',
       },
     ],
-    relatedGuides: ['veterans', 'detox-guide', 'insurance-coverage'],
+    relatedGuides: ['monteur-kiezen', 'kosten-overzicht', 'f-gassen'],
     lastUpdated: '2025-01-18',
-    author: 'Rehab Near Me Editorial Team',
+    author: 'VindAircoMonteur.nl Redactie',
   },
-  'choosing-rehab': {
-    slug: 'choosing-rehab',
-    title: 'How to Choose a Rehab Center',
-    seoTitle: 'How to Choose a Rehab Center: Complete Guide | Rehab Near Me',
-    seoDescription: 'Learn how to choose the right rehabilitation center. Understand accreditation, treatment approaches, costs, and key questions to ask treatment facilities.',
-    introduction: 'Choosing the right rehabilitation center is a critical step in the recovery journey. With thousands of treatment facilities across the United States, this guide will help you understand what to look for and how to evaluate your options.',
+  'monteur-kiezen': {
+    slug: 'monteur-kiezen',
+    title: 'Een Goede Airco Monteur Kiezen',
+    seoTitle: 'Een Goede Airco Monteur Kiezen: Tips & Checklist | VindAircoMonteur.nl',
+    seoDescription: 'Leer hoe je een betrouwbare airco monteur kiest. Checklist voor certificeringen, referenties, garantie en wat je moet vragen voor je een offerte accepteert.',
+    introduction: 'Een goede installatie is cruciaal voor de prestaties en levensduur van je airco. Het kiezen van de juiste monteur maakt het verschil tussen jarenlang probleemloos koelen en dure reparaties. Deze gids helpt je de beste installateur te vinden.',
     sections: [],
     faqs: [
       {
-        question: 'What credentials should a rehab center have?',
-        answer: 'Look for facilities accredited by JCAHO (Joint Commission), CARF, or state licensing boards. Staff should include licensed counselors, therapists, and medical professionals with addiction treatment experience.',
+        question: 'Waar moet een airco monteur aan voldoen?',
+        answer: 'Een airco monteur moet F-gassen gecertificeerd zijn (wettelijk verplicht). Daarnaast is het aan te raden te kijken naar ervaring, reviews, KvK-inschrijving en of ze werkgarantie bieden op de installatie.',
       },
       {
-        question: 'Should I choose a rehab close to home or far away?',
-        answer: 'Both options have benefits. Local treatment allows family involvement, while distant treatment removes you from triggers and provides a fresh start. Consider your support system and personal circumstances.',
+        question: 'Wat kost een airco installatie door een monteur?',
+        answer: 'Installatiekosten variëren van EUR 300 tot EUR 800 voor een standaard split-unit, exclusief de airco zelf. Complexere installaties of multi-split systemen kunnen EUR 1.000 tot EUR 2.500 kosten.',
       },
       {
-        question: 'What questions should I ask a treatment center?',
-        answer: 'Ask about their treatment approach, staff qualifications, daily schedule, family involvement policies, aftercare planning, and success rates. Request a facility tour if possible.',
+        question: 'Kan ik zelf een airco installeren?',
+        answer: 'Nee, het installeren van een airco met koudemiddel mag alleen door F-gassen gecertificeerde monteurs. Dit is wettelijk verplicht vanwege de milieuregels rondom koudemiddelen.',
       },
     ],
-    relatedGuides: ['treatment-types', 'insurance-coverage'],
+    relatedGuides: ['airco-kiezen', 'kosten-overzicht', 'f-gassen'],
     lastUpdated: '2025-01-18',
-    author: 'Rehab Near Me Editorial Team',
+    author: 'VindAircoMonteur.nl Redactie',
   },
-  'insurance-coverage': {
-    slug: 'insurance-coverage',
-    title: 'Insurance Coverage for Addiction Treatment',
-    seoTitle: 'Insurance Coverage for Addiction Treatment: Complete Guide | Rehab Near Me',
-    seoDescription: 'Understand your insurance coverage for addiction treatment. Learn about the Mental Health Parity Act, how to verify benefits, and alternative payment options.',
-    introduction: 'Understanding insurance coverage for addiction treatment can be confusing, but federal laws require most insurance plans to cover substance abuse treatment. This guide explains your rights and how to maximize your benefits.',
+  'kosten-overzicht': {
+    slug: 'kosten-overzicht',
+    title: 'Airco Kosten: Compleet Overzicht',
+    seoTitle: 'Airco Kosten: Prijzen voor Installatie, Onderhoud & Reparatie | VindAircoMonteur.nl',
+    seoDescription: 'Wat kost een airco? Overzicht van prijzen voor aanschaf, installatie, onderhoud en reparatie. Tips om kosten te besparen en subsidies te benutten.',
+    introduction: 'De kosten van een airconditioning gaan verder dan alleen de aanschafprijs. Installatie, onderhoud en energieverbruik spelen ook een rol. Deze gids geeft je een compleet beeld van alle kosten.',
     sections: [],
     faqs: [
       {
-        question: 'Does insurance cover addiction treatment?',
-        answer: 'Yes, under the Mental Health Parity and Addiction Equity Act, most insurance plans must cover addiction treatment at the same level as physical health care. The Affordable Care Act also requires coverage as an essential health benefit.',
+        question: 'Wat kost een airco inclusief installatie?',
+        answer: 'Een complete split-unit airco inclusief installatie kost tussen EUR 1.500 en EUR 3.500. De prijs hangt af van het merk, de capaciteit en de complexiteit van de installatie.',
       },
       {
-        question: 'What if I don\'t have insurance?',
-        answer: 'Options include state-funded treatment programs, sliding scale payment plans, treatment center scholarships, Medicaid, and nonprofit organizations that help cover costs.',
+        question: 'Wat kost airco onderhoud per jaar?',
+        answer: 'Jaarlijks onderhoud kost tussen EUR 100 en EUR 200. Een onderhoudscontract kan voordeliger zijn en biedt vaak extra garanties.',
       },
       {
-        question: 'How do I verify my insurance benefits?',
-        answer: 'Call the member services number on your insurance card and ask specifically about substance abuse treatment coverage. Ask about in-network vs out-of-network benefits, deductibles, copays, and prior authorization requirements.',
+        question: 'Is er subsidie voor een airco of warmtepomp?',
+        answer: 'Voor lucht-lucht warmtepompen (aircos die ook kunnen verwarmen) is soms subsidie beschikbaar via de ISDE-regeling. Check de actuele voorwaarden op rvo.nl.',
       },
     ],
-    relatedGuides: ['treatment-types', 'choosing-rehab'],
+    relatedGuides: ['airco-kiezen', 'monteur-kiezen', 'onderhoud'],
     lastUpdated: '2025-01-18',
-    author: 'Rehab Near Me Editorial Team',
+    author: 'VindAircoMonteur.nl Redactie',
   },
-  'veterans': {
-    slug: 'veterans',
-    title: 'Veterans Addiction Treatment Guide',
-    seoTitle: 'Veterans Addiction Treatment: VA Benefits & Programs | Rehab Near Me',
-    seoDescription: 'Complete guide to addiction treatment for veterans. Learn about VA benefits, specialized programs, PTSD treatment, and how to access care.',
-    introduction: 'Veterans face unique challenges when it comes to substance abuse, often related to combat trauma, PTSD, and difficulty transitioning to civilian life. Specialized treatment programs and VA benefits are available to help veterans recover.',
+  'f-gassen': {
+    slug: 'f-gassen',
+    title: 'F-gassen Certificering Uitgelegd',
+    seoTitle: 'F-gassen Certificering: Wat Je Moet Weten | VindAircoMonteur.nl',
+    seoDescription: 'Waarom F-gassen certificering verplicht is voor airco monteurs. Leer hoe je controleert of een installateur gecertificeerd is.',
+    introduction: 'F-gassen certificering is wettelijk verplicht voor iedereen die met koelmiddelen in airconditioners werkt. Dit beschermt het milieu en garandeert vakkundig werk. Leer wat dit betekent en waarom het belangrijk is.',
     sections: [],
     faqs: [
       {
-        question: 'Does the VA cover addiction treatment?',
-        answer: 'Yes, the VA provides comprehensive addiction treatment services including detox, inpatient and outpatient programs, medication-assisted treatment, and mental health counseling at no cost to eligible veterans.',
+        question: 'Wat zijn F-gassen?',
+        answer: 'F-gassen (gefluoreerde broeikasgassen) zijn koudemiddelen die in airconditioners worden gebruikt. Ze zijn zeer effectief voor koeling maar hebben een hoog broeikaseffect, vandaar de strenge regelgeving.',
       },
       {
-        question: 'What specialized programs are available for veterans?',
-        answer: 'Many facilities offer veteran-specific programs that address combat trauma, PTSD, military sexual trauma, and the unique challenges of transitioning to civilian life. Peer support from fellow veterans is often integrated.',
+        question: 'Hoe controleer ik of een monteur F-gassen gecertificeerd is?',
+        answer: 'Vraag naar het certificaatnummer en controleer dit in het STEK-register (sfrk-rijnmond.nl) of vraag een kopie van het certificaat. Gecertificeerde bedrijven staan ook in het register van erkende installateurs.',
       },
       {
-        question: 'Can veterans use private rehab facilities?',
-        answer: 'Yes, veterans can use the VA Community Care program to access treatment at approved private facilities if VA services are not available or accessible. Veterans may also use private insurance or pay out-of-pocket.',
+        question: 'Wat gebeurt er als een niet-gecertificeerde monteur mijn airco installeert?',
+        answer: 'Dit is illegaal en kan leiden tot boetes. Bovendien vervalt vaak de fabrieksgarantie op de airco en loop je risico op lekkages en milieuschade.',
       },
     ],
-    relatedGuides: ['treatment-types', 'choosing-rehab', 'insurance-coverage'],
+    relatedGuides: ['monteur-kiezen', 'airco-kiezen'],
     lastUpdated: '2025-01-18',
-    author: 'Rehab Near Me Editorial Team',
+    author: 'VindAircoMonteur.nl Redactie',
   },
-  'detox-guide': {
-    slug: 'detox-guide',
-    title: 'Medical Detox Guide',
-    seoTitle: 'Medical Detox Guide: What to Expect | Rehab Near Me',
-    seoDescription: 'Everything you need to know about medical detoxification. Understand the process, timeline, and why professional supervision is important for safe withdrawal.',
-    introduction: 'Medical detoxification is often the first step in addiction treatment. This guide explains what detox involves, why medical supervision is important, and what to expect during the withdrawal process.',
+  'onderhoud': {
+    slug: 'onderhoud',
+    title: 'Airco Onderhoud: Alles Wat Je Moet Weten',
+    seoTitle: 'Airco Onderhoud: Wanneer, Waarom & Kosten | VindAircoMonteur.nl',
+    seoDescription: 'Leer alles over airco onderhoud. Wanneer is het nodig, wat doet een monteur en wat kost het? Tips voor zelf onderhoud en wanneer je een professional nodig hebt.',
+    introduction: 'Regelmatig onderhoud is essentieel voor de prestaties, efficiëntie en levensduur van je airconditioning. Deze gids legt uit wat onderhoud inhoudt, hoe vaak het nodig is en wat je zelf kunt doen.',
     sections: [],
     faqs: [
       {
-        question: 'What is medical detox?',
-        answer: 'Medical detox is the supervised process of allowing the body to eliminate substances while managing withdrawal symptoms. It typically takes 5-10 days and includes 24/7 monitoring and medication to ensure safety and comfort.',
+        question: 'Hoe vaak moet een airco onderhouden worden?',
+        answer: 'Professioneel onderhoud is jaarlijks aan te raden. De filters kun je zelf elke 2-4 weken schoonmaken, afhankelijk van gebruik.',
       },
       {
-        question: 'Is detox dangerous?',
-        answer: 'Withdrawal from certain substances, particularly alcohol and benzodiazepines, can be life-threatening without medical supervision. Opioid withdrawal is rarely dangerous but extremely uncomfortable. Medical detox ensures safety.',
+        question: 'Wat doet een monteur tijdens onderhoud?',
+        answer: 'Een monteur controleert en reinigt de filters, verdamper en condensor. Daarnaast checkt hij het koudemiddelniveau, de elektrische aansluitingen en de algemene werking van het systeem.',
       },
       {
-        question: 'Is detox enough to recover from addiction?',
-        answer: 'No, detox alone is not treatment for addiction. It addresses physical dependence but not the psychological, behavioral, and social aspects of addiction. Detox should be followed by comprehensive treatment.',
+        question: 'Kan ik zelf mijn airco onderhouden?',
+        answer: 'Eenvoudig onderhoud zoals filters schoonmaken kun je zelf doen. Voor het controleren van koudemiddel en technische onderdelen heb je een F-gassen gecertificeerde monteur nodig.',
       },
     ],
-    relatedGuides: ['treatment-types', 'choosing-rehab'],
+    relatedGuides: ['kosten-overzicht', 'monteur-kiezen'],
     lastUpdated: '2025-01-18',
-    author: 'Rehab Near Me Editorial Team',
+    author: 'VindAircoMonteur.nl Redactie',
   },
 };
 
@@ -256,7 +253,7 @@ export function getGuideCardBySlug(slug: string): GuideCard | null {
 // ===== AUTHOR INFO =====
 
 export const GUIDE_AUTHOR = {
-  name: 'Rehab Near Me Editorial Team',
-  description: 'Our editorial team consists of addiction specialists, counselors, and writers dedicated to providing accurate, helpful information about addiction treatment across America.',
-  expertise: ['Addiction Treatment', 'Recovery Support', 'Insurance Navigation', 'Treatment Options'],
+  name: 'VindAircoMonteur.nl Redactie',
+  description: 'Onze redactie bestaat uit klimaatexperts en technisch schrijvers die zich richten op het verstrekken van accurate, praktische informatie over airconditioning en warmtepompen in Nederland.',
+  expertise: ['Airconditioning', 'Warmtepompen', 'Klimaatbeheersing', 'F-gassen Regelgeving'],
 };

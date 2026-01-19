@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Phone, Shield, Heart } from 'lucide-react';
+import { ArrowRight, Phone, Shield, Wrench } from 'lucide-react';
 
-interface AffiliatePartner {
+interface ServicePartner {
   name: string;
   description: string;
   icon: React.ReactNode;
@@ -12,29 +12,29 @@ interface AffiliatePartner {
   tag?: string;
 }
 
-const partners: AffiliatePartner[] = [
+const partners: ServicePartner[] = [
   {
-    name: 'Verify Insurance Coverage',
-    description: 'Check if your insurance covers addiction treatment at no cost to you',
-    icon: <Shield className="w-6 h-6" />,
-    ctaText: 'Check coverage',
-    href: '/insurance-verification',
-    tag: 'Free'
+    name: 'Airco Installatie',
+    description: 'Laat uw airco professioneel installeren door een gecertificeerde monteur',
+    icon: <Wrench className="w-6 h-6" />,
+    ctaText: 'Vind installateur',
+    href: '/type/airco-installatie',
+    tag: 'Populair'
   },
   {
-    name: '24/7 Helpline',
-    description: 'Speak with a treatment specialist who can help you find the right program',
+    name: 'Gratis Advies',
+    description: 'Bel voor vrijblijvend advies over airco en warmtepompen',
     icon: <Phone className="w-6 h-6" />,
-    ctaText: 'Call now',
-    href: 'tel:1-800-662-4357',
-    tag: 'Confidential'
+    ctaText: 'Bel nu',
+    href: 'tel:085-1234567',
+    tag: 'Gratis'
   },
   {
-    name: 'Family Support Resources',
-    description: 'Resources and guidance for families of those struggling with addiction',
-    icon: <Heart className="w-6 h-6" />,
-    ctaText: 'Learn more',
-    href: '/guide/family-support',
+    name: 'F-gassen Gecertificeerd',
+    description: 'Alle monteurs in onze database zijn F-gassen gecertificeerd',
+    icon: <Shield className="w-6 h-6" />,
+    ctaText: 'Meer info',
+    href: '/guide',
   }
 ];
 
@@ -43,10 +43,10 @@ export default function AffiliateSection() {
     <section className="py-12 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
-          <h2 className="text-2xl font-bold mb-3">Get Help Today</h2>
+          <h2 className="text-2xl font-bold mb-3">Hulp Nodig?</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Taking the first step toward recovery can be overwhelming.
-            These resources can help you or your loved one start the journey to healing.
+            De eerste stap naar een aangenaam binnenklimaat kan overweldigend zijn.
+            Deze services helpen u bij het vinden van de juiste airco oplossing.
           </p>
         </div>
 
@@ -54,13 +54,13 @@ export default function AffiliateSection() {
           {partners.map((partner, index) => (
             <Card key={index} className="p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-start gap-4 mb-4">
-                <div className="p-3 bg-primary/10 rounded-lg text-primary">
+                <div className="p-3 bg-cyan-100 rounded-lg text-cyan-700">
                   {partner.icon}
                 </div>
                 <div className="flex-1">
                   <h3 className="font-semibold mb-1">{partner.name}</h3>
                   {partner.tag && (
-                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">
+                    <span className="text-xs bg-cyan-100 text-cyan-700 px-2 py-1 rounded">
                       {partner.tag}
                     </span>
                   )}
@@ -73,12 +73,12 @@ export default function AffiliateSection() {
 
               <Button
                 variant="outline"
-                className="w-full group"
+                className="w-full group border-cyan-200 text-cyan-700 hover:bg-cyan-50"
                 asChild
               >
-                <Link href={partner.href} target={partner.href.startsWith('tel:') ? undefined : '_blank'} rel="noopener noreferrer">
+                <Link href={partner.href}>
                   {partner.ctaText}
-                  <ExternalLink className="w-4 h-4 ml-2 group-hover:translate-x-0.5 transition-transform" />
+                  <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-0.5 transition-transform" />
                 </Link>
               </Button>
             </Card>
@@ -87,7 +87,7 @@ export default function AffiliateSection() {
 
         <div className="text-center mt-8">
           <p className="text-xs text-gray-500">
-            All calls are confidential. If you are in crisis, please call 988 for the Suicide & Crisis Lifeline.
+            Alle monteurs zijn F-gassen gecertificeerd volgens EU-wetgeving. Advies is vrijblijvend.
           </p>
         </div>
       </div>
